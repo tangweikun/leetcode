@@ -1,5 +1,4 @@
 import test from 'ava'
-
 import { convertFunctionNameToCamelCase } from './'
 
 test(t => {
