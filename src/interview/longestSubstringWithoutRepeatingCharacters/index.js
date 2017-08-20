@@ -25,21 +25,44 @@ export function longestSubstrWithoutRepeatingCharacters(str) {
 }
 
 // TODO
-export function lengthOfLongestSubstring(str) {
+export function getLengthOfLongestSubstring(str) {
   const arr = []
   const strLength = str.length
   let j = 0
-  let ans = 0
+  let maxLength = 0
 
   for (let i = 0; i < strLength; i++) {
     while (j < strLength && !arr[str.charCodeAt(j)]) {
       arr[str.charCodeAt(j)] = 1
-      ans = Math.max(ans, j - i + 1)
+      maxLength = Math.max(maxLength, j - i + 1)
       j++
     }
 
     arr[str.charCodeAt(i)] = 0
   }
 
-  return ans
+  return maxLength
+}
+
+// TODO
+export function lengthOfLongestSubstring(str) {
+  const strLength = str.length
+  const set = new Set()
+  let maxLength = 0
+  let i = 0
+  let j = 0
+
+  while (i < strLength && j < strLength) {
+    // try to extend the range [i, j]
+    if (!set.has(str.charAt(j))) {
+      set.add(str.charAt(j))
+      j++
+      maxLength = Math.max(maxLength, j - i)
+    } else {
+      set.delete(str.charAt(i))
+      i++
+    }
+  }
+
+  return maxLength
 }
