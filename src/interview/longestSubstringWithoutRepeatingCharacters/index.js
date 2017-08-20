@@ -45,7 +45,7 @@ export function getLengthOfLongestSubstring(str) {
 }
 
 // TODO
-export function lengthOfLongestSubstring(str) {
+export function lengthOfLongestSubstring2(str) {
   const strLength = str.length
   const set = new Set()
   let maxLength = 0
@@ -62,6 +62,23 @@ export function lengthOfLongestSubstring(str) {
       set.delete(str.charAt(i))
       i++
     }
+  }
+
+  return maxLength
+}
+
+// TODO
+export function lengthOfLongestSubstring(str) {
+  const strLength = str.length
+  let maxLength = 0
+  const map = new Map()
+  let i = 0
+  for (let j = 0; j < strLength; j++) {
+    if (map.has(str.charAt(j))) {
+      i = Math.max(map.get(str.charAt(j)), i)
+    }
+    maxLength = Math.max(maxLength, j - i + 1)
+    map.set(str.charAt(j), j + 1)
   }
 
   return maxLength
