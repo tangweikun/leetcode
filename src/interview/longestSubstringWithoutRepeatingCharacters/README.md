@@ -10,4 +10,4 @@ lengthOfLongestSubstring('abcabcbb')
 ```
 
 ## From
-[LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
+[LeetCode](https://leetcode.com/articles/longest-substring-without-repeating-characters/)
