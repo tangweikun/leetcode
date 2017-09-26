@@ -6,6 +6,8 @@
 
 > 时间复杂度O(n)
 
+> 线性表的顺序存储结构
+
 ## Usage
 ```javascript
 listDelete(arr, position)
