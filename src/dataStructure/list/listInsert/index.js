@@ -1,9 +1,8 @@
 export const listInsert = (arr, position, elem) => {
-  const result = arr
   const len = arr.length
   let i = len
 
-  if (position > i || position < 0) return result
+  if (position > i || position < 0) return arr
 
   while (i > position) {
     arr[i] = arr[i - 1]
@@ -11,5 +10,5 @@ export const listInsert = (arr, position, elem) => {
   }
   arr[position] = elem
 
-  return result
+  return arr
 }
