@@ -1,3 +1,4 @@
+// Time complexity: O(n)
 export function isPalindrome(input) {
   if (input < 0) return false
 
