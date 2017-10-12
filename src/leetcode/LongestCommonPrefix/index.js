@@ -5,7 +5,7 @@ export function longestCommonPrefix(arr) {
   let i = 1
   let result = arr[0]
 
-  while (i < len) {
+  while (i < len && result !== '') {
     let temp = ''
     for (let j = 0; j < result.length; j++) {
       if (result[j] === arr[i][j]) {
