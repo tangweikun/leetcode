@@ -1,6 +1,6 @@
 # findUniqueElement
 
-## Question
+## Description
 从一组数字中找出不重复的数字
 
 ## Usage
