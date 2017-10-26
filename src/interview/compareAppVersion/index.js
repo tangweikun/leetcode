@@ -1,17 +1,19 @@
 export function shouldUpgrade({ currentVersion, latestVersion }) {
-  const currentVersionLabel = currentVersion.split('.')
-  const latestVersionLabel = latestVersion.split('.')
+  const currentVersionElements = currentVersion.split('.')
+  const latestVersionElements = latestVersion.split('.')
+  const currentVersionElementsLength = currentVersionElements.length
+  const latestVersionElementsLength = latestVersionElements.length
   let i = 0
 
-  while (i < currentVersionLabel.length) {
-    if (currentVersionLabel[i] < latestVersionLabel[i]) return true
-    if (currentVersionLabel[i] > latestVersionLabel[i]) return false
+  while (i < currentVersionElementsLength) {
+    if (currentVersionElements[i] < latestVersionElements[i]) return true
+    if (currentVersionElements[i] > latestVersionElements[i]) return false
     i++
   }
 
-  if (currentVersionLabel.length < latestVersionLabel.length) {
-    while (i < latestVersionLabel.length) {
-      if (latestVersionLabel[i] > 0) return true
+  if (currentVersionElementsLength < latestVersionElementsLength) {
+    while (i < latestVersionElementsLength) {
+      if (latestVersionElements[i] > 0) return true
       i++
     }
   }
