@@ -11,6 +11,30 @@ test(t => {
 
 test(t => {
   const result = shouldUpgrade({
+    currentVersion: '01',
+    latestVersion: '1',
+  })
+  t.deepEqual(result, false)
+})
+
+test(t => {
+  const result = shouldUpgrade({
+    currentVersion: '1',
+    latestVersion: '1.1',
+  })
+  t.deepEqual(result, true)
+})
+
+test(t => {
+  const result = shouldUpgrade({
+    currentVersion: '1.1',
+    latestVersion: '1',
+  })
+  t.deepEqual(result, false)
+})
+
+test(t => {
+  const result = shouldUpgrade({
     currentVersion: '0.1',
     latestVersion: '0.1.0.0.1',
   })
