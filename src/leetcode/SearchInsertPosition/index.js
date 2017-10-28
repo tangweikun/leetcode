@@ -34,13 +34,9 @@ export function searchInsert(nums, target) {
 function binarySearch(nums, target, low, high) {
   const mid = low + Math.floor((high - low) / 2)
   while (low + 1 < high) {
-    if (nums[mid] === target) {
-      return mid
-    } else if (nums[mid] > target) {
-      return binarySearch(nums, target, low, mid)
-    } else {
-      return binarySearch(nums, target, mid, high)
-    }
+    if (nums[mid] === target) return mid
+    if (nums[mid] > target) return binarySearch(nums, target, low, mid)
+    return binarySearch(nums, target, mid, high)
   }
 
   if (nums[low] === target) return low
