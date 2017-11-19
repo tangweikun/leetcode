@@ -5,8 +5,6 @@ export function shouldUpgrade({ currentVersion, latestVersion }) {
   const latestVersionElementsLength = latestVersionElements.length
   let i = 0
 
-  console.log(currentVersionElementsLength, latestVersionElementsLength, i)
-
   while (i < currentVersionElementsLength) {
     if (+currentVersionElements[i] < +latestVersionElements[i]) return true
     if (+currentVersionElements[i] > +latestVersionElements[i]) return false
