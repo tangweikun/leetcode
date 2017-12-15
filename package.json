@@ -30,7 +30,6 @@
   "author": "tangweikun",
   "license": "ISC",
   "devDependencies": {
-    "ava": "^0.22.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.26.0",
     "babel-jest": "^21.2.0",
