@@ -1,34 +1,27 @@
-import test from 'ava'
 import { searchInsert } from '.'
 
 const nums = [1, 3, 5, 6]
 
-test(t => {
-  const result = searchInsert(nums, 5)
-  t.deepEqual(result, 2)
+test('searchInsert', () => {
+  expect(searchInsert(nums, 5)).toBe(2)
 })
 
-test(t => {
-  const result = searchInsert(nums, 2)
-  t.deepEqual(result, 1)
+test('searchInsert', () => {
+  expect(searchInsert(nums, 2)).toBe(1)
 })
 
-test(t => {
-  const result = searchInsert(nums, 7)
-  t.deepEqual(result, 4)
+test('searchInsert', () => {
+  expect(searchInsert(nums, 7)).toBe(4)
 })
 
-test(t => {
-  const result = searchInsert(nums, 0)
-  t.deepEqual(result, 0)
+test('searchInsert', () => {
+  expect(searchInsert(nums, 0)).toBe(0)
 })
 
-test(t => {
-  const result = searchInsert(nums, 8)
-  t.deepEqual(result, 4)
+test('searchInsert', () => {
+  expect(searchInsert(nums, 8)).toBe(4)
 })
 
-test(t => {
-  const result = searchInsert([1], 2)
-  t.deepEqual(result, 1)
+test('searchInsert', () => {
+  expect(searchInsert([1], 2)).toBe(1)
 })

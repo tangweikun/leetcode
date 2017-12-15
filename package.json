@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node index.js --presets es2015",
-    "test": "ava --watch"
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -32,9 +32,12 @@
   "devDependencies": {
     "ava": "^0.22.0",
     "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.6.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^21.2.1",
+    "regenerator-runtime": "^0.11.1"
   },
   "dependencies": {
     "lodash": "^4.17.4"

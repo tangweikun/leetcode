@@ -1,47 +1,37 @@
-import test from 'ava'
 import { isPalindrome } from '.'
 
-test(t => {
-  const result = isPalindrome(1)
-  t.deepEqual(result, true)
+test('isPalindrome', () => {
+  expect(isPalindrome(1)).toBe(true)
 })
 
-test(t => {
-  const result = isPalindrome(11)
-  t.deepEqual(result, true)
+test('isPalindrome', () => {
+  expect(isPalindrome(11)).toBe(true)
 })
 
-test(t => {
-  const result = isPalindrome(111)
-  t.deepEqual(result, true)
+test('isPalindrome', () => {
+  expect(isPalindrome(111)).toBe(true)
 })
 
-test(t => {
-  const result = isPalindrome(121)
-  t.deepEqual(result, true)
+test('isPalindrome', () => {
+  expect(isPalindrome(121)).toBe(true)
 })
 
-test(t => {
-  const result = isPalindrome(1221)
-  t.deepEqual(result, true)
+test('isPalindrome', () => {
+  expect(isPalindrome(1221)).toBe(true)
 })
 
-test(t => {
-  const result = isPalindrome(12321)
-  t.deepEqual(result, true)
+test('isPalindrome', () => {
+  expect(isPalindrome(12321)).toBe(true)
 })
 
-test(t => {
-  const result = isPalindrome(1232)
-  t.deepEqual(result, false)
+test('isPalindrome', () => {
+  expect(isPalindrome(1232)).toBe(false)
 })
 
-test(t => {
-  const result = isPalindrome(123)
-  t.deepEqual(result, false)
+test('isPalindrome', () => {
+  expect(isPalindrome(123)).toBe(false)
 })
 
-test(t => {
-  const result = isPalindrome(-1)
-  t.deepEqual(result, false)
+test('isPalindrome', () => {
+  expect(isPalindrome(-1)).toBe(false)
 })

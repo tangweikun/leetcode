@@ -1,42 +1,34 @@
-import test from 'ava'
 import { isValidParentheses } from '.'
 
-test(t => {
-  const result = isValidParentheses('()[]{}')
-  t.deepEqual(result, true)
+test('isValidParentheses', () => {
+  expect(isValidParentheses('()[]{}')).toBe(true)
 })
 
-test(t => {
-  const result = isValidParentheses('()')
-  t.deepEqual(result, true)
+
+test('isValidParentheses', () => {
+  expect(isValidParentheses('()')).toBe(true)
 })
 
-test(t => {
-  const result = isValidParentheses('{[()]}')
-  t.deepEqual(result, true)
+test('isValidParentheses', () => {
+  expect(isValidParentheses('{[()]}')).toBe(true)
 })
 
-test(t => {
-  const result = isValidParentheses('[{[]}()]')
-  t.deepEqual(result, true)
+test('isValidParentheses', () => {
+  expect(isValidParentheses('[{[]}()]')).toBe(true)
 })
 
-test(t => {
-  const result = isValidParentheses('')
-  t.deepEqual(result, true)
+test('isValidParentheses', () => {
+  expect(isValidParentheses('')).toBe(true)
 })
 
-test(t => {
-  const result = isValidParentheses('{')
-  t.deepEqual(result, false)
+test('isValidParentheses', () => {
+  expect(isValidParentheses('{')).toBe(false)
 })
 
-test(t => {
-  const result = isValidParentheses('{[])}')
-  t.deepEqual(result, false)
+test('isValidParentheses', () => {
+  expect(isValidParentheses('{[])}')).toBe(false)
 })
 
-test(t => {
-  const result = isValidParentheses('{[}]')
-  t.deepEqual(result, false)
+test('isValidParentheses', () => {
+  expect(isValidParentheses('{[}]')).toBe(false)
 })

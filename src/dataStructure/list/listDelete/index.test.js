@@ -1,27 +1,25 @@
-import test from 'ava'
 import { listDelete } from '.'
 
-test(t => {
-  const result = listDelete([1, 2, 3, 5], 3)
-  t.deepEqual(result, [1, 2, 3])
+test('list delete', () => {
+  expect(listDelete([1, 2, 3, 5], 3)).toEqual([1, 2, 3])
 })
 
-test(t => {
-  const result = listDelete([1, 2, 3, 5], 0)
-  t.deepEqual(result, [2, 3, 5])
+test('list delete', () => {
+  expect(listDelete([1, 2, 3, 5], 3)).toEqual([1, 2, 3])
 })
 
-test(t => {
-  const result = listDelete([1, 2, 3, 5], -1)
-  t.deepEqual(result, [1, 2, 3, 5])
+test('list delete', () => {
+  expect(listDelete([1, 2, 3, 5], 0)).toEqual([2, 3, 5])
 })
 
-test(t => {
-  const result = listDelete([1, 2, 3, 5], 5)
-  t.deepEqual(result, [1, 2, 3, 5])
+test('list delete', () => {
+  expect(listDelete([1, 2, 3, 5], -1)).toEqual([1, 2, 3, 5])
 })
 
-test(t => {
-  const result = listDelete([1, 2, 3, 5], 1)
-  t.deepEqual(result, [1, 3, 5])
+test('list delete', () => {
+  expect(listDelete([1, 2, 3, 5], 5)).toEqual([1, 2, 3, 5])
+})
+
+test('list delete', () => {
+  expect(listDelete([1, 2, 3, 5], 1)).toEqual([1, 3, 5])
 })
