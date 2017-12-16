@@ -1,8 +1,15 @@
 # LONG-CLAW
-## Interview
 
->[convertFunctionNameToCamelCase](src/interview/convertFunctionNameToCamelCase/README.md)  
->[findUniqueElement](src/interview/findUniqueElement/README.md)   
->[lengthOfLongestSubstring](src/interview/longestSubstringWithoutRepeatingCharacters/README.md)
-## Lodash
->[map](src/lodash/map/README.md)
+> Welcome to fork or pull request
+> A sword for you to solve some interesting problem
+> Unit test with jest
+> Simple code
+> Readable code
+
+## Getting Start
+
+```javascript
+git clone https://github.com/tangweikun/long-claw.git
+npm install
+npm run test
+```
