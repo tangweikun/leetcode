@@ -1,10 +1,10 @@
 # LONG-CLAW
 
-> Welcome to fork or pull request
-> A sword for you to solve some interesting problem
-> Unit test with jest
-> Simple code
-> Readable code
+* Welcome to fork or pull request
+* A sword for you to solve some interesting problem
+* Unit test with jest
+* Simple code
+* Readable code
 
 ## Getting Start
 
