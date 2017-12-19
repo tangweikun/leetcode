@@ -10,6 +10,7 @@
 
 ```javascript
 git clone https://github.com/tangweikun/long-claw.git
+cd long-claw
 npm install
 npm run test
 ```
