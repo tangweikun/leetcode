@@ -17,5 +17,7 @@ npm run test
 
 ## Contents
 
-| # | Title | Source Code | Explanation | Difficulty |
-| 1 | [Compare App Version](src/compareAppVersion/README.md) | | [compareAppVersion](src/compareAppVersion/index.js) | Easy |
+|  #  |                                     Title                                     |                         README                         | Difficulty |
+| :-: | :---------------------------------------------------------------------------: | :----------------------------------------------------: | :--------: |
+|  1  |              [CompareAppVersion](src/compareAppVersion/index.js)              |       [README](src/compareAppVersion/README.md)        |    Easy    |
+|  2  | [ConvertFunctionNameToCamelCase](src/convertFunctionNameToCamelCase/index.js) | [README](src/convertFunctionNameToCamelCase/README.md) |    Easy    |
