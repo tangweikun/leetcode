@@ -3,11 +3,12 @@ var MinStack = function() {
 
   this.pop = () => this.stack.pop()
 
-  this.top = () =>
-    this.stack[this.stack.length - 1] && this.stack[this.stack.length - 1].val
+  const latest = key =>
+    this.stack[this.stack.length - 1] && this.stack[this.stack.length - 1][key]
 
-  this.getMin = () =>
-    this.stack[this.stack.length - 1] && this.stack[this.stack.length - 1].min
+  this.top = () => latest('val')
+
+  this.getMin = () => latest('min')
 
   this.push = val => {
     const min =
