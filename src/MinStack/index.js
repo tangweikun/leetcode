@@ -18,3 +18,5 @@ var MinStack = function() {
     this.stack.push({ val, min: Math.min(min, val) })
   }
 }
+
+// TODO: Write test case for MinStack
