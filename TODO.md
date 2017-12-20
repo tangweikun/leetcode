@@ -1,8 +1,8 @@
 * [ ] Add test coverage
 * [ ] Use Async/await with Jest
 * [ ] Add lint rules
-* [ ] Add Contents for old method
-* [ ] Update old method's README
+* [x] Add Contents for old method
+* [x] Update old method's README
 * [ ] Remove lodash package
 * [ ] Separate multiple function into independent file
-* [ ] Add README for MinQueue
+* [x] Add README for MinQueue
