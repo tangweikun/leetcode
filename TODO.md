@@ -5,3 +5,4 @@
 * [ ] Update old method's README
 * [ ] Remove lodash package
 * [ ] Separate multiple function into independent file
+* [ ] Add README for MinQueue
