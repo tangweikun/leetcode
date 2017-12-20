@@ -1,3 +1,4 @@
+// TODO: Should Refactor
 export const MinQueue = function() {
   this.queue = []
   this.assistQueue = []
@@ -27,9 +28,9 @@ export const MinQueue = function() {
     }
   }
 
-  this.shift = value => {
+  this.shift = () => {
     if (this.queue.length < 1) return
-    if (value === this.assistQueue[0]) {
+    if (this.queue[0] === this.assistQueue[0]) {
       this.assistQueue.shift()
     }
     this.queue.shift()
