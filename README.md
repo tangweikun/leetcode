@@ -29,7 +29,6 @@ npm run test
 |  8  | [LongestSubstringWithoutRepeatingCharacters](src/longestSubstringWithoutRepeatingCharacters/index.js) | [:green_book:](src/longestSubstringWithoutRepeatingCharacters/README.md) |    Easy    |
 |  9  |                                        [Map](src/map/index.js)                                        |                    [:green_book:](src/map/README.md)                     |    Easy    |
 | 10  |                                   [MinStack](src/minStack/index.js)                                   |                  [:green_book:](src/minStack/README.md)                  |   Medium   |
-| 11  |                           [PalindromeNumber](src/palindromeNumber/index.js)                           |              [:green_book:](src/palindromeNumber/README.md)              |   Medium   |
 | 11  |                           [PalindromeNumber](src/palindromeNumber/index.js)                           |              [:green_book:](src/palindromeNumber/README.md)              |    Easy    |
 | 12  |                                [PrimeNumber](src/primeNumber/index.js)                                |                [:green_book:](src/primeNumber/README.md)                 |    Easy    |
 | 13  |                       [SearchInsertPosition](src/searchInsertPosition/index.js)                       |            [:green_book:](src/searchInsertPosition/README.md)            |    Easy    |
