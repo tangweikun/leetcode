@@ -13,13 +13,13 @@ describe('isPowerOf2-->true', () => {
 })
 
 describe('isPowerOf2-->false', () => {
-  it('-->1', () => {
+  it('-->4', () => {
     expect(isPowerOf2(3)).toBe(false)
   })
-  it('-->2', () => {
+  it('-->5', () => {
     expect(isPowerOf2(6)).toBe(false)
   })
-  it('-->3', () => {
+  it('-->6', () => {
     expect(isPowerOf2(18)).toBe(false)
   })
 })
