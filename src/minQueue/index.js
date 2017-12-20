@@ -12,10 +12,15 @@ export const MinQueue = function() {
         if (value < this.assistQueue[i]) {
           this.assistQueue.shift()
         } else {
-          this.assistQueue.push(value)
           i = 0
         }
         i--
+      }
+
+      if (this.assistQueue.length < 1) {
+        this.assistQueue.push(value)
+      } else if (this.assistQueue[this.assistQueue.length - 1] < value) {
+        this.assistQueue.push(value)
       }
 
       this.queue.push(value)
