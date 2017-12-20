@@ -1,9 +1,12 @@
 # convertFunctionNameToCamelCase
 
 ## Description
-将 "get_user_id" 转换成 "getUserId"
 
-## Usage
+Transform "get_user_id" into "getUserId"
+
+## Example
+
 ```javascript
-convertFunctionNameToCamelCase('get_user_id')
-// output 'getUserId'
+Input: 'get_user_id'
+Output: 'getUserId'
+```

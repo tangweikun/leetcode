@@ -1,14 +1,19 @@
+<!-- TODO: Update Me -->
+
 # listInsert
 
 ## Description
-在线性表list的指定位置position上插入指定值elem，如果position<0或position>list.length就返回原list
-> 与 splice(position, 0, elem) 的效果相似
 
-> 时间复杂度O(n)
+在线性表 list 的指定位置 position 上插入指定值 elem，如果 position<0 或 position>list.length 就返回原 list
 
-> 线性表的顺序存储结构
+> Similar with `splice(position, 0, elem)`
+
+> Time complexity O(n)
+
+> Linear table sequential storage structure
 
 ## Usage
+
 ```javascript
 listInsert(arr, position, elem)
 ```

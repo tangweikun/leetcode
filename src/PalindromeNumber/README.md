@@ -1,10 +1,12 @@
 # Palindrome Number
 
 ## Description
+
 Determine whether an integer is a palindrome. Do this without extra space.
 
-## Usage
+## Example
+
 ```javascript
-isPalindrome(1221)
-// true
+Input: 1221
+Output: true
 ```

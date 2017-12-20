@@ -1,14 +1,18 @@
 # listDelete
 
 ## Description
-删除线性表list的指定位置position上的元素，如果position<0或position>list.length就返回原list
-> 与 splice(position, 1) 的效果相似
 
-> 时间复杂度O(n)
+Delete the element on the specified position in list
+if `position < 0` or `position > list.length` then return `list`
 
-> 线性表的顺序存储结构
+> Similar with `splice(position, 1)`
 
-## Usage
+> Time complexity O(n)
+
+> Linear table sequential storage structure
+
+## Example
+
 ```javascript
 listDelete(arr, position)
 ```
