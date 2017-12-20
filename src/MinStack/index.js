@@ -1,4 +1,4 @@
-var MinStack = function() {
+export const MinStack = function() {
   this.stack = []
 
   this.pop = () => this.stack.pop()
