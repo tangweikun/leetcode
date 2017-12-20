@@ -29,3 +29,11 @@ npm run test
 |  8  | [LongestSubstringWithoutRepeatingCharacters](src/longestSubstringWithoutRepeatingCharacters/index.js) | [:green_book:](src/longestSubstringWithoutRepeatingCharacters/README.md) |    Easy    |
 |  9  |                                        [Map](src/map/index.js)                                        |                    [:green_book:](src/map/README.md)                     |    Easy    |
 | 10  |                                   [MinStack](src/minStack/index.js)                                   |                  [:green_book:](src/minStack/README.md)                  |   Medium   |
+| 11  |                           [PalindromeNumber](src/palindromeNumber/index.js)                           |              [:green_book:](src/palindromeNumber/README.md)              |   Medium   |
+| 11  |                           [PalindromeNumber](src/palindromeNumber/index.js)                           |              [:green_book:](src/palindromeNumber/README.md)              |    Easy    |
+| 12  |                                [PrimeNumber](src/primeNumber/index.js)                                |                [:green_book:](src/primeNumber/README.md)                 |    Easy    |
+| 13  |                       [SearchInsertPosition](src/searchInsertPosition/index.js)                       |            [:green_book:](src/searchInsertPosition/README.md)            |    Easy    |
+| 14  |                      [SimplePatternMatching](src/simplePatternMatching/index.js)                      |           [:green_book:](src/simplePatternMatching/README.md)            |    Easy    |
+| 15  |                               [SwapPosition](src/swapPosition/index.js)                               |                [:green_book:](src/swapPosition/README.md)                |    Easy    |
+| 16  |                                  [UnionList](src/unionList/index.js)                                  |                 [:green_book:](src/unionList/README.md)                  |    Easy    |
+| 17  |                           [ValidParentheses](src/validParentheses/index.js)                           |              [:green_book:](src/validParentheses/README.md)              |    Easy    |
