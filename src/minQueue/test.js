@@ -170,3 +170,24 @@ describe('MinQueue-shift', () => {
     expect(Queue_8.assistQueue).toEqual([])
   })
 })
+
+describe('MinQueue-push', () => {
+  const Queue_9 = new MinQueue()
+  Queue_9.push(5)
+  Queue_9.push(0)
+  Queue_9.push(6)
+  Queue_9.push(2)
+  Queue_9.push(3)
+  Queue_9.push(8)
+  Queue_9.push(2.5)
+
+  it('-->28', () => {
+    expect(Queue_9.getMin()).toBe(0)
+  })
+  it('-->29', () => {
+    expect(Queue_9.queue).toEqual([5, 0, 6, 2, 3, 8, 2.5])
+  })
+  it('-->30', () => {
+    expect(Queue_9.assistQueue).toEqual([0, 2, 2.5])
+  })
+})
