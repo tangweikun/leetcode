@@ -38,7 +38,7 @@ function binarySearch(nums, target, low, high) {
     if (nums[mid] > target) return binarySearch(nums, target, low, mid)
     return binarySearch(nums, target, mid, high)
   }
-
+  // TODO: bug risk
   if (nums[low] === target) return low
   if (nums[high === target]) return high
   return mid + 1
