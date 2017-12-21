@@ -5,28 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node index.js --presets es2015",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "coverage": "jest --coverage"
   },
   "babel": {
-    "presets": [
-      "es2015",
-      "stage-0"
-    ]
+    "presets": ["es2015", "stage-0"]
   },
   "ava": {
-    "require": [
-      "babel-register"
-    ],
+    "require": ["babel-register"],
     "babel": "inherit"
   },
   "repository": {
     "type": "git",
     "url": "https://www.github.com/tangweikun/long-claw"
   },
-  "keywords": [
-    "javascript",
-    "interview"
-  ],
+  "keywords": ["javascript", "interview"],
   "author": "tangweikun",
   "license": "ISC",
   "devDependencies": {
@@ -40,5 +33,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4"
-  }
+  },
+  "CC_TEST_REPORTER_ID":
+    "d6e0a0a758ed9682cdf8dd44833994a02a8c8e220119eeade45cdccb8d9e20ec"
 }
