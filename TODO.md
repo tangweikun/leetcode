@@ -1,4 +1,4 @@
-* [ ] Add test coverage
+* [x] Add test coverage
 * [ ] Use Async/await with Jest
 * [ ] Add lint rules
 * [x] Add Contents for old method
