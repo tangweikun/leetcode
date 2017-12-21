@@ -1,14 +1,5 @@
 # LONG-CLAW
 
-<<<<<<< HEAD
-[![Greenkeeper badge](https://badges.greenkeeper.io/tangweikun/long-claw.svg)](https://greenkeeper.io/)
-
->[convertFunctionNameToCamelCase](src/interview/convertFunctionNameToCamelCase/README.md)  
->[findUniqueElement](src/interview/findUniqueElement/README.md)   
->[lengthOfLongestSubstring](src/interview/longestSubstringWithoutRepeatingCharacters/README.md)
-## Lodash
->[map](src/lodash/map/README.md)
-=======
 * Welcome to point out my mistake
 * Welcome to add useful test case for LONG-CRAW
 * Welcome to improve the method if you have better solution
@@ -49,4 +40,3 @@ npm run test
 | 16  |                                  [UnionList](src/unionList/index.js)                                  |                 [:green_book:](src/unionList/README.md)                  |    Easy    |
 | 17  |                           [ValidParentheses](src/validParentheses/index.js)                           |              [:green_book:](src/validParentheses/README.md)              |    Easy    |
 | 18  |                                 [IsPowerOf2](src/isPowerOf2/index.js)                                 |                 [:green_book:](src/isPowerOf2/README.md)                 |    Easy    |
->>>>>>> master
