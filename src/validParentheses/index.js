@@ -8,7 +8,7 @@ export function isValidParentheses(str) {
   while (i < len) {
     if (isPair(stack[stack.length - 1], arr[i])) stack.pop()
     else {
-      if (isClosingParenthese(arr[i])) return false
+      if (isClosingParentheses(arr[i])) return false
       else stack.push(arr[i])
     }
     i++
@@ -28,7 +28,7 @@ function isOdd(num) {
   return !(num % 2 === 0)
 }
 
-function isClosingParenthese(x) {
+function isClosingParentheses(x) {
   if (x === ')' || x === '}' || x === ']') return true
   return false
 }
