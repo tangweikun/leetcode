@@ -1,4 +1,4 @@
-<!-- TODO: Translate to English -->
+<!-- TODO: Translate to English  -->
 
 # Is Power of 2
 
