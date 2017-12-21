@@ -1,7 +1,10 @@
 # LONG-CLAW
 
+* Welcome to point out my mistake
+* Welcome to add useful test case for LONG-CRAW
+* Welcome to improve the method if you have better solution
 * Welcome to fork or pull request
-* A sword for you to solve some interesting problem
+
 * Unit test with jest
 * Simple code
 * Readable code
