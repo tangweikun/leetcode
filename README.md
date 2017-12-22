@@ -40,3 +40,4 @@ npm run test
 | 16  |                                  [UnionList](src/unionList/index.js)                                  |                 [:green_book:](src/unionList/README.md)                  |    Easy    |
 | 17  |                           [ValidParentheses](src/validParentheses/index.js)                           |              [:green_book:](src/validParentheses/README.md)              |    Easy    |
 | 18  |                                 [IsPowerOf2](src/isPowerOf2/index.js)                                 |                 [:green_book:](src/isPowerOf2/README.md)                 |    Easy    |
+| 19  |                                   [BitCount](src/bitCount/index.js)                                   |                  [:green_book:](src/bitCount/README.md)                  |    Easy    |
