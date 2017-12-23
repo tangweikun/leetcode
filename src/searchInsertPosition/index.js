@@ -13,6 +13,6 @@ function binarySearch(nums, target, low, high) {
   }
   // TODO: bug risk
   if (nums[low] === target) return low
-  if (nums[high === target]) return high
+  if (nums[high] === target) return high
   return mid + 1
 }
