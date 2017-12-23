@@ -43,3 +43,4 @@ npm run test
 | 19  |                                   [BitCount](src/bitCount/index.js)                                   |                  [:green_book:](src/bitCount/README.md)                  |    Easy    |
 | 20  |                             [MissingInteger](src/missingInteger/index.js)                             |               [:green_book:](src/missingInteger/README.md)               |    Easy    |
 | 21  |                                   [OddTimes](src/oddTimes/index.js)                                   |                  [:green_book:](src/oddTimes/README.md)                  |    Easy    |
+| 22  |                      [GreatestCommonDivisor](src/greatestCommonDivisor/index.js)                      |           [:green_book:](src/greatestCommonDivisor/README.md)            |    Easy    |
