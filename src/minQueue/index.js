@@ -5,23 +5,23 @@ export const MinQueue = function() {
 
   this.push = value => {
     const { queue, assistQueue } = this
-    if (!queue.length) {
-      queue.push(value)
-      assistQueue.push(value)
-    } else {
-      let i = assistQueue.length - 1
-      while (i >= 0) {
-        if (value < assistQueue[i]) {
-          assistQueue.pop()
-        }
-        i--
+    let i = assistQueue.length - 1
+    while (i >= 0) {
+      if (value < assistQueue[i]) {
+        assistQueue.pop()
       }
-
-      if (!assistQueue.length || assistQueue[assistQueue.length - 1] < value) {
-        assistQueue.push(value)
-      }
-      queue.push(value)
+      i--
     }
+
+    if (
+      !queue.length ||
+      !assistQueue.length ||
+      assistQueue[assistQueue.length - 1] < value
+    ) {
+      assistQueue.push(value)
+    }
+
+    queue.push(value)
   }
 
   this.shift = () => {
