@@ -2,14 +2,13 @@
 export const MinQueue = function() {
   this.queue = []
   this.assistQueue = []
+  this.getMin = () => this.assistQueue[0]
 
   this.push = value => {
     const { queue, assistQueue } = this
     let i = assistQueue.length - 1
     while (i >= 0) {
-      if (value < assistQueue[i]) {
-        assistQueue.pop()
-      }
+      value < assistQueue[i] && assistQueue.pop()
       i--
     }
 
@@ -20,18 +19,12 @@ export const MinQueue = function() {
     ) {
       assistQueue.push(value)
     }
-
     queue.push(value)
   }
 
   this.shift = () => {
-    const { queue, assistQueue } = this
-    if (queue.length < 1) return
-    if (queue[0] === assistQueue[0]) {
-      assistQueue.shift()
-    }
-    queue.shift()
+    if (this.queue.length < 1) return
+    if (this.queue[0] === this.assistQueue[0]) this.assistQueue.shift()
+    this.queue.shift()
   }
-
-  this.getMin = () => this.assistQueue[0]
 }
