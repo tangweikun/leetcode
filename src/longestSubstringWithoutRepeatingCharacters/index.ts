@@ -1,5 +1,5 @@
 // TODO:
-export function lengthOfLongestSubstring(str) {
+export function lengthOfLongestSubstring(str: string): number {
   const strLength = str.length
   let maxLength = 0
   const map = new Map()

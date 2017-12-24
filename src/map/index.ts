@@ -1,3 +1,4 @@
+// FIXME:
 export function map(collection, callback) {
   const result = []
   if (typeof callback === 'function') {

@@ -1,4 +1,4 @@
-export function lengthOfLastWord(str) {
+export function lengthOfLastWord(str: string): number {
   const strWithoutBoundarySpace = str.trim()
   let position = strWithoutBoundarySpace.length - 1
   let result = 0

@@ -1,4 +1,5 @@
-export function shouldUpgrade({ latestVersion, currentVersion }) {
+// FIXME: Write right typeCheck
+export function shouldUpgrade({ latestVersion, currentVersion }: any) {
   const arr1 = latestVersion.split('.')
   const arr2 = currentVersion.split('.')
 

@@ -1,4 +1,4 @@
-export function bitCount(num, total = 1) {
+export function bitCount(num: number, total: number = 1): number {
   if (num === 0) return 0
   if (num === 1) return total
   if (num % 2) {

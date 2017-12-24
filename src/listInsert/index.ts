@@ -1,4 +1,4 @@
-export const listInsert = (arr, position, elem) => {
+export const listInsert = (arr: any[], position: number, elem: any) => {
   const len = arr.length
   let i = len
 

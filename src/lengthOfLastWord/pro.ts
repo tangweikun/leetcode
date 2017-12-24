@@ -1,4 +1,4 @@
-export function lengthOfLastWordPro(str) {
+export function lengthOfLastWordPro(str: string): number {
   const arr = str.split(' ')
   let position = arr.length - 1
 

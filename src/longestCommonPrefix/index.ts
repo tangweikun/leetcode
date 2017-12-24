@@ -1,4 +1,4 @@
-export function longestCommonPrefix(arr) {
+export function longestCommonPrefix(arr: any[]) {
   const len = arr.length
   if (len === 0) return ''
 

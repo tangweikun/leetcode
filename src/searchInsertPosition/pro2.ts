@@ -1,3 +1,4 @@
+// FIXME:
 export function searchInsert2(nums, target) {
   const len = nums.length
   let low = 0

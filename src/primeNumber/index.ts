@@ -1,4 +1,4 @@
-export function isPrime(num) {
+export function isPrime(num: number): boolean {
   if (num < 2) return false
   let divisor = 2
   const maxDivisor = Math.sqrt(num)

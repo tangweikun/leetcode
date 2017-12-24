@@ -1,5 +1,5 @@
 // TODO:
-export function getLengthOfLongestSubstring(str) {
+export function getLengthOfLongestSubstring(str: string): number {
   const arr = []
   const strLength = str.length
   let j = 0

@@ -1,5 +1,5 @@
 // TODO:
-export function lengthOfLongestSubstring2(str) {
+export function lengthOfLongestSubstring2(str: string): number {
   const strLength = str.length
   const set = new Set()
   let maxLength = 0

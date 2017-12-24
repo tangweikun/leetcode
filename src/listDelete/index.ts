@@ -1,4 +1,4 @@
-export const listDelete = (arr, position) => {
+export const listDelete = (arr: any[], position: number) => {
   const len = arr.length
   let i = position
 

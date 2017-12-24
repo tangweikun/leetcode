@@ -1,4 +1,4 @@
-export function isValidParentheses(str) {
+export function isValidParentheses(str: string): boolean {
   const arr = str.split('')
   const len = arr.length
   if (isOdd(len)) return false
@@ -17,18 +17,18 @@ export function isValidParentheses(str) {
   return !stack.length
 }
 
-function isPair(x, y) {
+function isPair(x: string, y: string): boolean {
   if (x === '(' && y === ')') return true
   if (x === '{' && y === '}') return true
   if (x === '[' && y === ']') return true
   return false
 }
 
-function isOdd(num) {
+function isOdd(num: number): boolean {
   return !(num % 2 === 0)
 }
 
-function isClosingParentheses(x) {
+function isClosingParentheses(x: string): boolean {
   if (x === ')' || x === '}' || x === ']') return true
   return false
 }

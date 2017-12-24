@@ -1,5 +1,5 @@
-export function findUniqueElement(arr) {
-  const result = []
+export function findUniqueElement(arr: any[]) {
+  const result: any[] = []
   arr.forEach(item => {
     if (result[item]) {
       result[item] = 'DuplicateElement'

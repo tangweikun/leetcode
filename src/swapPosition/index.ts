@@ -1,5 +1,5 @@
 // TODO: Add README
-export function swapPosition(arr, posA, posB) {
+export function swapPosition(arr: any[], posA: number, posB: number): any[] {
   const elementA = arr[posA]
   const elementB = arr[posB]
   arr[posA] = elementB

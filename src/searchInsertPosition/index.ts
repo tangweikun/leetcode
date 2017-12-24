@@ -1,3 +1,4 @@
+// FIXME:
 export function searchInsert(nums, target) {
   if (target < nums[0]) return 0
   if (target > nums[nums.length - 1]) return nums.length
