@@ -1,4 +1,4 @@
-import { oddTimes } from '.'
+import { oddTimes } from './index'
 
 test('oddTimes-1', () => {
   expect(oddTimes([1, 1, 2, 3, 2])).toBe(3)
