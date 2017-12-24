@@ -10,3 +10,4 @@
 * [x] Use TypeScript
 * [ ] Dynamic Programming
 * [ ] Checkout TypeScript grammar
+* [ ] Build source code
