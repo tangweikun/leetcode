@@ -7,5 +7,6 @@
 * [ ] Separate multiple function into independent file
 * [x] Add README for MinQueue
 * [ ] Add Time Complexity for each method
-* [ ] Use TypeScript
+* [x] Use TypeScript
 * [ ] Dynamic Programming
+* [ ] Checkout TypeScript grammar
