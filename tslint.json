@@ -1,8 +1,0 @@
-{
-  "extends": "tslint:recommended",
-  "rules": {
-    "arrow-parens": [true, "ban-single-arg-parens"],
-    "quotemark": [true, "single"],
-    "no-consecutive-blank-lines": [true, 2]
-  }
-}
