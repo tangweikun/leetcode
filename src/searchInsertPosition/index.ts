@@ -1,11 +1,15 @@
-// FIXME:
-export function searchInsert(nums, target) {
+export function searchInsert(nums: number[], target: number) {
   if (target < nums[0]) return 0
   if (target > nums[nums.length - 1]) return nums.length
   return binarySearch(nums, target, 0, nums.length - 1)
 }
 
-function binarySearch(nums, target, low, high) {
+function binarySearch(
+  nums: number[],
+  target: number,
+  low: number,
+  high: number,
+): number {
   const mid = low + Math.floor((high - low) / 2)
   while (low + 1 < high) {
     if (nums[mid] === target) return mid

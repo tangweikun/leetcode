@@ -1,5 +1,5 @@
 // FIXME:
-export function searchInsert1(nums, target) {
+export function searchInsert1(nums: number[], target: number) {
   const len = nums.length
   let i = 0
   while (i < len) {
