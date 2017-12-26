@@ -46,3 +46,4 @@ npm run test
 | 22  |                      [GreatestCommonDivisor](src/greatestCommonDivisor/index.js)                      |           [:green_book:](src/greatestCommonDivisor/README.md)            |    Easy    |
 | 23  |                          [10StairsStaircase](src/10StairsStaircase/index.js)                          |             [:green_book:](src/10StairsStaircase/README.md)              |    Easy    |
 | 24  |                              [RemoveElement](src/removeElement/index.js)                              |               [:green_book:](src/removeElement/README.md)                |    Easy    |
+| 25  |                               [ImplementStr](src/implementStr/index.js)                               |                [:green_book:](src/implementStr/README.md)                |    Easy    |
