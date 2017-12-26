@@ -14,7 +14,7 @@ export function strStr(haystack: string, needle: string): number {
       }
     }
     if (isExist) return i
-    if (needleLen + i > haystackLen) return -1
+    if (needleLen + i >= haystackLen) return -1
   }
   return -1
 }
