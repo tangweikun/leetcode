@@ -4,7 +4,7 @@
 * [x] Add Contents for old method
 * [x] Update old method's README
 * [ ] Remove lodash package
-* [ ] Separate multiple function into independent file
+* [x] Separate multiple function into independent file
 * [x] Add README for MinQueue
 * [ ] Add Time Complexity for each method
 * [x] Use TypeScript
