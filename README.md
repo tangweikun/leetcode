@@ -45,3 +45,4 @@ npm run test
 | 21  |                                   [OddTimes](src/oddTimes/index.js)                                   |                  [:green_book:](src/oddTimes/README.md)                  |    Easy    |
 | 22  |                      [GreatestCommonDivisor](src/greatestCommonDivisor/index.js)                      |           [:green_book:](src/greatestCommonDivisor/README.md)            |    Easy    |
 | 23  |                          [10StairsStaircase](src/10StairsStaircase/index.js)                          |             [:green_book:](src/10StairsStaircase/README.md)              |    Easy    |
+| 24  |                              [RemoveElement](src/removeElement/index.js)                              |               [:green_book:](src/removeElement/README.md)                |    Easy    |
