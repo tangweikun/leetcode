@@ -1,4 +1,4 @@
-export function getIndex(str: string, target: string, pos = 0): number {
+export function getIndex(str: string, target: string, pos: number = 0): number {
   let i = pos
   let j = 0
   const strLen = str.length
@@ -16,7 +16,6 @@ export function getIndex(str: string, target: string, pos = 0): number {
 
   if (j >= targetLen) {
     return i - targetLen
-  } else {
-    return -1
   }
+  return -1
 }
