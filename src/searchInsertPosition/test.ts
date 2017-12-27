@@ -25,3 +25,11 @@ test('searchInsert', () => {
 test('searchInsert', () => {
   expect(searchInsert([1], 2)).toBe(1)
 })
+
+test('searchInsert', () => {
+  expect(searchInsert([1], 1)).toBe(0)
+})
+
+test('searchInsert', () => {
+  expect(searchInsert([1], 2)).toBe(1)
+})
