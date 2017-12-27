@@ -8,14 +8,11 @@ export function getIndex(str: string, target: string, pos: number = 0): number {
     if (str[i] === target[j]) {
       i++
       j++
-    } else {
-      i = i - j + 1
-      j = 0
+      continue
     }
+    i = i - j + 1
+    j = 0
   }
 
-  if (j >= targetLen) {
-    return i - targetLen
-  }
-  return -1
+  return j >= targetLen ? i - targetLen : -1
 }
