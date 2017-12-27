@@ -48,3 +48,4 @@ npm run test
 | 24  |                              [RemoveElement](src/removeElement/index.js)                              |               [:green_book:](src/removeElement/README.md)                |    Easy    |
 | 25  |                               [ImplementStr](src/implementStr/index.js)                               |                [:green_book:](src/implementStr/README.md)                |    Easy    |
 | 26  |                              [LargestNumber](src/largestNumber/index.js)                              |               [:green_book:](src/largestNumber/README.md)                |    Easy    |
+| 27  |                                        [Pow](src/pow/index.js)                                        |                    [:green_book:](src/pow/README.md)                     |    Easy    |
