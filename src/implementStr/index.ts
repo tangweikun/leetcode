@@ -5,9 +5,7 @@ export function strStr(haystack: string, needle: string): number {
   if (needle === '') return 0
   for (let i = 0; i < haystackLen; i++) {
     for (let j = 0; j < needleLen; j++) {
-      if (haystack[i + j] !== needle[j]) {
-        break
-      }
+      if (haystack[i + j] !== needle[j]) break
       if (j === needleLen - 1) return i
     }
 
