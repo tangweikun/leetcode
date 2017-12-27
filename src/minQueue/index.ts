@@ -4,8 +4,7 @@ export const MinQueue = function() {
   this.assistQueue = []
   this.getMin = () => this.assistQueue[0]
 
-  // FIXME:
-  this.push = value => {
+  this.push = (value: number) => {
     const { queue, assistQueue } = this
     let i = assistQueue.length - 1
     while (i >= 0) {
