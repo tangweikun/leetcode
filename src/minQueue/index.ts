@@ -12,11 +12,7 @@ export const MinQueue = function() {
       i--
     }
 
-    if (
-      !queue.length ||
-      !assistQueue.length ||
-      assistQueue[assistQueue.length - 1] < value
-    ) {
+    if (!assistQueue.length || assistQueue[assistQueue.length - 1] < value) {
       assistQueue.push(value)
     }
     queue.push(value)
