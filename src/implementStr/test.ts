@@ -47,3 +47,7 @@ test('strStr-11', () => {
 test('strStr-12', () => {
   expect(strStr(' ', '')).toBe(0)
 })
+
+test('strStr-13', () => {
+  expect(strStr('abtesetest', 'test')).toBe(6)
+})
