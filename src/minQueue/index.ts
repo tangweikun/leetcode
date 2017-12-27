@@ -23,7 +23,6 @@ export const MinQueue = function() {
   }
 
   this.shift = () => {
-    if (this.queue.length < 1) return
     if (this.queue[0] === this.assistQueue[0]) this.assistQueue.shift()
     this.queue.shift()
   }
