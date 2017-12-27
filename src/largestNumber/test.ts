@@ -27,3 +27,7 @@ test('largestNumber-6', () => {
 test('largestNumber-7', () => {
   expect(largestNumber([0])).toBe(0)
 })
+
+test('largestNumber-7', () => {
+  expect(largestNumber([2, 6, 4])).toBe(-1)
+})
