@@ -1,7 +1,7 @@
 // TODO:
 
 export function largestNumber(nums: number[]) {
-  let max = { pos: -1, value: -1 }
+  let max = { pos: -1, value: -Infinity }
   let i = 0
 
   while (i < nums.length) {
