@@ -8,7 +8,7 @@ export function strStr(haystack: string, needle: string): number {
       if (haystack[i + j] !== needle[j]) {
         break
       }
-      return i
+      if (j === needleLen - 1) return i
     }
 
     if (needleLen + i >= haystackLen) return -1
