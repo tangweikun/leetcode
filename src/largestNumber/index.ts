@@ -6,7 +6,10 @@ export function largestNumber(nums: number[]) {
 
   while (i < nums.length) {
     if (max.value < nums[i]) {
-      max = { pos: max.value * 2 <= nums[i] ? i : -1, value: nums[i] }
+      max = {
+        pos: max.value * 2 <= nums[i] ? i : -1,
+        value: nums[i],
+      }
     } else if (max.value < nums[i] * 2) {
       max.pos = -1
     }
