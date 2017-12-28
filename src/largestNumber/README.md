@@ -1,4 +1,4 @@
-# Largest Number Greater Than Twice of Others
+# 26.Largest Number Greater Than Twice of Others
 
 ## Description
 

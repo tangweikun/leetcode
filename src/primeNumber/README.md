@@ -1,4 +1,4 @@
-# isPrime
+# 12.isPrime
 
 ## Description
 

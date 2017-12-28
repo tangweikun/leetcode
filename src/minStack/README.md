@@ -1,4 +1,4 @@
-# Min Stack
+# 10.Min Stack
 
 ## Description
 

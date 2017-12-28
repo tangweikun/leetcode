@@ -1,4 +1,4 @@
-# Is Power of 2
+# 18.Is Power of 2
 
 ## Description
 
