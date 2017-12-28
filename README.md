@@ -50,3 +50,4 @@ npm run test
 | 26  |                              [LargestNumber](src/largestNumber/index.js)                              |               [:green_book:](src/largestNumber/README.md)                |    Easy    |
 | 27  |                                        [Pow](src/pow/index.js)                                        |                    [:green_book:](src/pow/README.md)                     |    Easy    |
 | 28  |                                   [MinQueue](src/minQueue/index.js)                                   |                  [:green_book:](src/minQueue/README.md)                  |   Medium   |
+| 29  |                           [RemoveDuplicates](src/removeDuplicates/index.js)                           |              [:green_book:](src/removeDuplicates/README.md)              |    Easy    |
