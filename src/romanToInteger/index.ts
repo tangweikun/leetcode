@@ -5,14 +5,11 @@ export function romanToInteger(roman: string): number {
   let temp = 0
   let result = 0
   for (let elem of roman) {
-    if (temp < ROMAN_TABLE[elem]) {
-      result -= temp
-      temp = ROMAN_TABLE[elem]
-    } else if (temp > ROMAN_TABLE[elem]) {
-      result += temp
-      temp = ROMAN_TABLE[elem]
-    } else {
+    if (temp === ROMAN_TABLE[elem]) {
       temp += ROMAN_TABLE[elem]
+    } else {
+      result = temp < ROMAN_TABLE[elem] ? result - temp : result + temp
+      temp = ROMAN_TABLE[elem]
     }
   }
 
