@@ -52,3 +52,4 @@ npm run test
 | 28  |                                   [MinQueue](src/minQueue/index.js)                                   |                  [:green_book:](src/minQueue/README.md)                  |   Medium   |
 | 29  |                           [RemoveDuplicates](src/removeDuplicates/index.js)                           |              [:green_book:](src/removeDuplicates/README.md)              |    Easy    |
 | 30  |                             [RomanToInteger](src/romanToInteger/index.js)                             |               [:green_book:](src/romanToInteger/README.md)               |    Easy    |
+| 31  |                            [MaximumSubArray](src/maximumSubArray/index.js)                            |              [:green_book:](src/maximumSubArray/README.md)               |    Easy    |
