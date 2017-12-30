@@ -12,3 +12,4 @@
 * [ ] Checkout TypeScript grammar
 * [ ] Build source code
 * [ ] Use Python
+* [ ] Write article about this repository
