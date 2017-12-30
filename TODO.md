@@ -11,3 +11,4 @@
 * [ ] Dynamic Programming
 * [ ] Checkout TypeScript grammar
 * [ ] Build source code
+* [ ] Use Python
