@@ -54,3 +54,4 @@ npm run test
 | 30  |                             [RomanToInteger](src/romanToInteger/index.js)                             |               [:green_book:](src/romanToInteger/README.md)               |    Easy    |
 | 31  |                            [MaximumSubArray](src/maximumSubArray/index.js)                            |              [:green_book:](src/maximumSubArray/README.md)               |    Easy    |
 | 32  |                                    [PlusOne](src/plusOne/index.js)                                    |                  [:green_book:](src/plusOne/README.md)                   |    Easy    |
+| 33  |                                  [AddBinary](src/addBinary/index.js)                                  |                 [:green_book:](src/addBinary/README.md)                  |    Easy    |
