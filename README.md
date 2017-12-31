@@ -44,7 +44,7 @@ npm run test
 | 20  |                             [MissingInteger](src/missingInteger/index.js)                             |               [:green_book:](src/missingInteger/README.md)               |    Easy    |
 | 21  |                                   [OddTimes](src/oddTimes/index.js)                                   |                  [:green_book:](src/oddTimes/README.md)                  |    Easy    |
 | 22  |                      [GreatestCommonDivisor](src/greatestCommonDivisor/index.js)                      |           [:green_book:](src/greatestCommonDivisor/README.md)            |    Easy    |
-| 23  |                          [10StairsStaircase](src/10StairsStaircase/index.js)                          |             [:green_book:](src/10StairsStaircase/README.md)              |    Easy    |
+| 23  |                             [ClimbingStairs](src/climbingStairs/index.js)                             |               [:green_book:](src/climbingStairs/README.md)               |    Easy    |
 | 24  |                              [RemoveElement](src/removeElement/index.js)                              |               [:green_book:](src/removeElement/README.md)                |    Easy    |
 | 25  |                               [ImplementStr](src/implementStr/index.js)                               |                [:green_book:](src/implementStr/README.md)                |    Easy    |
 | 26  |                              [LargestNumber](src/largestNumber/index.js)                              |               [:green_book:](src/largestNumber/README.md)                |    Easy    |
