@@ -3,10 +3,10 @@
 
 export function getClimbingWays(numOfStairs: number) {
   if (numOfStairs < 3) return numOfStairs
-  let thirdToLast: number = 1
-  let secondToLast: number = 2
-  let temp: number = 0
-  for (let i: number = 3; i <= numOfStairs; i++) {
+  let thirdToLast = 1
+  let secondToLast = 2
+  let temp = 0
+  for (let i = 3; i <= numOfStairs; i++) {
     temp = thirdToLast + secondToLast
     thirdToLast = secondToLast
     secondToLast = temp
