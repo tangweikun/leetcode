@@ -13,13 +13,6 @@ Input: 4
 Output: 2
 ```
 
-## Example1
-
-```javascript
-Input: 4
-Output: 2
-```
-
 ## Example2
 
 ```javascript
