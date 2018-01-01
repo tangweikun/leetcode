@@ -58,3 +58,4 @@ npm run test
 | 34  |                                       [Sqrt](src/sqrt/index.js)                                       |                    [:green_book:](src/sqrt/README.md)                    |    Easy    |
 | 35  |                           [MergeSortedArray](src/mergeSortedArray/index.js)                           |              [:green_book:](src/mergeSortedArray/README.md)              |    Easy    |
 | 36  |                                [CountAndSay](src/countAndSay/index.js)                                |                [:green_book:](src/countAndSay/README.md)                 |    Easy    |
+| 37  |                  [BestTimeToBuyAndSellStock](src/bestTimeToBuyAndSellStock/index.js)                  |         [:green_book:](src/bestTimeToBuyAndSellStock/README.md)          |    Easy    |
