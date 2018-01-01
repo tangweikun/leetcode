@@ -57,3 +57,4 @@ npm run test
 | 33  |                                  [AddBinary](src/addBinary/index.js)                                  |                 [:green_book:](src/addBinary/README.md)                  |    Easy    |
 | 34  |                                       [Sqrt](src/sqrt/index.js)                                       |                    [:green_book:](src/sqrt/README.md)                    |    Easy    |
 | 35  |                           [MergeSortedArray](src/mergeSortedArray/index.js)                           |              [:green_book:](src/mergeSortedArray/README.md)              |    Easy    |
+| 36  |                                [CountAndSay](src/countAndSay/index.js)                                |                [:green_book:](src/countAndSay/README.md)                 |    Easy    |
