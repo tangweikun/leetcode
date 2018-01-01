@@ -1,5 +1,10 @@
-export function countAndSay(n: number): any {
-  return n === 1 ? '1' : say(countAndSay(n - 1))
+export function countAndSay(n: number): string {
+  let result = '1'
+  for (let i = 2; i <= n; i++) {
+    result = say(result)
+  }
+
+  return result
 }
 
 export const say = (str: string): string => {
