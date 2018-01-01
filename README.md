@@ -56,3 +56,4 @@ npm run test
 | 32  |                                    [PlusOne](src/plusOne/index.js)                                    |                  [:green_book:](src/plusOne/README.md)                   |    Easy    |
 | 33  |                                  [AddBinary](src/addBinary/index.js)                                  |                 [:green_book:](src/addBinary/README.md)                  |    Easy    |
 | 34  |                                       [Sqrt](src/sqrt/index.js)                                       |                    [:green_book:](src/sqrt/README.md)                    |    Easy    |
+| 35  |                           [MergeSortedArray](src/mergeSortedArray/index.js)                           |              [:green_book:](src/mergeSortedArray/README.md)              |    Easy    |
