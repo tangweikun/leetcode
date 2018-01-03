@@ -59,3 +59,4 @@ npm run test
 | 35  |                           [MergeSortedArray](src/mergeSortedArray/index.ts)                           |              [:green_book:](src/mergeSortedArray/README.md)              |    Easy    |
 | 36  |                                [CountAndSay](src/countAndSay/index.ts)                                |                [:green_book:](src/countAndSay/README.md)                 |    Easy    |
 | 37  |                  [BestTimeToBuyAndSellStock](src/bestTimeToBuyAndSellStock/index.ts)                  |         [:green_book:](src/bestTimeToBuyAndSellStock/README.md)          |    Easy    |
+| 37  |                 [BestTimeToBuyAndSellStock2](src/bestTimeToBuyAndSellStock2/index.ts)                 |         [:green_book:](src/bestTimeToBuyAndSellStock2/README.md)         |    Easy    |

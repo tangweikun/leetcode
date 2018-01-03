@@ -32,6 +32,6 @@ test('bestTimeToBuyAndSellStock-8', () => {
   expect(maxProfit([3, 4, 1, 2])).toBe(1)
 })
 
-test('bestTimeToBuyAndSellStock-8', () => {
+test('bestTimeToBuyAndSellStock-9', () => {
   expect(maxProfit([3, 2, 6, 5, 0, 3])).toBe(4)
 })
