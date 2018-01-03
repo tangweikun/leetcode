@@ -1,3 +1,6 @@
+// Time Complexity O(n)
+// Space Complexity O(1)
+
 export function maxProfit2(prices: number[]) {
   let maxProfit = 0
   for (let i = 1; i < prices.length; i++) {
