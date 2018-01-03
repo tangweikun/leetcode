@@ -1,10 +1,9 @@
 export function maxProfit2(prices: number[]) {
-  let min = Infinity
-  let result = 0
-  prices.forEach(n => {
-    if (n > min) result += n - min
-    min = n
-  })
+  let maxProfit = 0
+  for (let i = 1; i < prices.length; i++) {
+    const different = prices[i] - prices[i - 1]
+    if (different > 0) maxProfit += different
+  }
 
-  return result
+  return maxProfit
 }
