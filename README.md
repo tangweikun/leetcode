@@ -60,3 +60,4 @@ npm run test
 | 36  |                                [CountAndSay](src/countAndSay/index.ts)                                |                [:green_book:](src/countAndSay/README.md)                 |    Easy    |
 | 37  |                  [BestTimeToBuyAndSellStock](src/bestTimeToBuyAndSellStock/index.ts)                  |         [:green_book:](src/bestTimeToBuyAndSellStock/README.md)          |    Easy    |
 | 38  |                 [BestTimeToBuyAndSellStock2](src/bestTimeToBuyAndSellStock2/index.ts)                 |         [:green_book:](src/bestTimeToBuyAndSellStock2/README.md)         |    Easy    |
+| 39  |                            [ValidPalindrome](src/validPalindrome/index.ts)                            |              [:green_book:](src/validPalindrome/README.md)               |    Easy    |
