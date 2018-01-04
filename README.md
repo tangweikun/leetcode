@@ -61,3 +61,4 @@ npm run test
 | 37  |                  [BestTimeToBuyAndSellStock](src/bestTimeToBuyAndSellStock/index.ts)                  |         [:green_book:](src/bestTimeToBuyAndSellStock/README.md)          |    Easy    |
 | 38  |                 [BestTimeToBuyAndSellStock2](src/bestTimeToBuyAndSellStock2/index.ts)                 |         [:green_book:](src/bestTimeToBuyAndSellStock2/README.md)         |    Easy    |
 | 39  |                            [ValidPalindrome](src/validPalindrome/index.ts)                            |              [:green_book:](src/validPalindrome/README.md)               |    Easy    |
+| 40  |                               [SingleNumber](src/singleNumber/index.ts)                               |                [:green_book:](src/singleNumber/README.md)                |    Easy    |
