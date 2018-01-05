@@ -63,3 +63,4 @@ npm run test
 | 39  |                            [ValidPalindrome](src/validPalindrome/index.ts)                            |              [:green_book:](src/validPalindrome/README.md)               |    Easy    |
 | 40  |                               [SingleNumber](src/singleNumber/index.ts)                               |                [:green_book:](src/singleNumber/README.md)                |    Easy    |
 | 41  |                                    [TwoSum2](src/twoSum2/index.ts)                                    |                  [:green_book:](src/twoSum2/README.md)                   |    Easy    |
+| 42  |                                [RotateArray](src/rotateArray/index.ts)                                |                [:green_book:](src/rotateArray/README.md)                 |    Easy    |
