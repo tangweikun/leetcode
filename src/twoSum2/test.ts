@@ -1,4 +1,4 @@
-import { twoSum2 } from '.'
+import { twoSum2 } from './pro'
 
 test('twoSum2-1', () => {
   expect(twoSum2([2, 7, 11, 15], 9)).toEqual([1, 2])

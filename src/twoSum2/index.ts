@@ -1,3 +1,5 @@
+// Time Complexity O(n)
+
 export function twoSum2(nums: number[], target: number) {
   const hash: number[] = []
   for (let i = 0; i < nums.length; i++) {
