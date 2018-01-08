@@ -5,7 +5,7 @@ export function reverseBits(num: number) {
 
   while (num >= 1) {
     bit += num % 2
-    num = num % 2 === 1 ? (num - 1) / 2 : num / 2
+    num = num % 2 === 1 ? (num - 1) >>> 1 : num >>> 1
     result += Math.pow(2, 31 - i) * bit[i]
     i++
   }
