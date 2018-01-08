@@ -1,4 +1,4 @@
-import { reverseBits, convertNumberToBit } from '.'
+import { reverseBits } from '.'
 
 test('reverseBit-1', () => {
   expect(reverseBits(43261596)).toBe(964176192)
