@@ -47,3 +47,21 @@ describe('isConform-mix', () => {
     expect(isConform(['(', 1, '+', 2, ')', '*', '(', 8, '/', 2, ')', '+', '(', 3, '-', 2, ')', '*', '(', 2, '+', 3, '+', 3, '+', 4, ')'])).toBe(true)
   })
 })
+
+describe('isConform-false', () => {
+  it('-->1', () => {
+    expect(isConform(['(', '(', '+', 2, ')', '*', 2, '/', 1])).toBe(false)
+  })
+  it('-->2', () => {
+    expect(isConform([])).toBe(false)
+  })
+  it('-->3', () => {
+    expect(isConform(['(', ')'])).toBe(false)
+  })
+  it('-->4', () => {
+    expect(isConform(['(', '+', -2, ')', '*', '(', '/', 2, ')', '+', '(', 3, '-', 2, ')', '*', '(', 2, '+', 3, '+', 3, '+', 4, ')'])).toBe(false)
+  })
+  it('-->5', () => {
+    expect(isConform([0, '/', 0])).toBe(false)
+  })
+})
