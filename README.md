@@ -65,3 +65,4 @@ npm run test
 | 41  |                                    [TwoSum2](src/twoSum2/index.ts)                                    |                  [:green_book:](src/twoSum2/README.md)                   |    Easy    |
 | 42  |                                [RotateArray](src/rotateArray/index.ts)                                |                [:green_book:](src/rotateArray/README.md)                 |    Easy    |
 | 43  |                                [ReverseBits](src/reverseBits/index.ts)                                |                [:green_book:](src/reverseBits/README.md)                 |    Easy    |
+| 44  |                                   [24-point](src/24-point/index.ts)                                   |                  [:green_book:](src/24-point/README.md)                  |    Easy    |
