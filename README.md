@@ -66,3 +66,4 @@ npm run test
 | 42  |                                [RotateArray](src/rotateArray/index.ts)                                |                [:green_book:](src/rotateArray/README.md)                 |    Easy    |
 | 43  |                                [ReverseBits](src/reverseBits/index.ts)                                |                [:green_book:](src/reverseBits/README.md)                 |    Easy    |
 | 44  |                                   [24-point](src/24-point/index.ts)                                   |                  [:green_book:](src/24-point/README.md)                  |    Easy    |
+| 45  |                         [FractionalSimplify](src/fractionalSimplify/index.ts)                         |             [:green_book:](src/fractionalSimplify/README.md)             |    Easy    |
