@@ -1,14 +1,14 @@
 import { greatestCommonDivisor } from '../greatestCommonDivisor'
 
 export function fractionalSimplify(numerator: number, denominator: number) {
-  if (numerator === 0) return [0, 0, 0]
+  if (numerator === 0) return [0]
 
   const absNumerator = Math.abs(numerator)
   const absDenominator = Math.abs(denominator)
   const sign = Math.sign(numerator) * Math.sign(denominator)
   const REMINDER = absNumerator % absDenominator
 
-  if (REMINDER === 0) return [sign * absNumerator / absDenominator, 0, 0]
+  if (REMINDER === 0) return [sign * absNumerator / absDenominator]
 
   const GREATEST_COMMON_DIVISOR = greatestCommonDivisor(
     absNumerator,
