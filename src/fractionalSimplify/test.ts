@@ -1,7 +1,7 @@
 import { fractionalSimplify } from '.'
 
 test('fractionalSimplify-1', () => {
-  expect(fractionalSimplify(4, 2)).toEqual([2, 0, 0])
+  expect(fractionalSimplify(4, 2)).toEqual([2])
 })
 
 test('fractionalSimplify-2', () => {
@@ -17,7 +17,7 @@ test('fractionalSimplify-4', () => {
 })
 
 test('fractionalSimplify-5', () => {
-  expect(fractionalSimplify(0, 4)).toEqual([0, 0, 0])
+  expect(fractionalSimplify(0, 4)).toEqual([0])
 })
 
 test('fractionalSimplify-6', () => {
@@ -45,7 +45,7 @@ test('fractionalSimplify-11', () => {
 })
 
 test('fractionalSimplify-12', () => {
-  expect(fractionalSimplify(0, -1)).toEqual([0, 0, 0])
+  expect(fractionalSimplify(0, -1)).toEqual([0])
 })
 
 test('fractionalSimplify-13', () => {

@@ -9,9 +9,16 @@ export function fractionalSimplify(numerator: number, denominator: number) {
   const REMINDER = absNumerator % absDenominator
 
   if (REMINDER === 0) return [sign * absNumerator / absDenominator, 0, 0]
-  
-  const GREATEST_COMMON_DIVISOR = greatestCommonDivisor(absNumerator, absDenominator)
+
+  const GREATEST_COMMON_DIVISOR = greatestCommonDivisor(
+    absNumerator,
+    absDenominator,
+  )
   const QUOTIENT = Math.floor(absNumerator / absDenominator)
 
-  return [sign * QUOTIENT || 0, sign * (REMINDER / GREATEST_COMMON_DIVISOR), absDenominator / GREATEST_COMMON_DIVISOR]
+  return [
+    sign * QUOTIENT || 0,
+    sign * (REMINDER / GREATEST_COMMON_DIVISOR),
+    absDenominator / GREATEST_COMMON_DIVISOR,
+  ]
 }
