@@ -68,3 +68,4 @@ npm run test
 | 44  |                      [MathematicalOperation](src/mathematicalOperation/index.ts)                      |           [:green_book:](src/mathematicalOperation/README.md)            |    Easy    |
 | 45  |                         [FractionalSimplify](src/fractionalSimplify/index.ts)                         |             [:green_book:](src/fractionalSimplify/README.md)             |    Easy    |
 | 46  |                          [FractionCalculate](src/fractionCalculate/index.ts)                          |             [:green_book:](src/fractionCalculate/README.md)              |    Easy    |
+| 47  |                              [HammingWeight](src/hammingWeight/index.ts)                              |               [:green_book:](src/hammingWeight/README.md)                |    Easy    |
