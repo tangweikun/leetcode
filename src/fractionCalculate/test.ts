@@ -44,18 +44,21 @@ describe('fractionCalculate-zero-integer', () => {
     expect(fractionCalculate([1, 1, 2], [0, 1, 3], '/')).toEqual([4, 1, 2])
   })
   it('-->5', () => {
-    expect(fractionCalculate([-1, 1, 2], [0, 1, 3], '/')).toEqual([-4, -1, 2])
+    expect(fractionCalculate([-1, -1, 2], [0, 1, 3], '/')).toEqual([-4, -1, 2])
   })
   it('-->6', () => {
-    expect(fractionCalculate([-1, 1, 2], [0, -1, 3], '/')).toEqual([4, 1, 2])
+    expect(fractionCalculate([-1, -1, 2], [0, -1, 3], '/')).toEqual([4, 1, 2])
   })
   it('-->7', () => {
-    expect(fractionCalculate([-1, 1, 2], [0, -1, 3], '+')).toEqual([-1, -5, 6])
+    expect(fractionCalculate([-1, -1, 2], [0, -1, 3], '+')).toEqual([-1, -5, 6])
   })
   it('-->8', () => {
     expect(fractionCalculate([-10], [0, -3, 8], '+')).toEqual([-10, -3, 8])
   })
   it('-->9', () => {
     expect(fractionCalculate([0], [0], '+')).toEqual([0])
+  })
+  it('-->10', () => {
+    expect(fractionCalculate([0, -2, 3], [0, -1, 3], '+')).toEqual([-1])
   })
 })

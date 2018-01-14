@@ -67,3 +67,4 @@ npm run test
 | 43  |                                [ReverseBits](src/reverseBits/index.ts)                                |                [:green_book:](src/reverseBits/README.md)                 |    Easy    |
 | 44  |                                   [24-point](src/24-point/index.ts)                                   |                  [:green_book:](src/24-point/README.md)                  |    Easy    |
 | 45  |                         [FractionalSimplify](src/fractionalSimplify/index.ts)                         |             [:green_book:](src/fractionalSimplify/README.md)             |    Easy    |
+| 46  |                          [FractionCalculate](src/fractionCalculate/index.ts)                          |             [:green_book:](src/fractionCalculate/README.md)              |    Easy    |
