@@ -55,4 +55,7 @@ describe('fractionCalculate-zero-integer', () => {
   it('-->8', () => {
     expect(fractionCalculate([-10], [0, -3, 8], '+')).toEqual([-10, -3, 8])
   })
+  it('-->9', () => {
+    expect(fractionCalculate([0], [0], '+')).toEqual([0])
+  })
 })
