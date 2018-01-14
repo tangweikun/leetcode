@@ -9,7 +9,7 @@ export function isValidParentheses(str: string): boolean {
     if (isPair(stack[stack.length - 1], arr[i])) stack.pop()
     else {
       if (isClosingParentheses(arr[i])) return false
-      else stack.push(arr[i])
+      stack.push(arr[i])
     }
     i++
   }
