@@ -55,7 +55,7 @@ const priority = {
   '/': 1,
 }
 
-const calculate = (num1: number, num2: number, operator: string) => {
+export const calculate = (num1: number, num2: number, operator: string) => {
   switch (operator) {
     case '+':
       return num1 + num2
