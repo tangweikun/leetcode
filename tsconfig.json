@@ -3,7 +3,7 @@
     "src/**/*.ts"
   ],
   "compilerOptions": {
-    "target": "es3",
+    "target": "es5",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "declaration": true,
