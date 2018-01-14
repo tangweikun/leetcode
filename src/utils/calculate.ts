@@ -1,4 +1,8 @@
-export const calculate = (num1: number, num2: number, operator: string) => {
+export const calculate = (
+  num1: number,
+  num2: number,
+  operator: string,
+): number => {
   switch (operator) {
     case '+':
       return num1 + num2
@@ -11,5 +15,8 @@ export const calculate = (num1: number, num2: number, operator: string) => {
 
     case '/':
       return num1 / num2
+
+    default:
+      return 0
   }
 }

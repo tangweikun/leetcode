@@ -1,8 +1,6 @@
 import { calculate } from '../utils/calculate'
 
 export function mathematicalOperation(arr: any[]) {
-  const operatorStack = []
-  const numberStack = []
   const arr2 = []
   const helpArr2 = []
 
