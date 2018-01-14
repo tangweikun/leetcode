@@ -1,7 +1,11 @@
 import { calculate } from '../24-point'
 import { fractionalSimplify } from '../fractionalSimplify'
 
-export function noDecimal(arr1: number[], arr2: number[], operator: string) {
+export function fractionCalculate(
+  arr1: number[],
+  arr2: number[],
+  operator: string,
+) {
   const [firstInteger, firstNumerator = 0, firstDenominator = 1] = arr1
   const [secondInteger, secondNumerator = 0, secondDenominator = 1] = arr2
   const firstSign = Math.sign(firstInteger) || Math.sign(firstNumerator) || 1
