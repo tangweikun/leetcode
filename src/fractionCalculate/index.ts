@@ -1,4 +1,4 @@
-import { calculate } from '../24-point'
+import { calculate } from '../utils/calculate'
 import { fractionalSimplify } from '../fractionalSimplify'
 
 export function fractionCalculate(
