@@ -1,4 +1,4 @@
-export function isConform(arr: any[]) {
+export function mathematicalOperation(arr: any[]) {
   const operatorStack = []
   const numberStack = []
   const arr2 = []
