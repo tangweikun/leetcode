@@ -71,3 +71,4 @@ npm run test
 | 47  |                              [HammingWeight](src/hammingWeight/index.ts)                              |               [:green_book:](src/hammingWeight/README.md)                |    Easy    |
 | 48  |                                [HappyNumber](src/happyNumber/index.ts)                                |                [:green_book:](src/happyNumber/README.md)                 |    Easy    |
 | 49  |                                   [FizzBuzz](src/fizzBuzz/index.ts)                                   |                  [:green_book:](src/fizzBuzz/README.md)                  |    Easy    |
+| 50  |                            [HammingDistance](src/hammingDistance/index.ts)                            |              [:green_book:](src/hammingDistance/README.md)               |    Easy    |
