@@ -69,3 +69,4 @@ npm run test
 | 45  |                         [FractionalSimplify](src/fractionalSimplify/index.ts)                         |             [:green_book:](src/fractionalSimplify/README.md)             |    Easy    |
 | 46  |                          [FractionCalculate](src/fractionCalculate/index.ts)                          |             [:green_book:](src/fractionCalculate/README.md)              |    Easy    |
 | 47  |                              [HammingWeight](src/hammingWeight/index.ts)                              |               [:green_book:](src/hammingWeight/README.md)                |    Easy    |
+| 48  |                                [HappyNumber](src/happyNumber/index.ts)                                |                [:green_book:](src/happyNumber/README.md)                 |    Easy    |
