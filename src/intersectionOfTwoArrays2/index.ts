@@ -12,7 +12,7 @@ export function intersectionOfTwoArrays2(arr1: number[], arr2: number[]) {
   for (let num of arr2) {
     if (hash[num]) {
       ans.push(num)
-      hash[num] = hash[num] - 1
+      hash[num]--
     }
   }
 
