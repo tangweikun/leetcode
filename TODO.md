@@ -13,3 +13,4 @@
 * [ ] Build source code
 * [ ] Use Python
 * [ ] Write article about this repository
+* [ ] Refactor Keyboard Row
