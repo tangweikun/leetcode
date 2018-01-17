@@ -75,4 +75,5 @@ npm run test
 | 51  |                    [IntersectionOfTwoArrays](src/intersectionOfTwoArrays/index.ts)                    |          [:green_book:](src/intersectionOfTwoArrays/README.md)           |    Easy    |
 | 52  |                   [IntersectionOfTwoArrays2](src/intersectionOfTwoArrays2/index.ts)                   |          [:green_book:](src/intersectionOfTwoArrays2/README.md)          |    Easy    |
 | 53  |                            [IslandPerimeter](src/islandPerimeter/index.ts)                            |              [:green_book:](src/islandPerimeter/README.md)               |    Easy    |
-| 53  |                                [KeyboardRow](src/keyboardRow/index.ts)                                |                [:green_book:](src/keyboardRow/README.md)                 |    Easy    |
+| 54  |                                [KeyboardRow](src/keyboardRow/index.ts)                                |                [:green_book:](src/keyboardRow/README.md)                 |    Easy    |
+| 55  |                          [LongestPalindrome](src/longestPalindrome/index.ts)                          |             [:green_book:](src/longestPalindrome/README.md)              |    Easy    |
