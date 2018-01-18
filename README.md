@@ -78,3 +78,4 @@ npm run test
 | 54  |                                [KeyboardRow](src/keyboardRow/index.ts)                                |                [:green_book:](src/keyboardRow/README.md)                 |    Easy    |
 | 55  |                          [LongestPalindrome](src/longestPalindrome/index.ts)                          |             [:green_book:](src/longestPalindrome/README.md)              |    Easy    |
 | 56  |     [LongestContinuousIncreasingSubsequence](src/longestContinuousIncreasingSubsequence/index.ts)     |   [:green_book:](src/longestContinuousIncreasingSubsequence/README.md)   |    Easy    |
+| 57  |               [LongestHarmoniousSubsequence](src/longestHarmoniousSubsequence/index.ts)               |        [:green_book:](src/longestHarmoniousSubsequence/README.md)        |    Easy    |
