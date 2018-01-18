@@ -1,3 +1,6 @@
+// Time Complexity O(n)
+// Space Complexity O(1)
+
 export function firstUniqChar(str: string) {
   let hash = {}
 
