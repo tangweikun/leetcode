@@ -82,3 +82,4 @@ npm run test
 | 58  |              [FirstUniqueCharacterInAString](src/firstUniqueCharacterInAString/index.ts)              |       [:green_book:](src/firstUniqueCharacterInAString/README.md)        |    Easy    |
 | 59  |                          [FindTheDifference](src/findTheDifference/index.ts)                          |             [:green_book:](src/findTheDifference/README.md)              |    Easy    |
 | 60  |                                  [AddDigits](src/addDigits/index.ts)                                  |                 [:green_book:](src/addDigits/README.md)                  |    Easy    |
+| 61  |                                 [AddStrings](src/addStrings/index.ts)                                 |                 [:green_book:](src/addStrings/README.md)                 |    Easy    |
