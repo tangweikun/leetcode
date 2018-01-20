@@ -86,3 +86,4 @@ npm run test
 | 62  |                             [ArrayPosition1](src/arrayPosition1/index.ts)                             |               [:green_book:](src/arrayPosition1/README.md)               |    Easy    |
 | 63  |                             [ArrangingCoins](src/arrangingCoins/index.ts)                             |               [:green_book:](src/arrangingCoins/README.md)               |    Easy    |
 | 64  |                          [ContainsDuplicate](src/containsDuplicate/index.ts)                          |             [:green_book:](src/containsDuplicate/README.md)              |    Easy    |
+| 65  |                         [ContainsDuplicate2](src/containsDuplicate2/index.ts)                         |             [:green_book:](src/containsDuplicate2/README.md)             |    Easy    |
