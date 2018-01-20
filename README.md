@@ -84,3 +84,4 @@ npm run test
 | 60  |                                  [AddDigits](src/addDigits/index.ts)                                  |                 [:green_book:](src/addDigits/README.md)                  |    Easy    |
 | 61  |                                 [AddStrings](src/addStrings/index.ts)                                 |                 [:green_book:](src/addStrings/README.md)                 |    Easy    |
 | 62  |                             [ArrayPosition1](src/arrayPosition1/index.ts)                             |               [:green_book:](src/arrayPosition1/README.md)               |    Easy    |
+| 63  |                             [ArrangingCoins](src/arrangingCoins/index.ts)                             |               [:green_book:](src/arrangingCoins/README.md)               |    Easy    |
