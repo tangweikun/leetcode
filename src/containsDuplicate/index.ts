@@ -1,4 +1,4 @@
-export function isContainDuplicate(arr: number[]) {
+export function isContainsDuplicate(arr: number[]) {
   const hash = {}
 
   for (let num of arr) {

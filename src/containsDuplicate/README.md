@@ -1,4 +1,4 @@
-# 64.Contain Duplicate
+# 64.Contains Duplicate
 
 ## Description
 
