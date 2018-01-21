@@ -10,7 +10,3 @@ Determine if a positive integer is a power of 2 (eg `16` is a`4` power of `2`, w
 Input: 1
 Output: true
 ```
-
-## From
-
-[LeetCode](https://leetcode.com/problems/power-of-two)
