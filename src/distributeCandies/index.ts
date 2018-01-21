@@ -1,3 +1,3 @@
 export function distributeCandies(candies: number[]) {
-  return Math.min(new Set(candies).size, candies.length / 2)
+  return Math.min(new Set(candies).size, candies.length >> 1)
 }

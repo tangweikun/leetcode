@@ -90,3 +90,4 @@ npm run test
 | 66  |                      [CountBinarySubstrings](src/countBinarySubstrings/index.ts)                      |           [:green_book:](src/countBinarySubstrings/README.md)            |    Easy    |
 | 67  |                              [DetectCapital](src/detectCapital/index.ts)                              |               [:green_book:](src/detectCapital/README.md)                |    Easy    |
 | 68  |                          [DistributeCandies](src/distributeCandies/index.ts)                          |             [:green_book:](src/distributeCandies/README.md)              |    Easy    |
+| 69  |                                [CountPrimes](src/countPrimes/index.ts)                                |                [:green_book:](src/countPrimes/README.md)                 |    Easy    |
