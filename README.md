@@ -94,3 +94,4 @@ npm run test
 | 70  |                                      [Base7](src/base7/index.ts)                                      |                   [:green_book:](src/base7/README.md)                    |    Easy    |
 | 71  |                               [PowerOfThree](src/powerOfThree/index.ts)                               |                [:green_book:](src/powerOfThree/README.md)                |    Easy    |
 | 72  |                                [PowerOfFour](src/powerOfFour/index.ts)                                |                [:green_book:](src/powerOfFour/README.md)                 |    Easy    |
+| 73  |                  [NumberOfSegmentsInAString](src/numberOfSegmentsInAString/index.ts)                  |         [:green_book:](src/numberOfSegmentsInAString/README.md)          |    Easy    |
