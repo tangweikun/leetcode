@@ -1,4 +1,4 @@
-import { isPowerOf2 } from './pro'
+import { isPowerOf2 } from '.'
 
 describe('isPowerOf2-->true', () => {
   it('-->1', () => {
