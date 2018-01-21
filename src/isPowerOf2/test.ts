@@ -22,10 +22,4 @@ describe('isPowerOf2-->false', () => {
   it('-->6', () => {
     expect(isPowerOf2(18)).toBe(false)
   })
-  it('-->7', () => {
-    expect(isPowerOf2(0)).toBe(false)
-  })
-  it('-->8', () => {
-    expect(isPowerOf2(-3)).toBe(false)
-  })
 })
