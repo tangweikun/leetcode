@@ -88,3 +88,4 @@ npm run test
 | 64  |                          [ContainsDuplicate](src/containsDuplicate/index.ts)                          |             [:green_book:](src/containsDuplicate/README.md)              |    Easy    |
 | 65  |                         [ContainsDuplicate2](src/containsDuplicate2/index.ts)                         |             [:green_book:](src/containsDuplicate2/README.md)             |    Easy    |
 | 66  |                      [CountBinarySubstrings](src/countBinarySubstrings/index.ts)                      |           [:green_book:](src/countBinarySubstrings/README.md)            |    Easy    |
+| 67  |                              [DetectCapital](src/detectCapital/index.ts)                              |               [:green_book:](src/detectCapital/README.md)                |    Easy    |
