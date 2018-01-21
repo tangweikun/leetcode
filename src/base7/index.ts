@@ -1,12 +1,12 @@
 export function convertToBase7(n: number) {
   const sign = n >= 0 ? '' : '-'
   let res = ''
-  n = Math.abs(n)
+  let num = Math.abs(n)
 
-  while (n >= 7) {
-    res = n % 7 + res
-    n = (n - n % 7) / 7
+  while (num > 0) {
+    res = num % 7 + res
+    num = ~~(num / 7)
   }
 
-  return sign + n % 7 + res
+  return sign + res
 }
