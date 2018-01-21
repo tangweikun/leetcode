@@ -1,4 +1,4 @@
-import { isPowerOf2 } from '.'
+import { isPowerOf2 } from './pro'
 
 describe('isPowerOf2-->true', () => {
   it('-->1', () => {
@@ -21,5 +21,11 @@ describe('isPowerOf2-->false', () => {
   })
   it('-->6', () => {
     expect(isPowerOf2(18)).toBe(false)
+  })
+  it('-->7', () => {
+    expect(isPowerOf2(-4)).toBe(false)
+  })
+  it('-->8', () => {
+    expect(isPowerOf2(0)).toBe(false)
   })
 })

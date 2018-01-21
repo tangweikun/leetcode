@@ -2,7 +2,7 @@
 
 ## Description
 
-Determine if a positive integer is a power of 2 (eg `16` is a`4` power of `2`, which returns`true`; `18` is not a power of`2` and returns `false`)
+Given an integer, write a function to determine if it is a power of two.
 
 ## Example
 
@@ -10,3 +10,7 @@ Determine if a positive integer is a power of 2 (eg `16` is a`4` power of `2`, w
 Input: 1
 Output: true
 ```
+
+## From
+
+[LeetCode](https://leetcode.com/problems/power-of-two)
