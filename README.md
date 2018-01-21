@@ -92,3 +92,4 @@ npm run test
 | 68  |                          [DistributeCandies](src/distributeCandies/index.ts)                          |             [:green_book:](src/distributeCandies/README.md)              |    Easy    |
 | 69  |                                [CountPrimes](src/countPrimes/index.ts)                                |                [:green_book:](src/countPrimes/README.md)                 |    Easy    |
 | 70  |                                      [Base7](src/base7/index.ts)                                      |                   [:green_book:](src/base7/README.md)                    |    Easy    |
+| 71  |                               [PowerOfThree](src/powerOfThree/index.ts)                               |                [:green_book:](src/powerOfThree/README.md)                |    Easy    |
