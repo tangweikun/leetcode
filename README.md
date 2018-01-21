@@ -96,3 +96,4 @@ npm run test
 | 72  |                                [PowerOfFour](src/powerOfFour/index.ts)                                |                [:green_book:](src/powerOfFour/README.md)                 |    Easy    |
 | 73  |                  [NumberOfSegmentsInAString](src/numberOfSegmentsInAString/index.ts)                  |         [:green_book:](src/numberOfSegmentsInAString/README.md)          |    Easy    |
 | 74  |                              [ReverseString](src/reverseString/index.ts)                              |               [:green_book:](src/reverseString/README.md)                |    Easy    |
+| 75  |                             [ReverseString2](src/reverseString2/index.ts)                             |               [:green_book:](src/reverseString2/README.md)               |    Easy    |
