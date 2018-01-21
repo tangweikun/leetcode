@@ -1,7 +1,7 @@
-# LONG-CLAW
+# leetcode
 
 * Welcome to point out my mistake
-* Welcome to add useful test case for LONG-CRAW
+* Welcome to add useful test case
 * Welcome to improve the method if you have better solution
 * Welcome to fork or pull request
 
@@ -12,8 +12,8 @@
 ## Getting Start
 
 ```javascript
-git clone https://github.com/tangweikun/long-claw.git
-cd long-claw
+git clone https://github.com/tangweikun/leetcode.git
+cd leetcode
 npm install
 npm run test
 ```
