@@ -6,7 +6,7 @@ export function intersectionOfTwoArrays2(arr1: number[], arr2: number[]) {
   const ans = []
 
   for (let num of arr1) {
-    hash[num] = hash[num] ? hash[num] + 1 : 1
+    hash[num] = ~~hash[num] + 1
   }
 
   for (let num of arr2) {
