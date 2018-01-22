@@ -37,5 +37,5 @@ test('uglyNumber-9', () => {
 })
 
 test('uglyNumber-10', () => {
-  expect(isUgly(0)).toBe(true)
+  expect(isUgly(0)).toBe(false)
 })
