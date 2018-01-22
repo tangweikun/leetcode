@@ -1,11 +1,12 @@
 // TODO: Copy from other place, should understand it later
 
 export function validPalindrome(str: string) {
-  for (let i = 0; i < str.length / 2; i++) {
-    if (str.charAt(i) !== str.charAt(str.length - 1 - i)) {
-      let j = str.length - 1 - i
+  for (let left = 0; left < str.length / 2; left++) {
+    if (str.charAt(left) !== str.charAt(str.length - 1 - left)) {
+      let right = str.length - 1 - left
       return (
-        isPalindromeRange(str, i + 1, j) || isPalindromeRange(str, i, j - 1)
+        isPalindromeRange(str, left + 1, right) ||
+        isPalindromeRange(str, left, right - 1)
       )
     }
   }
@@ -13,9 +14,9 @@ export function validPalindrome(str: string) {
   return true
 }
 
-function isPalindromeRange(str: string, i: number, j: number) {
-  for (let k = i; k <= i + (j - i) / 2; k++) {
-    if (str.charAt(k) !== str.charAt(j - k + i)) return false
+function isPalindromeRange(str: string, left: number, right: number) {
+  for (let i = left; i <= left + (right - left) / 2; i++) {
+    if (str.charAt(i) !== str.charAt(right - i + left)) return false
   }
 
   return true
