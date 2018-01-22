@@ -98,3 +98,4 @@ npm run test
 | 74  |                              [ReverseString](src/reverseString/index.ts)                              |               [:green_book:](src/reverseString/README.md)                |    Easy    |
 | 75  |                             [ReverseString2](src/reverseString2/index.ts)                             |               [:green_book:](src/reverseString2/README.md)               |    Easy    |
 | 76  |                     [ReverseWordsInAString3](src/reverseWordsInAString3/index.ts)                     |           [:green_book:](src/reverseWordsInAString3/README.md)           |    Easy    |
+| 77  |                     [ReverseVowelsOfAString](src/reverseVowelsOfAString/index.ts)                     |           [:green_book:](src/reverseVowelsOfAString/README.md)           |    Easy    |
