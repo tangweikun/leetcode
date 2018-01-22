@@ -102,3 +102,4 @@ npm run test
 | 78  |                                 [UglyNumber](src/uglyNumber/index.ts)                                 |                 [:green_book:](src/uglyNumber/README.md)                 |    Easy    |
 | 79  |                               [ValidAnagram](src/validAnagram/index.ts)                               |                [:green_book:](src/validAnagram/README.md)                |    Easy    |
 | 80  |                           [ValidPalindrome2](src/validPalindrome2/index.ts)                           |              [:green_book:](src/validPalindrome2/README.md)              |    Easy    |
+| 81  |                                [WordPattern](src/wordPattern/index.ts)                                |                [:green_book:](src/wordPattern/README.md)                 |    Easy    |
