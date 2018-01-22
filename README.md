@@ -100,3 +100,4 @@ npm run test
 | 76  |                     [ReverseWordsInAString3](src/reverseWordsInAString3/index.ts)                     |           [:green_book:](src/reverseWordsInAString3/README.md)           |    Easy    |
 | 77  |                     [ReverseVowelsOfAString](src/reverseVowelsOfAString/index.ts)                     |           [:green_book:](src/reverseVowelsOfAString/README.md)           |    Easy    |
 | 78  |                                 [UglyNumber](src/uglyNumber/index.ts)                                 |                 [:green_book:](src/uglyNumber/README.md)                 |    Easy    |
+| 79  |                               [ValidAnagram](src/validAnagram/index.ts)                               |                [:green_book:](src/validAnagram/README.md)                |    Easy    |
