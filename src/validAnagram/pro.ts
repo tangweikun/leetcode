@@ -1,3 +1,6 @@
+// Time complexity : O(nlogn)
+// Space complexity : O(1)
+
 export function isAnagram(s: string, t: string) {
   if (s.length !== t.length) return false
 
