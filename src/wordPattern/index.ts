@@ -4,9 +4,9 @@ export function wordPattern(pattern: string, str: string) {
 
   const strSet = new Set(strToArr)
   const patternSet = new Set(pattern)
-  if (strSet.size !== patternSet.size) return false
-
-  if (strToArr.length !== pattern.length) return false
+  if (strSet.size !== patternSet.size || strToArr.length !== pattern.length) {
+    return false
+  }
 
   const hash = new Map()
 
