@@ -103,3 +103,4 @@ npm run test
 | 79  |                               [ValidAnagram](src/validAnagram/index.ts)                               |                [:green_book:](src/validAnagram/README.md)                |    Easy    |
 | 80  |                           [ValidPalindrome2](src/validPalindrome2/index.ts)                           |              [:green_book:](src/validPalindrome2/README.md)              |    Easy    |
 | 81  |                                [WordPattern](src/wordPattern/index.ts)                                |                [:green_book:](src/wordPattern/README.md)                 |    Easy    |
+| 81  |            [BinaryNumberWithAlternatingBits](src/binaryNumberWithAlternatingBits/index.ts)            |      [:green_book:](src/binaryNumberWithAlternatingBits/README.md)       |    Easy    |
