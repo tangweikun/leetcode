@@ -20,8 +20,8 @@ npm run test
 
 ## Contents
 
-|  #  |                                                 Title                                                 |                                  README                                  | Difficulty |
-| :-: | :---------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :--------: |
+|  #  |                                                 Title                                                 |                                  README                                  | Difficulty | LeetCode                                                                                  |
+| :-: | :---------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :--------: | ----------------------------------------------------------------------------------------- |
 |  1  |                          [CompareAppVersion](src/compareAppVersion/index.ts)                          |             [:green_book:](src/compareAppVersion/README.md)              |    Easy    |
 |  2  |             [ConvertFunctionNameToCamelCase](src/convertFunctionNameToCamelCase/index.ts)             |       [:green_book:](src/convertFunctionNameToCamelCase/README.md)       |    Easy    |
 |  3  |                          [FindUniqueElement](src/findUniqueElement/index.ts)                          |             [:green_book:](src/findUniqueElement/README.md)              |    Easy    |
@@ -29,7 +29,7 @@ npm run test
 |  5  |                                 [ListDelete](src/listDelete/index.ts)                                 |                 [:green_book:](src/listDelete/README.md)                 |    Easy    |
 |  6  |                                 [ListInsert](src/listInsert/index.ts)                                 |                 [:green_book:](src/listInsert/README.md)                 |    Easy    |
 |  7  |                        [LongestCommonPrefix](src/longestCommonPrefix/index.ts)                        |            [:green_book:](src/longestCommonPrefix/README.md)             |    Easy    |
-|  8  | [LongestSubstringWithoutRepeatingCharacters](src/longestSubstringWithoutRepeatingCharacters/index.ts) | [:green_book:](src/longestSubstringWithoutRepeatingCharacters/README.md) |    Easy    |
+|  8  | [LongestSubstringWithoutRepeatingCharacters](src/longestSubstringWithoutRepeatingCharacters/index.ts) | [:green_book:](src/longestSubstringWithoutRepeatingCharacters/README.md) |    Easy    | [LeetCode](https://leetcode.com/articles/longest-substring-without-repeating-characters/) |
 |  9  |                                        [Map](src/map/index.ts)                                        |                    [:green_book:](src/map/README.md)                     |    Easy    |
 | 10  |                                   [MinStack](src/minStack/index.ts)                                   |                  [:green_book:](src/minStack/README.md)                  |   Medium   |
 | 11  |                           [PalindromeNumber](src/palindromeNumber/index.ts)                           |              [:green_book:](src/palindromeNumber/README.md)              |    Easy    |
