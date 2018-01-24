@@ -110,3 +110,4 @@ npm run test
 | 86  |                             [FindPivotIndex](src/findPivotIndex/index.ts)                             |               [:green_book:](src/findPivotIndex/README.md)               |    Easy    |
 | 87  |                       [LicenseKeyFormatting](src/licenseKeyFormatting/index.ts)                       |            [:green_book:](src/licenseKeyFormatting/README.md)            |    Easy    |
 | 88  |                [LongestUncommonSubsequence1](src/longestUncommonSubsequence1/index.ts)                |        [:green_book:](src/longestUncommonSubsequence1/README.md)         |    Easy    |
+| 89  |                            [MajorityElement](src/majorityElement/index.ts)                            |              [:green_book:](src/majorityElement/README.md)               |    Easy    |
