@@ -105,3 +105,4 @@ npm run test
 | 81  |                                [WordPattern](src/wordPattern/index.ts)                                |                [:green_book:](src/wordPattern/README.md)                 |    Easy    |
 | 82  |            [BinaryNumberWithAlternatingBits](src/binaryNumberWithAlternatingBits/index.ts)            |      [:green_book:](src/binaryNumberWithAlternatingBits/README.md)       |    Easy    |
 | 83  |                   [FindAllAnagramsInAString](src/findAllAnagramsInAString/index.ts)                   |          [:green_book:](src/findAllAnagramsInAString/README.md)          |    Easy    |
+| 84  |                    [FactorialTrailingZeroes](src/factorialTrailingZeroes/index.ts)                    |          [:green_book:](src/factorialTrailingZeroes/README.md)           |    Easy    |
