@@ -106,3 +106,4 @@ npm run test
 | 82  |            [BinaryNumberWithAlternatingBits](src/binaryNumberWithAlternatingBits/index.ts)            |      [:green_book:](src/binaryNumberWithAlternatingBits/README.md)       |    Easy    |
 | 83  |                   [FindAllAnagramsInAString](src/findAllAnagramsInAString/index.ts)                   |          [:green_book:](src/findAllAnagramsInAString/README.md)          |    Easy    |
 | 84  |                    [FactorialTrailingZeroes](src/factorialTrailingZeroes/index.ts)                    |          [:green_book:](src/factorialTrailingZeroes/README.md)           |    Easy    |
+| 85  |        [FindSmallestLetterGreaterThanTarget](src/findSmallestLetterGreaterThanTarget/index.ts)        |    [:green_book:](src/findSmallestLetterGreaterThanTarget/README.md)     |    Easy    |
