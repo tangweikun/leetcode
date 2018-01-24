@@ -107,3 +107,4 @@ npm run test
 | 83  |                   [FindAllAnagramsInAString](src/findAllAnagramsInAString/index.ts)                   |          [:green_book:](src/findAllAnagramsInAString/README.md)          |    Easy    |
 | 84  |                    [FactorialTrailingZeroes](src/factorialTrailingZeroes/index.ts)                    |          [:green_book:](src/factorialTrailingZeroes/README.md)           |    Easy    |
 | 85  |        [FindSmallestLetterGreaterThanTarget](src/findSmallestLetterGreaterThanTarget/index.ts)        |    [:green_book:](src/findSmallestLetterGreaterThanTarget/README.md)     |    Easy    |
+| 86  |                             [FindPivotIndex](src/findPivotIndex/index.ts)                             |               [:green_book:](src/findPivotIndex/README.md)               |    Easy    |
