@@ -15,5 +15,6 @@ export function hasAlternatingBits(num: number) {
     num2 -= Math.pow(2, j)
     j += 2
   }
+
   return num2 === 0
 }

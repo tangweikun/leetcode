@@ -8,7 +8,7 @@ Given a positive integer, check whether it has alternating bits: namely, if two 
 
 ```javascript
 Input: 5
-Output: True
+Output: true
 Explanation:
 The binary representation of 5 is: 101
 ```
@@ -17,7 +17,7 @@ The binary representation of 5 is: 101
 
 ```javascript
 Input: 7
-Output: False
+Output: false
 Explanation:
 The binary representation of 7 is: 111.
 ```
@@ -26,7 +26,7 @@ The binary representation of 7 is: 111.
 
 ```javascript
 Input: 11
-Output: False
+Output: false
 Explanation:
 The binary representation of 11 is: 1011.
 ```
@@ -35,7 +35,7 @@ The binary representation of 11 is: 1011.
 
 ```javascript
 Input: 10
-Output: True
+Output: true
 Explanation:
 The binary representation of 10 is: 1010.
 ```
