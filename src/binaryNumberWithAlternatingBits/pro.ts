@@ -1,3 +1,6 @@
+// Time Complexity: O(1)
+// Space complexity: O(1)
+
 export function hasAlternatingBits(num: number) {
   const binary = num.toString(2)
 
