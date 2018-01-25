@@ -11,17 +11,10 @@ export function findRelativeRanks(nums: any[]) {
 
 function getHash(nums: any[]) {
   let hash = []
+  const medals = ['Gold Medal', 'Silver Medal', 'Bronze Medal']
 
   for (let i = 0; i < nums.length; i++) {
-    if (i === 0) {
-      hash[nums[i]] = 'Gold Medal'
-    } else if (i === 1) {
-      hash[nums[i]] = 'Silver Medal'
-    } else if (i === 2) {
-      hash[nums[i]] = 'Bronze Medal'
-    } else {
-      hash[nums[i]] = i + 1 + ''
-    }
+    hash[nums[i]] = medals[i] || `${i + 1}`
   }
 
   return hash
