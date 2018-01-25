@@ -1,21 +1,11 @@
 export function findRelativeRanks(nums: any[]) {
-  const res = []
-  const hash = getHash([...nums].sort((x, y) => y - x))
-
-  for (let i = 0; i < nums.length; i++) {
-    res.push(hash[nums[i]])
-  }
-
-  return res
-}
-
-function getHash(nums: any[]) {
-  let hash = []
+  let preRanks: any[] = []
   const medals = ['Gold Medal', 'Silver Medal', 'Bronze Medal']
+  const sorted = [...nums].sort((x, y) => y - x)
 
-  for (let i = 0; i < nums.length; i++) {
-    hash[nums[i]] = medals[i] || `${i + 1}`
-  }
+  sorted.forEach((num, i) => {
+    preRanks[num] = medals[i] || `${i + 1}`
+  })
 
-  return hash
+  return nums.map(num => preRanks[num])
 }
