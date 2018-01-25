@@ -3,7 +3,7 @@ export function findComplement(num: number) {
   let i = 0
 
   while (num > 0) {
-    sum += (num & 1) === 0 ? Math.pow(2, i) : 0
+    sum += ((num & 1) ^ 1) * Math.pow(2, i)
     num >>= 1
     i++
   }
