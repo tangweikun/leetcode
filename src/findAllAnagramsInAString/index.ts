@@ -1,3 +1,5 @@
+// HELP:
+
 export function findAnagrams(s: string, p: string) {
   let len = p.length
   let hash = {}
