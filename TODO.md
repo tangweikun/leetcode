@@ -14,3 +14,4 @@
 * [ ] Use Python
 * [ ] Write article about this repository
 * [ ] Refactor Keyboard Row
+* [ ] Add category tag for each problem
