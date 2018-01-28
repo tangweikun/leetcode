@@ -1,11 +1,8 @@
 export function judgeSquareSum(num: number) {
-  let i = ~~Math.sqrt(num)
-
-  while (i >= 0) {
+  for (let i = 0; i <= Math.sqrt(num); i++) {
     if (Number.isInteger(Math.sqrt(num - i * i))) {
       return true
     }
-    i--
   }
 
   return false
