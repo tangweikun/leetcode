@@ -15,3 +15,4 @@
 * [ ] Refactor Keyboard Row
 * [ ] Add category tag for each problem
 * [ ] Linked List
+* [ ] Binary Search
