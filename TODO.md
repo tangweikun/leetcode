@@ -1,6 +1,5 @@
 * [x] Add test coverage
 * [ ] Use Async/await with Jest
-* [ ] Add lint rules
 * [x] Add Contents for old method
 * [x] Update old method's README
 * [ ] Remove lodash package
@@ -15,3 +14,4 @@
 * [ ] Write article about this repository
 * [ ] Refactor Keyboard Row
 * [ ] Add category tag for each problem
+* [ ] Linked List
