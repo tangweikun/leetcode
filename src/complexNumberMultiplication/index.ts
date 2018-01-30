@@ -1,6 +1,6 @@
 export function complexNumberMultiply(a: string, b: string) {
-  const foo = a.replace(/i/, '').split('+')
-  const bar = b.replace(/i/, '').split('+')
+  const foo = a.split(/\+|i/)
+  const bar = b.split(/\+|i/)
   const a0 = +foo[0]
   const a1 = +foo[1]
   const b0 = +bar[0]
