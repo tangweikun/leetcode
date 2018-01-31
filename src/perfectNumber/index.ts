@@ -1,9 +1,7 @@
 export function checkPerfectNumber(num: number) {
-  if (num <= 2) return false
-
-  let i = 2
-  let sum = 1
-  let limit = num / 2
+  let i = 1
+  let sum = 0
+  let limit = Math.sqrt(num)
 
   while (i <= limit) {
     if (num % i === 0) {
@@ -13,5 +11,5 @@ export function checkPerfectNumber(num: number) {
     i++
   }
 
-  return sum === num
+  return num > 1 && sum === num
 }

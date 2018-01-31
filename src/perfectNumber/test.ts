@@ -23,3 +23,11 @@ test('PerfectNumber-5', () => {
 test('PerfectNumber-6', () => {
   expect(checkPerfectNumber(12)).toBe(false)
 })
+
+test('PerfectNumber-7', () => {
+  expect(checkPerfectNumber(-6)).toBe(false)
+})
+
+test('PerfectNumber-8', () => {
+  expect(checkPerfectNumber(0)).toBe(false)
+})
