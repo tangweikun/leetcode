@@ -1,13 +1,7 @@
 export function reverseVowels(words: string) {
   const VOWELS = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
-  const hash = []
   let res = ''
-
-  for (let i = words.length - 1; i >= 0; i--) {
-    if (VOWELS.indexOf(words.charAt(i)) !== -1) {
-      hash.push(i)
-    }
-  }
+  const hash = getHash(words, VOWELS)
 
   for (let j = 0; j < words.length; j++) {
     if (VOWELS.indexOf(words.charAt(j)) !== -1) {
@@ -19,4 +13,15 @@ export function reverseVowels(words: string) {
   }
 
   return res
+}
+
+const getHash = (words: string, VOWELS: string[]) => {
+  const hash = []
+  for (let i = words.length - 1; i >= 0; i--) {
+    if (VOWELS.indexOf(words.charAt(i)) !== -1) {
+      hash.push(i)
+    }
+  }
+
+  return hash
 }

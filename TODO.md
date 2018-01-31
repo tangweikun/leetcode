@@ -16,3 +16,4 @@
 * [ ] Add category tag for each problem
 * [ ] Linked List
 * [ ] Binary Search
+* [ ] CSS Animation
