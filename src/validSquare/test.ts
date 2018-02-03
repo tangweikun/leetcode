@@ -11,3 +11,7 @@ test('validSquare-1', () => {
 test('validSquare-1', () => {
   expect(validSquare([2, 2], [2, 4], [5, 2], [5, 4])).toBe(false)
 })
+
+test('validSquare-1', () => {
+  expect(validSquare([0, 0], [0, 0], [0, 0], [0, 0])).toBe(false)
+})

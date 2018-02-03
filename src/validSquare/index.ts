@@ -26,12 +26,6 @@ export function validSquare(
     }
   }
 
-  if (arr1.length > arr2.length) {
-    return arr1.length === 4 && arr2.length === 2 && arr2[0] === arr1[0] * 2
-  }
-  if (arr1.length < arr2.length) {
-    return arr1.length === 2 && arr2.length === 4 && arr1[0] === arr2[0] * 2
-  }
-
-  return false
+  // 4 * 2 = 8
+  return arr1.length * arr2.length === 8
 }
