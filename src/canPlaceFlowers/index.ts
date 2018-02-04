@@ -1,17 +1,14 @@
 export function canPlaceFlowers(flowerbed: number[], n: number) {
   let i = 0
-  let res = 0
 
-  while (i < flowerbed.length) {
-    if (flowerbed[i] === 1) {
-      i++
-    } else if (flowerbed[i - 1] !== 1 && flowerbed[i + 1] !== 1) {
-      res++
+  while (i < flowerbed.length && n > 0) {
+    if (~~flowerbed[i - 1] + ~~flowerbed[i + 1] + flowerbed[i] === 0) {
+      n--
       i++
     }
 
     i++
   }
 
-  return n <= res
+  return n === 0
 }
