@@ -23,3 +23,7 @@ test('FindPeakElement-5', () => {
 test('FindPeakElement-6', () => {
   expect(findPeakElement([6, 3, 4, 6, 7, 6])).toBe(4)
 })
+
+test('FindPeakElement-7', () => {
+  expect(findPeakElement([1, 7, 4, 6, 2, 6])).toBe(1)
+})
