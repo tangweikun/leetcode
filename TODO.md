@@ -17,3 +17,4 @@
 * [ ] Linked List
 * [ ] Binary Search
 * [ ] CSS Animation
+* [ ] Awesome leetcode
