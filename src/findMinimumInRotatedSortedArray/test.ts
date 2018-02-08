@@ -1,4 +1,4 @@
-import { findMin } from '.'
+import { findMin } from './pro2'
 
 test('FindMinimumInRotatedSortedArray-1', () => {
   expect(findMin([1, 2, 3])).toBe(1)
