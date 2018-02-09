@@ -1,0 +1,18 @@
+export function maximumSwap(num: number) {
+  const s = (num + '').split('')
+  let max = num
+
+  for (let i = 0; i < s.length; i++) {
+    for (let j = i + 1; j < s.length; j++) {
+      let t = s[i]
+      s[i] = s[j]
+      s[j] = t
+      max = Math.max(max, +s.join(''))
+      t = s[i]
+      s[i] = s[j]
+      s[j] = t
+    }
+  }
+
+  return max
+}
