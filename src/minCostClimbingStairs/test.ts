@@ -4,6 +4,10 @@ test('MinCostClimbingStairs-1', () => {
   expect(minCostClimbingStairs([10])).toBe(0)
 })
 
+test('MinCostClimbingStairs-1', () => {
+  expect(minCostClimbingStairs([0, 0, 0, 0])).toBe(0)
+})
+
 test('MinCostClimbingStairs-2', () => {
   expect(minCostClimbingStairs([10, 15, 20])).toBe(15)
 })
