@@ -1,4 +1,7 @@
-export function minsubarraySumLen(nums: number[], sum: number) {
+// Time complexity: O(n^2)
+// Space complexity: O(n)
+
+export function minSubArrayLen(nums: number[], sum: number) {
   const subarraySum = []
   let res = Infinity
 
