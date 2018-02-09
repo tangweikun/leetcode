@@ -12,6 +12,8 @@ export function maximumSwap(num: number) {
       s[i] = s[j]
       s[j] = t
     }
+
+    if (max > num) return max
   }
 
   return max
