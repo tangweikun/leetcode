@@ -26,8 +26,8 @@ npm run test
 |  2  |             [ConvertFunctionNameToCamelCase](src/convertFunctionNameToCamelCase/index.ts)             |       [:green_book:](src/convertFunctionNameToCamelCase/README.md)       |    Easy    |
 |  3  |                          [FindUniqueElement](src/findUniqueElement/index.ts)                          |             [:green_book:](src/findUniqueElement/README.md)              |    Easy    |
 |  4  |                           [LengthOfLastWord](src/lengthOfLastWord/index.ts)                           |              [:green_book:](src/lengthOfLastWord/README.md)              |    Easy    |
-|  5  |                                 [ListDelete](src/listDelete/index.ts)                                 |                 [:green_book:](src/listDelete/README.md)                 |    Easy    |
-|  6  |                                 [ListInsert](src/listInsert/index.ts)                                 |                 [:green_book:](src/listInsert/README.md)                 |    Easy    |
+|  5  |                                [PLACEHOLDER](src/listDelete/index.ts)                                 |                 [:green_book:](src/listDelete/README.md)                 |    Easy    |
+|  6  |                                [PLACEHOLDER](src/listInsert/index.ts)                                 |                 [:green_book:](src/listInsert/README.md)                 |    Easy    |
 |  7  |                        [LongestCommonPrefix](src/longestCommonPrefix/index.ts)                        |            [:green_book:](src/longestCommonPrefix/README.md)             |    Easy    |
 |  8  | [LongestSubstringWithoutRepeatingCharacters](src/longestSubstringWithoutRepeatingCharacters/index.ts) | [:green_book:](src/longestSubstringWithoutRepeatingCharacters/README.md) |    Easy    | [LeetCode](https://leetcode.com/articles/longest-substring-without-repeating-characters/)   |
 |  9  |                                        [Map](src/map/index.ts)                                        |                    [:green_book:](src/map/README.md)                     |    Easy    |
