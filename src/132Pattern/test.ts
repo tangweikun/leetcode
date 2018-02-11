@@ -1,4 +1,4 @@
-import { find132pattern } from './pro'
+import { find132pattern } from '.'
 
 test('132Pattern-1', () => {
   expect(find132pattern([1, 2])).toBe(false)
@@ -24,6 +24,6 @@ test('132Pattern-6', () => {
   expect(find132pattern([1, 3, 2])).toBe(true)
 })
 
-test('132Pattern-6', () => {
+test('132Pattern-7', () => {
   expect(find132pattern([1, 0, 1, -4, -3])).toBe(false)
 })
