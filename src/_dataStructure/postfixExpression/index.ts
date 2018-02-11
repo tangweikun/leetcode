@@ -1,4 +1,4 @@
-import { calculate } from '../../utils/calculate'
+import { calculate } from '../../_utils/calculate'
 
 export function postfixExpression(expression: any[]) {
   let stack = []
