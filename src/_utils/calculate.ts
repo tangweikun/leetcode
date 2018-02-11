@@ -1,4 +1,4 @@
-export const calculate = (
+export const _calculate = (
   num1: number,
   num2: number,
   operator: string,

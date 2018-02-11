@@ -1,4 +1,4 @@
-import { calculate } from '../_utils/calculate'
+import { _calculate } from '../_utils'
 import { fractionalSimplify } from '../fractionalSimplify'
 
 export function fractionCalculate(
@@ -25,7 +25,7 @@ export function fractionCalculate(
       return fractionalSimplify(foo * secondDenominator, bar * firstDenominator)
     default:
       return fractionalSimplify(
-        calculate(foo * secondDenominator, bar * firstDenominator, operator),
+        _calculate(foo * secondDenominator, bar * firstDenominator, operator),
         firstDenominator * secondDenominator,
       )
   }
