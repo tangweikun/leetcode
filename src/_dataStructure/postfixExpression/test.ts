@@ -15,3 +15,7 @@ test('PostfixExpression-3', () => {
     24,
   )
 })
+
+test('PostfixExpression-3', () => {
+  expect(postfixExpression([2, 3, '+', 3, 1, '-', '-', 2, '*'])).toBe(6)
+})

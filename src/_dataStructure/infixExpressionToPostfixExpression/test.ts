@@ -7,6 +7,32 @@ test('InfixExpression-1', () => {
 })
 
 test('InfixExpression-2', () => {
+  expect(infixExpression([9, '+', 2])).toEqual([9, 2, '+'])
+})
+
+test('InfixExpression-3', () => {
+  expect(
+    infixExpression([
+      '(',
+      '(',
+      2,
+      '+',
+      3,
+      ')',
+      '-',
+      '(',
+      3,
+      '-',
+      1,
+      ')',
+      ')',
+      '*',
+      2,
+    ]),
+  ).toEqual([2, 3, '+', 3, 1, '-', '-', 2, '*'])
+})
+
+test('InfixExpression-4', () => {
   expect(
     infixExpression([
       '(',
