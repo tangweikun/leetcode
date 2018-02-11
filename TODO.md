@@ -18,3 +18,4 @@
 * [ ] Binary Search
 * [ ] CSS Animation
 * [ ] Awesome leetcode
+* [ ] 静态链表
