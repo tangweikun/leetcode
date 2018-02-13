@@ -10,6 +10,12 @@ LinkedList_3.push(1)
 LinkedList_3.push(2)
 LinkedList_3.push(3)
 
+const LinkedList_4 = new LinkedList()
+LinkedList_4.push(1)
+LinkedList_4.push(3)
+LinkedList_4.push(4)
+LinkedList_4.insert(1, 2)
+
 describe('LinkedList-Init', () => {
   it('-->1', () => {
     expect(LinkedList_1).toEqual({ head: null })
@@ -46,5 +52,14 @@ describe('LinkedList-GetElem', () => {
   })
   it('-->5', () => {
     expect(LinkedList_3.getElem(0)).toBe('Node Not Exist')
+  })
+})
+
+describe('LinkedList-Insert', () => {
+  it('-->1', () => {
+    expect(LinkedList_4.getElem(1)).toBe(1)
+  })
+  it('-->2', () => {
+    expect(LinkedList_4.getElem(2)).toBe(2)
   })
 })
