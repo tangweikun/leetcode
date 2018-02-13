@@ -9,9 +9,9 @@ LinkedList_5.reverse()
 
 describe('LinkedList-Reverse', () => {
   it('-->1', () => {
-    expect(LinkedList_5.getElem(1)).toBe(4)
+    expect(LinkedList_5.getElem(1).data).toBe(4)
   })
   it('-->2', () => {
-    expect(LinkedList_5.getElem(2)).toBe(3)
+    expect(LinkedList_5.getElem(2).data).toBe(3)
   })
 })

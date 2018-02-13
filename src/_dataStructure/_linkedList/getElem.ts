@@ -13,5 +13,5 @@ export function getElem(head, i: number) {
     return 'Node Not Exist'
   }
 
-  return p.data
+  return p
 }
