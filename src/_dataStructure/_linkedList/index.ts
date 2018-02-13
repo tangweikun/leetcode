@@ -80,15 +80,15 @@ LinkedList.prototype.getElem = function(i: number) {
 //   p.next = q.next
 // }
 
-// LinkedList.prototype.reverse = function() {
-//   let prev = null
-//   let curr = this.head
-//   while (curr) {
-//     let nextTmp = curr.next
-//     curr.next = prev
-//     prev = curr
-//     curr = nextTmp
-//   }
+LinkedList.prototype.reverse = function() {
+  let prev = null
+  let curr = this.head
+  while (curr) {
+    let nextTmp = curr.next
+    curr.next = prev
+    prev = curr
+    curr = nextTmp
+  }
 
-//   this.head.next = prev
-// }
+  this.head = prev
+}
