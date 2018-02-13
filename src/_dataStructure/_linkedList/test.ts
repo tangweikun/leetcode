@@ -17,13 +17,6 @@ LinkedList_4.push(4)
 // LinkedList_4.insert(2, 2)
 // LinkedList_4.delete(3)
 
-const LinkedList_5 = new LinkedList()
-LinkedList_5.push(1)
-LinkedList_5.push(2)
-LinkedList_5.push(3)
-LinkedList_5.push(4)
-LinkedList_5.reverse()
-
 describe('LinkedList-Init', () => {
   it('-->1', () => {
     expect(LinkedList_1.head).toBe(null)
@@ -45,24 +38,6 @@ describe('LinkedList-Push', () => {
   })
 })
 
-describe('LinkedList-GetElem', () => {
-  it('-->1', () => {
-    expect(LinkedList_3.getElem(1)).toBe(1)
-  })
-  it('-->2', () => {
-    expect(LinkedList_3.getElem(2)).toBe(2)
-  })
-  it('-->3', () => {
-    expect(LinkedList_3.getElem(3)).toBe(3)
-  })
-  it('-->4', () => {
-    expect(LinkedList_3.getElem(4)).toBe('Node Not Exist')
-  })
-  it('-->5', () => {
-    expect(LinkedList_3.getElem(0)).toBe('Node Not Exist')
-  })
-})
-
 // describe('LinkedList-Insert', () => {
 //   it('-->1', () => {
 //     expect(LinkedList_4.getElem(1)).toBe(1)
@@ -77,12 +52,3 @@ describe('LinkedList-GetElem', () => {
 //     expect(LinkedList_4.getElem(3)).toBe(4)
 //   })
 // })
-
-describe('LinkedList-Reverse', () => {
-  it('-->1', () => {
-    expect(LinkedList_5.getElem(1)).toBe(4)
-  })
-  it('-->2', () => {
-    expect(LinkedList_5.getElem(2)).toBe(3)
-  })
-})
