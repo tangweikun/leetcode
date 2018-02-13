@@ -1,8 +1,8 @@
 import { reverse } from './reverse'
 import { getElem } from './getElem'
 
-function Node(value: any) {
-  this.value = value
+function Node(data: any) {
+  this.data = data
   this.next = null
 }
 
@@ -14,8 +14,8 @@ export function LinkedList() {
   this.getElem = (pos: number) => getElem(this.head, pos)
 }
 
-LinkedList.prototype.push = function(value: any) {
-  const node = new Node(value)
+LinkedList.prototype.push = function(data: any) {
+  const node = new Node(data)
 
   if (!this.head) {
     this.head = node
@@ -28,7 +28,7 @@ LinkedList.prototype.push = function(value: any) {
   }
 }
 
-// LinkedList.prototype.insert = function(i: number, value: any) {
+// LinkedList.prototype.insert = function(i: number, data: any) {
 //   let j = 1
 //   let p = this.head
 
@@ -41,12 +41,12 @@ LinkedList.prototype.push = function(value: any) {
 //     throw new Error('Node Not Exist')
 //   }
 
-//   const s = new Node(value)
+//   const s = new Node(data)
 //   s.next = p.next
 //   p.next = s
 // }
 
-// LinkedList.prototype.delete = function(i: number, value: any) {
+// LinkedList.prototype.delete = function(i: number, data: any) {
 //   let j = 1
 //   let p = this.head
 

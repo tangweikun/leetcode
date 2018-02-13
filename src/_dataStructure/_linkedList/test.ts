@@ -25,16 +25,16 @@ describe('LinkedList-Init', () => {
 
 describe('LinkedList-Push', () => {
   it('-->1', () => {
-    expect(LinkedList_2.head.value).toBe(2)
+    expect(LinkedList_2.head.data).toBe(2)
   })
   it('-->2', () => {
-    expect(LinkedList_3.head.value).toBe(1)
+    expect(LinkedList_3.head.data).toBe(1)
   })
   it('-->3', () => {
-    expect(LinkedList_3.head.next.value).toBe(2)
+    expect(LinkedList_3.head.next.data).toBe(2)
   })
   it('-->4', () => {
-    expect(LinkedList_3.head.next.next.value).toBe(3)
+    expect(LinkedList_3.head.next.next.data).toBe(3)
   })
 })
 
