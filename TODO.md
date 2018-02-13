@@ -21,3 +21,5 @@
 * [ ] 静态链表
 * [ ] Fetch Question and something awesome
 * [ ] KMP 模式匹配算法
+* [ ] Singly Linked List
+* [ ] Doubly Linked List
