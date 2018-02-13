@@ -2,7 +2,7 @@ export function LinkedList() {
   this.head = null
 }
 
-LinkedList.prototype.push = function(val) {
+LinkedList.prototype.push = function(val: any) {
   const node = { value: val, next: null }
 
   if (!this.head) {
