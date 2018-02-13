@@ -1,3 +1,6 @@
+import { reverse } from './reverse'
+import { getElem } from './getElem'
+
 function Node(value: any) {
   this.value = value
   this.next = null
@@ -5,13 +8,10 @@ function Node(value: any) {
 
 export function LinkedList() {
   this.head = null
-}
 
-LinkedList.prototype = {
-  insert: function() {},
-  push: function() {},
-  getElem: function() {},
-  delete: function() {},
+  this.reverse = () => (this.head = reverse(this.head))
+
+  this.getElem = (pos: number) => getElem(this.head, pos)
 }
 
 LinkedList.prototype.push = function(value: any) {
@@ -26,23 +26,6 @@ LinkedList.prototype.push = function(value: any) {
     }
     current.next = node
   }
-}
-
-// Time Complexity: O(n)
-LinkedList.prototype.getElem = function(i: number) {
-  let j = 1
-  let p = this.head
-
-  while (p && j < i) {
-    p = p.next
-    j++
-  }
-
-  if (!p || j > i) {
-    return 'Node Not Exist'
-  }
-
-  return p.value
 }
 
 // LinkedList.prototype.insert = function(i: number, value: any) {
@@ -79,16 +62,3 @@ LinkedList.prototype.getElem = function(i: number) {
 //   const q = p.next
 //   p.next = q.next
 // }
-
-LinkedList.prototype.reverse = function() {
-  let prev = null
-  let curr = this.head
-  while (curr) {
-    let nextTmp = curr.next
-    curr.next = prev
-    prev = curr
-    curr = nextTmp
-  }
-
-  this.head = prev
-}

@@ -26,7 +26,7 @@ LinkedList_5.reverse()
 
 describe('LinkedList-Init', () => {
   it('-->1', () => {
-    expect(LinkedList_1).toEqual({ head: null })
+    expect(LinkedList_1.head).toBe(null)
   })
 })
 
