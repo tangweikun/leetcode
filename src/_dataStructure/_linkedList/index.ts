@@ -1,10 +1,7 @@
 import { reverse } from './reverse'
 import { getElem } from './getElem'
-
-function Node(data: any) {
-  this.data = data
-  this.next = null
-}
+import { addToHead } from './addToHead'
+import { Node } from './node'
 
 export function LinkedList() {
   this.head = null
@@ -12,6 +9,8 @@ export function LinkedList() {
   this.reverse = () => (this.head = reverse(this.head))
 
   this.getElem = (pos: number) => getElem(this.head, pos)
+
+  this.addToHead = (element: any) => (this.head = addToHead(this.head, element))
 }
 
 LinkedList.prototype.push = function(data: any) {
