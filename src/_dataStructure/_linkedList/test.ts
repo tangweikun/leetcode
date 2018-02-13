@@ -14,7 +14,8 @@ const LinkedList_4 = new LinkedList()
 LinkedList_4.push(1)
 LinkedList_4.push(3)
 LinkedList_4.push(4)
-LinkedList_4.insert(1, 2)
+LinkedList_4.insert(2, 2)
+LinkedList_4.delete(3)
 
 describe('LinkedList-Init', () => {
   it('-->1', () => {
@@ -61,5 +62,11 @@ describe('LinkedList-Insert', () => {
   })
   it('-->2', () => {
     expect(LinkedList_4.getElem(2)).toBe(2)
+  })
+})
+
+describe('LinkedList-delete', () => {
+  it('-->1', () => {
+    expect(LinkedList_4.getElem(3)).toBe(4)
   })
 })
