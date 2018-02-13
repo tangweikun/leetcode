@@ -7,12 +7,18 @@ export function LinkedList() {
   this.head = null
 }
 
+LinkedList.prototype = {
+  insert: function() {},
+  push: function() {},
+  getElem: function() {},
+  delete: function() {},
+}
+
 LinkedList.prototype.push = function(value: any) {
   const node = new Node(value)
 
   if (!this.head) {
-    this.head = {}
-    this.head.next = node
+    this.head = node
   } else {
     let current = this.head
     while (current.next) {
@@ -25,7 +31,7 @@ LinkedList.prototype.push = function(value: any) {
 // Time Complexity: O(n)
 LinkedList.prototype.getElem = function(i: number) {
   let j = 1
-  let p = this.head.next
+  let p = this.head
 
   while (p && j < i) {
     p = p.next
@@ -39,37 +45,50 @@ LinkedList.prototype.getElem = function(i: number) {
   return p.value
 }
 
-LinkedList.prototype.insert = function(i: number, value: any) {
-  let j = 1
-  let p = this.head
+// LinkedList.prototype.insert = function(i: number, value: any) {
+//   let j = 1
+//   let p = this.head
 
-  while (p && j < i) {
-    p = p.next
-    j++
-  }
+//   while (p && j < i) {
+//     p = p.next
+//     j++
+//   }
 
-  if (!p || j > i) {
-    throw new Error('Node Not Exist')
-  }
+//   if (!p || j > i) {
+//     throw new Error('Node Not Exist')
+//   }
 
-  const s = new Node(value)
-  s.next = p.next
-  p.next = s
-}
+//   const s = new Node(value)
+//   s.next = p.next
+//   p.next = s
+// }
 
-LinkedList.prototype.delete = function(i: number, value: any) {
-  let j = 1
-  let p = this.head
+// LinkedList.prototype.delete = function(i: number, value: any) {
+//   let j = 1
+//   let p = this.head
 
-  while (p && j < i) {
-    p = p.next
-    j++
-  }
+//   while (p && j < i) {
+//     p = p.next
+//     j++
+//   }
 
-  if (!p || j > i) {
-    throw new Error('Node Not Exist')
-  }
+//   if (!p || j > i) {
+//     throw new Error('Node Not Exist')
+//   }
 
-  const q = p.next
-  p.next = q.next
-}
+//   const q = p.next
+//   p.next = q.next
+// }
+
+// LinkedList.prototype.reverse = function() {
+//   let prev = null
+//   let curr = this.head
+//   while (curr) {
+//     let nextTmp = curr.next
+//     curr.next = prev
+//     prev = curr
+//     curr = nextTmp
+//   }
+
+//   this.head.next = prev
+// }

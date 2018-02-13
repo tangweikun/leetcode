@@ -14,8 +14,15 @@ const LinkedList_4 = new LinkedList()
 LinkedList_4.push(1)
 LinkedList_4.push(3)
 LinkedList_4.push(4)
-LinkedList_4.insert(2, 2)
-LinkedList_4.delete(3)
+// LinkedList_4.insert(2, 2)
+// LinkedList_4.delete(3)
+
+const LinkedList_5 = new LinkedList()
+LinkedList_5.push(1)
+LinkedList_5.push(2)
+LinkedList_5.push(3)
+LinkedList_5.push(4)
+// LinkedList_5.reverse()
 
 describe('LinkedList-Init', () => {
   it('-->1', () => {
@@ -25,16 +32,16 @@ describe('LinkedList-Init', () => {
 
 describe('LinkedList-Push', () => {
   it('-->1', () => {
-    expect(LinkedList_2.head.next.value).toBe(2)
+    expect(LinkedList_2.head.value).toBe(2)
   })
   it('-->2', () => {
-    expect(LinkedList_3.head.next.value).toBe(1)
+    expect(LinkedList_3.head.value).toBe(1)
   })
   it('-->3', () => {
-    expect(LinkedList_3.head.next.next.value).toBe(2)
+    expect(LinkedList_3.head.next.value).toBe(2)
   })
   it('-->4', () => {
-    expect(LinkedList_3.head.next.next.next.value).toBe(3)
+    expect(LinkedList_3.head.next.next.value).toBe(3)
   })
 })
 
@@ -56,17 +63,26 @@ describe('LinkedList-GetElem', () => {
   })
 })
 
-describe('LinkedList-Insert', () => {
-  it('-->1', () => {
-    expect(LinkedList_4.getElem(1)).toBe(1)
-  })
-  it('-->2', () => {
-    expect(LinkedList_4.getElem(2)).toBe(2)
-  })
-})
+// describe('LinkedList-Insert', () => {
+//   it('-->1', () => {
+//     expect(LinkedList_4.getElem(1)).toBe(1)
+//   })
+//   it('-->2', () => {
+//     expect(LinkedList_4.getElem(2)).toBe(2)
+//   })
+// })
 
-describe('LinkedList-delete', () => {
-  it('-->1', () => {
-    expect(LinkedList_4.getElem(3)).toBe(4)
-  })
-})
+// describe('LinkedList-delete', () => {
+//   it('-->1', () => {
+//     expect(LinkedList_4.getElem(3)).toBe(4)
+//   })
+// })
+
+// describe('LinkedList-Reverse', () => {
+//   it('-->1', () => {
+//     expect(LinkedList_5.getElem(1)).toBe(4)
+//   })
+//   it('-->2', () => {
+//     expect(LinkedList_5.getElem(2)).toBe(3)
+//   })
+// })
