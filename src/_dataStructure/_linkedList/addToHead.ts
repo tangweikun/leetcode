@@ -1,6 +1,6 @@
 import { Node } from './node'
 
-export function addToHead(head, element: any) {
+export function addToHead(head: any, element: any) {
   var newNode = new Node(element)
 
   newNode.next = head
