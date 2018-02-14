@@ -33,6 +33,19 @@ LinkedList.prototype.push = function(data: any) {
   }
 }
 
+LinkedList.prototype.deleteNode = function(element: any) {
+  let currentNode = this.head
+
+  while (currentNode) {
+    if (currentNode.data === element) {
+      currentNode.data = currentNode.next.data
+      currentNode.next = currentNode.next.next
+    }
+
+    currentNode = currentNode.next
+  }
+}
+
 // LinkedList.prototype.insert = function(i: number, data: any) {
 //   let j = 1
 //   let p = this.head

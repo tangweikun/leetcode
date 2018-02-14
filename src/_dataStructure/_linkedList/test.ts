@@ -17,6 +17,12 @@ LinkedList_4.push(4)
 // LinkedList_4.insert(2, 2)
 // LinkedList_4.delete(3)
 
+const LinkedList_5 = new LinkedList()
+LinkedList_5.push(11)
+LinkedList_5.push(22)
+LinkedList_5.push(33)
+LinkedList_5.deleteNode(22)
+
 describe('LinkedList-Init', () => {
   it('-->1', () => {
     expect(LinkedList_1.head).toBe(null)
@@ -47,8 +53,14 @@ describe('LinkedList-Push', () => {
 //   })
 // })
 
-// describe('LinkedList-delete', () => {
-//   it('-->1', () => {
-//     expect(LinkedList_4.getElem(3)).toBe(4)
-//   })
-// })
+describe('LinkedList-DeleteNode', () => {
+  it('-->1', () => {
+    expect(LinkedList_5.getElem(1).data).toBe(11)
+  })
+  it('-->1', () => {
+    expect(LinkedList_5.getElem(2).data).toBe(33)
+  })
+  it('-->1', () => {
+    expect(LinkedList_5.getElem(3)).toBe('Node Not Exist')
+  })
+})
