@@ -2,8 +2,8 @@
 
 export function findAnagrams(s: string, p: string) {
   let len = p.length
-  let hash = {}
-  let ans = {}
+  let hash: any = {}
+  let ans: any = {}
   let res = []
 
   for (let i = 0, l = p.length; i < l; i++) {
@@ -19,7 +19,6 @@ export function findAnagrams(s: string, p: string) {
       let index = s.charCodeAt(i - len) - 97
       hash[index] = ~~hash[index] - 1
     }
-
     if (i + 1 >= len) {
       help() && res.push(i - len + 1)
     }

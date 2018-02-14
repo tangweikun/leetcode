@@ -3,6 +3,7 @@ import { getElem } from './getElem'
 import { addToHead } from './addToHead'
 import { Node } from './node'
 import { removeHead } from './removeHead'
+import { find } from './find'
 
 export function LinkedList() {
   this.head = null
@@ -14,6 +15,8 @@ export function LinkedList() {
   this.addToHead = (element: any) => (this.head = addToHead(this.head, element))
 
   this.removeHead = (element: any) => (this.head = removeHead(this.head))
+
+  this.find = (element: any) => find(this.head, element)
 }
 
 LinkedList.prototype.push = function(data: any) {
