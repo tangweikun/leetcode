@@ -17,7 +17,6 @@ export function findAnagrams(s: string, p: string) {
     end++
 
     if (count == 0) anagrams.push(begin)
-
     if (end - begin == p.length) {
       key = s.charCodeAt(begin)
       if (hash[key] >= 0) count++

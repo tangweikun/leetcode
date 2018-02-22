@@ -1,4 +1,4 @@
-export function islandPerimeter(grid: [number][]) {
+export function islandPerimeter(grid: number[][]) {
   let sum = 0
 
   for (let h = 0; h < grid.length; h++) {

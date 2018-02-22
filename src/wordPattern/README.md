@@ -36,3 +36,7 @@ Output: false
 ## Note
 
 You may assume pattern contains only lowercase letters, and str contains lowercase letters separated by a single space.
+
+## From
+
+[LeetCode](https://leetcode.com/problems/word-pattern)
