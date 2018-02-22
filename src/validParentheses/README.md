@@ -11,3 +11,7 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 Input: {[()]}
 Output: true
 ```
+
+## From
+
+[LeetCode](https://leetcode.com/problems/valid-parentheses)
