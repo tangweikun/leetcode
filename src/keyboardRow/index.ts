@@ -1,38 +1,47 @@
-const row1 = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p']
-const row2 = ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l']
-const row3 = ['z', 'x', 'c', 'v', 'b', 'n', 'm']
+const keyboard: any = {
+  q: 1,
+  w: 1,
+  e: 1,
+  r: 1,
+  t: 1,
+  y: 1,
+  u: 1,
+  i: 1,
+  o: 1,
+  p: 1,
+  a: 2,
+  s: 2,
+  d: 2,
+  f: 2,
+  g: 2,
+  h: 2,
+  j: 2,
+  k: 2,
+  l: 2,
+  z: 3,
+  x: 3,
+  c: 3,
+  v: 3,
+  b: 3,
+  n: 3,
+  m: 3,
+}
 
 export function findWords(words: string[]) {
   const ans: string[] = []
   for (let i = 0; i < words.length; i++) {
-    if (getFlag(words[i])) ans.push(words[i])
+    if (isSameRow(words[i].toLowerCase())) ans.push(words[i])
   }
+
   return ans
 }
 
-const getFlag = (word: string) => {
-  let temp = null
-
-  for (let char of word) {
-    if (row1.indexOf(char.toLowerCase()) !== -1) {
-      if (temp === null) {
-        temp = 'row1'
-      } else if (temp !== 'row1') {
-        return false
-      }
-    } else if (row2.indexOf(char.toLowerCase()) !== -1) {
-      if (temp === null) {
-        temp = 'row2'
-      } else if (temp !== 'row2') {
-        return false
-      }
-    } else {
-      if (temp === null) {
-        temp = 'row3'
-      } else if (temp !== 'row3') {
-        return false
-      }
+const isSameRow = (word: string) => {
+  for (let i = 1; i < word.length; i++) {
+    if (keyboard[word[i]] !== keyboard[word[i - 1]]) {
+      return false
     }
   }
+
   return true
 }
