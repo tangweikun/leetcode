@@ -6,8 +6,9 @@ export function isValidParentheses(str: string): boolean {
   let i = 0
   let stack = []
   while (i < len) {
-    if (isPair(stack[stack.length - 1], arr[i])) stack.pop()
-    else {
+    if (isPair(stack[stack.length - 1], arr[i])) {
+      stack.pop()
+    } else {
       if (isClosingParentheses(arr[i])) return false
       stack.push(arr[i])
     }
