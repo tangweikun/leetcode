@@ -47,4 +47,14 @@ export default class BinarySearchTree {
 
     return false
   }
+
+  getMin() {
+    let node = this.root
+
+    while (node.left) {
+      node = node.left
+    }
+
+    return node.data
+  }
 }
