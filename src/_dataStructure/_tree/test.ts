@@ -1,10 +1,8 @@
-import { Tree } from '.'
+import BinarySearchTree from '.'
 
-describe('Tree-Create', () => {
-  const tree1 = new Tree('CEO')
+describe('BinarySearchTree-Create', () => {
+  const tree1 = new BinarySearchTree()
   it('-->1', () => {
-    expect(tree1).toEqual({
-      _root: { children: [], data: 'CEO', parent: null },
-    })
+    expect(tree1).toEqual({ root: null })
   })
 })
