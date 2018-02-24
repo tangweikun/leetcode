@@ -3,11 +3,13 @@ export function repeatedSubstringPattern(s: string) {
   let i = 0
 
   while (i < s.length) {
-    if (subString[0] !== s[i] || s.length % subString.length) {
-      subString = s.slice(0, i + 1)
-      i++
-    } else if (subString === s.slice(i, i + subString.length)) {
-      i += subString.length
+    const len = subString.length
+    if (
+      subString[0] === s[i] &&
+      !(s.length % len) &&
+      subString === s.slice(i, i + len)
+    ) {
+      i += len
       if (i === s.length) return true
     } else {
       subString = s.slice(0, i + 1)
