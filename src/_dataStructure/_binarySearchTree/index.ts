@@ -6,33 +6,45 @@ export default class BinarySearchTree {
     this.root = null
   }
 
-  push(value: any) {
-    const root = this.root
-
-    if (!root) {
-      this.root = new Node(value)
-      return
-    }
-
-    let currentNode = root
-    const newNode = new Node(value)
-
-    while (currentNode) {
-      if (value < currentNode.value) {
-        if (!currentNode.left) {
-          currentNode.left = newNode
-          break
+  add(data: any) {
+    const node = new Node(data)
+    if (!this.root) {
+      this.root = node
+    } else {
+      let current = this.root
+      while (current) {
+        if (node.data < current.data) {
+          if (!current.left) {
+            current.left = node
+            break
+          }
+          current = current.left
+        } else if (node.data > current.data) {
+          if (!current.right) {
+            current.right = node
+            break
+          }
+          current = current.right
         } else {
-          currentNode = currentNode.left
-        }
-      } else {
-        if (!currentNode.right) {
-          currentNode.right = newNode
           break
-        } else {
-          currentNode = currentNode.right
         }
       }
     }
+  }
+
+  contains(data: any) {
+    let current = this.root
+    while (current) {
+      if (data === current.data) {
+        return true
+      }
+      if (data < current.data) {
+        current = current.left
+      } else {
+        current = current.right
+      }
+    }
+
+    return false
   }
 }
