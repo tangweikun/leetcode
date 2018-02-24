@@ -1,4 +1,4 @@
-import { LinkedList } from '.'
+import { LinkedList } from '..'
 
 const LinkedList_3 = new LinkedList()
 LinkedList_3.push(11)

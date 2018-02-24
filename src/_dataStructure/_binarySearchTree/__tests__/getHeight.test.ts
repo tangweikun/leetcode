@@ -1,5 +1,5 @@
-import BinarySearchTree from '.'
-import { getHeight } from './getHeight'
+import BinarySearchTree from '..'
+import { getHeight } from '../getHeight'
 
 describe('BinarySearchTree-getHeight', () => {
   const tree1 = new BinarySearchTree()

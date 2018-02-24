@@ -1,5 +1,5 @@
-import BinarySearchTree from '.'
-import { getMin } from './getMin'
+import BinarySearchTree from '..'
+import { getMin } from '../getMin'
 
 describe('BinarySearchTree-getMin', () => {
   const tree1 = new BinarySearchTree()

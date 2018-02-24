@@ -1,5 +1,5 @@
-import BinarySearchTree from '.'
-import { getMax } from './getMax'
+import BinarySearchTree from '..'
+import { getMax } from '../getMax'
 
 describe('BinarySearchTree-getMax', () => {
   const tree1 = new BinarySearchTree()

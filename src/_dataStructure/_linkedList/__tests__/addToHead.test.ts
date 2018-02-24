@@ -1,4 +1,4 @@
-import { LinkedList } from '.'
+import { LinkedList } from '..'
 
 const LinkedList_1 = new LinkedList()
 LinkedList_1.addToHead(1)

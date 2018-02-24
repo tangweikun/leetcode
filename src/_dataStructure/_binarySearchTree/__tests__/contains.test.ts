@@ -1,4 +1,4 @@
-import BinarySearchTree from '.'
+import BinarySearchTree from '..'
 
 describe('BinarySearchTree-Contains', () => {
   const tree1 = new BinarySearchTree()
