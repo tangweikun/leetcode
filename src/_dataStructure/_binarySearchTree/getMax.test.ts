@@ -1,12 +1,12 @@
 import BinarySearchTree from '.'
 
-describe('BinarySearchTree-getMin', () => {
+describe('BinarySearchTree-getMax', () => {
   const tree1 = new BinarySearchTree()
   tree1.add(2)
   tree1.add(1)
   tree1.add(3)
   it('-->1', () => {
-    expect(tree1.getMin()).toBe(1)
+    expect(tree1.getMax()).toBe(3)
   })
 
   const tree2 = new BinarySearchTree()
@@ -19,11 +19,11 @@ describe('BinarySearchTree-getMin', () => {
   tree2.add(6)
   tree2.add(8)
   it('-->2', () => {
-    expect(tree2.getMin()).toBe(2)
+    expect(tree2.getMax()).toBe(8)
   })
 
   const tree3 = new BinarySearchTree()
   it('-->3', () => {
-    expect(tree3.getMin()).toBe(null)
+    expect(tree3.getMax()).toBe(null)
   })
 })
