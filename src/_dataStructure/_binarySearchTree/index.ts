@@ -1,4 +1,4 @@
-import Node from './node'
+import { TreeNode } from '..'
 
 export default class BinarySearchTree {
   root: any
@@ -7,7 +7,7 @@ export default class BinarySearchTree {
   }
 
   add(data: any) {
-    const node = new Node(data)
+    const node = new TreeNode(data)
     if (!this.root) {
       this.root = node
     } else {
