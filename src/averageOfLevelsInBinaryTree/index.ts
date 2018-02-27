@@ -8,7 +8,7 @@ export function averageOfLevels(root: any) {
     if (node == null) return
 
     if (levels.length < height + 1) levels.push([])
-    levels[height].push(node.data)
+    levels[height].push(node.val)
 
     visit(node.left, height + 1)
     visit(node.right, height + 1)

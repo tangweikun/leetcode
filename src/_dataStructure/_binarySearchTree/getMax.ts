@@ -5,5 +5,5 @@ export function getMax(node: any) {
     node = node.right
   }
 
-  return node.data
+  return node.val
 }

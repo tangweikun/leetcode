@@ -6,20 +6,20 @@ export default class BinarySearchTree {
     this.root = null
   }
 
-  add(data: any) {
-    const node = new TreeNode(data)
+  add(val: any) {
+    const node = new TreeNode(val)
     if (!this.root) {
       this.root = node
     } else {
       let current = this.root
       while (current) {
-        if (node.data < current.data) {
+        if (node.val < current.val) {
           if (!current.left) {
             current.left = node
             break
           }
           current = current.left
-        } else if (node.data > current.data) {
+        } else if (node.val > current.val) {
           if (!current.right) {
             current.right = node
             break
@@ -32,13 +32,13 @@ export default class BinarySearchTree {
     }
   }
 
-  contains(data: any) {
+  contains(val: any) {
     let current = this.root
     while (current) {
-      if (data === current.data) {
+      if (val === current.val) {
         return true
       }
-      if (data < current.data) {
+      if (val < current.val) {
         current = current.left
       } else {
         current = current.right

@@ -5,5 +5,5 @@ export function getMin(node: any) {
     node = node.left
   }
 
-  return node.data
+  return node.val
 }

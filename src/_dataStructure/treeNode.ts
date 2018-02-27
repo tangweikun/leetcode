@@ -1,9 +1,9 @@
 export class TreeNode {
-  data: any
+  val: any
   left: any
   right: any
-  constructor(data: any) {
-    this.data = data
+  constructor(val: any) {
+    this.val = val
     this.left = null
     this.right = null
   }
