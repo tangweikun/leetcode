@@ -7,7 +7,7 @@ test('MaximumDepthOfBinaryTree-1', () => {
     right: {
       data: 20,
       left: { data: 15, left: null, right: null },
-      right: { 7: 15, left: null, right: null },
+      right: { data: 15, left: null, right: null },
     },
   }
   expect(maxDepth(tree1)).toBe(3)
