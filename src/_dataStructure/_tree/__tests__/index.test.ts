@@ -38,4 +38,8 @@ test('tree-2', () => {
   const df: any[] = []
   tree.traverseDF((treeNode: any) => df.push(treeNode.val))
   expect(df).toEqual(['five', 'six', 'two', 'seven', 'three', 'four', 'one'])
+
+  const bf: any[] = []
+  tree.traverseBF((treeNode: any) => bf.push(treeNode.val))
+  expect(bf).toEqual(['one', 'two', 'three', 'four', 'five', 'six', 'seven'])
 })

@@ -16,3 +16,18 @@ Tree.prototype.traverseDF = function(callback: any) {
     callback(currentNode)
   }
 }
+
+// Breadth-First Search
+Tree.prototype.traverseBF = function(callback: any) {
+  let queue = []
+  let currentTree = this._root
+
+  while (currentTree) {
+    for (let i = 0; i < currentTree.children.length; i++) {
+      queue.unshift(currentTree.children[i])
+    }
+
+    callback(currentTree)
+    currentTree = queue.pop()
+  }
+}
