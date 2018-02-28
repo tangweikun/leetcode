@@ -56,3 +56,21 @@ Tree.prototype.add = function(val: any, parentVal: any) {
     throw new Error('Cannot add node to a non-existent parent.')
   }
 }
+
+Tree.prototype.remove = function(val: any, parentVal: any) {
+  let parent: any = null
+  this.traverseBF((treeNode: any) => {
+    if (treeNode.val === parentVal) parent = treeNode
+  })
+
+  if (parent) {
+    const index = parent.children.findIndex((x: any) => x.val === val)
+    if (index !== -1) {
+      parent.children.splice(index, 1)
+    } else {
+      throw new Error('Node to remove does not exist.')
+    }
+  } else {
+    throw new Error('Parent does not exist.')
+  }
+}

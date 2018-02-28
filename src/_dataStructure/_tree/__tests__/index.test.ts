@@ -56,3 +56,10 @@ test('tree-add', () => {
     'child-of-seven',
   )
 })
+
+test('tree-remove', () => {
+  tree.remove('child-of-one', 'one')
+  tree.remove('child-of-seven', 'seven')
+  expect(tree._root.children[3]).toBe(undefined)
+  expect(tree._root.children[1].children[0].children[0]).toBe(undefined)
+})
