@@ -1,17 +1,20 @@
 // HELP:
+// Depth-First Search
 
 export function findDuplicateSubtrees(root: any) {
   const count = new Map()
   const ans: any = []
-  collect(root)
+  lookup(root)
   return ans
 
-  function collect(node: any) {
+  function lookup(node: any) {
     if (node === null) return '#'
+
     const serial: string =
-      '' + node.val + collect(node.left) + collect(node.right)
+      '' + lookup(node.left) + lookup(node.right) + node.val
     count.set(serial, ~~count.get(serial) + 1)
     if (count.get(serial) === 2) ans.push(node)
+
     return serial
   }
 }
