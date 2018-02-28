@@ -31,3 +31,13 @@ Tree.prototype.traverseBF = function(callback: any) {
     currentTree = queue.pop()
   }
 }
+
+Tree.prototype.contains = function(val: any) {
+  let res = false
+
+  this.traverseBF((treeNode: any) => {
+    if (treeNode.val === val) res = true
+  })
+
+  return res
+}
