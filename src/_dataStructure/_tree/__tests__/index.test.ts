@@ -47,3 +47,12 @@ test('tree-contains', () => {
   expect(tree.contains('four')).toBe(true)
   expect(tree.contains('zero')).toBe(false)
 })
+
+test('tree-add', () => {
+  tree.add('child-of-one', 'one')
+  tree.add('child-of-seven', 'seven')
+  expect(tree._root.children[3].val).toBe('child-of-one')
+  expect(tree._root.children[1].children[0].children[0].val).toBe(
+    'child-of-seven',
+  )
+})

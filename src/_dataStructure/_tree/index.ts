@@ -41,3 +41,18 @@ Tree.prototype.contains = function(val: any) {
 
   return res
 }
+
+Tree.prototype.add = function(val: any, parentVal: any) {
+  const child = new TreeNode(val)
+  let parent: any = null
+  this.traverseBF((treeNode: any) => {
+    if (treeNode.val === parentVal) parent = treeNode
+  })
+
+  if (parent) {
+    parent.children.push(child)
+    child.parent = parent
+  } else {
+    throw new Error('Cannot add node to a non-existent parent.')
+  }
+}
