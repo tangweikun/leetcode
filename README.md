@@ -1,3 +1,5 @@
+![Logo](/logo.png)
+
 # leetcode
 
 * Welcome to point out my mistake
