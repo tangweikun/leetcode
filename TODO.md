@@ -25,3 +25,10 @@
 * [ ] Doubly Linked List
 * [ ] 在网站上实现设计模式
 * [ ] 红黑树
+* [ ] Move \_dataStructure to another project
+* [ ] Javascript 设计模式
+* [ ] 阿里云续费
+* [ ] 重写 lodash
+* [ ] Add a logo to the top of your README
+* [ ] https://shields.io/
+* [ ] publish tree-node to npm
