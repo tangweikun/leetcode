@@ -1,5 +1,3 @@
-![Logo](/logo.png)
-
 # leetcode
 
 [![Travis Build](https://api.travis-ci.org/tangweikun/leetcode.svg?branch=master)](https://travis-ci.org/tangweikun/leetcode)
@@ -13,6 +11,8 @@
 * Unit test with jest
 * Simple code
 * Readable code
+
+![Logo](/logo.png)
 
 ### Getting Start
 
