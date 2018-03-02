@@ -121,7 +121,7 @@ test('MergeTwoBinaryTrees-5', () => {
     data: 6,
     left: {
       data: 5,
-      left: { data: 4, left: null, right: null },
+      left: { data: 6, left: null, right: null },
       right: { data: 5, left: null, right: null },
     },
     right: {
