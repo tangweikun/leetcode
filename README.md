@@ -14,7 +14,7 @@
 * Simple code
 * Readable code
 
-## Getting Start
+### Getting Start
 
 ```javascript
 git clone https://github.com/tangweikun/leetcode.git
@@ -23,7 +23,7 @@ npm install
 npm run test
 ```
 
-## Contents
+### Contents
 
 |  #  |                                                 Title                                                 |                                  README                                  | Difficulty | LeetCode                                                                                    | TAGS       |
 | :-: | :---------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :--------: | ------------------------------------------------------------------------------------------- | ---------- |
