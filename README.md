@@ -3,8 +3,8 @@
 # leetcode
 
 [![Travis Build](https://api.travis-ci.org/tangweikun/leetcode.svg?branch=master)](https://travis-ci.org/tangweikun/leetcode)
-[Maintainability](https://api.codeclimate.com/v1/badges/94a223574a24b7225f16/maintainability)](https://codeclimate.com/github/tangweikun/leetcode)
-[TestCoverage](https://api.codeclimate.com/v1/badges/94a223574a24b7225f16/test_coverage)](https://codeclimate.com/github/tangweikun/leetcode)
+[![Maintainability](https://api.codeclimate.com/v1/badges/94a223574a24b7225f16/maintainability)](https://codeclimate.com/github/tangweikun/leetcode)
+[![TestCoverage](https://api.codeclimate.com/v1/badges/94a223574a24b7225f16/test_coverage)](https://codeclimate.com/github/tangweikun/leetcode)
 [![Insight.io](https://img.shields.io/badge/insight.io-Ready-brightgreen.svg)](https://insight.io/github.com/tangweikun/leetcode/tree/master/?source=0)
 
 * Welcome to point out my mistake
