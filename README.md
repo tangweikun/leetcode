@@ -8,10 +8,7 @@
 [![Insight.io](https://img.shields.io/badge/insight.io-Ready-brightgreen.svg)](https://insight.io/github.com/tangweikun/leetcode/tree/master/?source=0)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-* Welcome to point out my mistake
-* Welcome to add useful test case
-* Welcome to improve the method if you have better solution
-* Welcome to fork or pull request
+> Practice make Perfect
 
 * Unit test with jest
 * Simple code
