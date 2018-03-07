@@ -10,8 +10,7 @@ export function findDuplicateSubtrees(root: any) {
   function lookup(node: any) {
     if (node === null) return '#'
 
-    const serial: string =
-      '' + lookup(node.left) + lookup(node.right) + node.val
+    const serial: string = lookup(node.left) + lookup(node.right) + node.val
     count.set(serial, ~~count.get(serial) + 1)
     if (count.get(serial) === 2) ans.push(node)
 
