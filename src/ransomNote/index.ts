@@ -1,5 +1,4 @@
 export const canConstruct = (ransomNote: string, magazine: string) => {
-  let r = ransomNote.split('')
   let m = magazine.split('')
 
   for (let char of ransomNote) {
