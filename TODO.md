@@ -32,4 +32,5 @@
 * [ ] Add a logo to the top of your README
 * [ ] https://shields.io/
 * [ ] publish tree-node to npm
-* [ ] 绘制项目 Icon
+* [x] 绘制项目 Icon
+* [ ] 添加测试截图和运行速度截图

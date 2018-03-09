@@ -181,6 +181,7 @@ npm run test // also you can run `npm run watch`
 | 152 |                                 [RansomNote](src/ransomNote/index.ts)                                 |                 [:green_book:](src/ransomNote/README.md)                 |    Easy    | [LeetCode](https://leetcode.com/problems/ransom-note)                                       | String      |
 | 153 |                       [K-diffPairsInAnArray](src/k-diffPairsInAnArray/index.ts)                       |            [:green_book:](src/k-diffPairsInAnArray/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/k-diff-pairs-in-an-array)                          | Array       |
 | 154 |                         [ThirdMaximumNumber](src/thirdMaximumNumber/index.ts)                         |             [:green_book:](src/thirdMaximumNumber/README.md)             |    Easy    | [LeetCode](https://leetcode.com/problems/third-maximum-number)                              | Array       |
+| 155 |                [SingleElementInASortedArray](src/singleElementInASortedArray/index.ts)                |        [:green_book:](src/singleElementInASortedArray/README.md)         |   Medium   | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array)                  | Array       |
 
 ## Collaborators
 
