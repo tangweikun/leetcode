@@ -8,9 +8,9 @@
 
 > Practice make Perfect
 
-* Unit test with jest
-* Simple code
-* Readable code
+* 🎉 Unit test with jest
+* ✨ Simple code
+* 🎨 Readable code
 
 ![Logo](/logo.png)
 
@@ -20,7 +20,7 @@
 git clone https://github.com/tangweikun/leetcode.git
 cd leetcode
 npm install
-npm run test
+npm run test // also you can run `npm run watch`
 ```
 
 ### Contents
