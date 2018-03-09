@@ -181,3 +181,7 @@ npm run test
 | 152 |                                 [RansomNote](src/ransomNote/index.ts)                                 |                 [:green_book:](src/ransomNote/README.md)                 |    Easy    | [LeetCode](https://leetcode.com/problems/ransom-note)                                       | String      |
 | 153 |                       [K-diffPairsInAnArray](src/k-diffPairsInAnArray/index.ts)                       |            [:green_book:](src/k-diffPairsInAnArray/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/k-diff-pairs-in-an-array)                          | Array       |
 | 154 |                         [ThirdMaximumNumber](src/thirdMaximumNumber/index.ts)                         |             [:green_book:](src/thirdMaximumNumber/README.md)             |    Easy    | [LeetCode](https://leetcode.com/problems/third-maximum-number)                              | Array       |
+
+## Collaborators
+
+[<img src="https://github.com/tangweikun.png" width="100px;"/>](https://github.com/tangweikun)<br/> [<sub>weikun tang</sub>](https://github.com/tangweikun)
