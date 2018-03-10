@@ -1,3 +1,8 @@
+// HELP:
+// Recursion
+// Time complexity : O(n). The recursive function is called at most n-2 times.
+// Space complexity : O(n). The depth of the recursion tree goes upto n-2.
+
 export const numberOfArithmeticSlices = (nums: number[]) => {
   let sum = 0
 
