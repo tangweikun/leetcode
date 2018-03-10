@@ -184,6 +184,7 @@ npm run test // also you can run `npm run watch`
 | 155 |                [SingleElementInASortedArray](src/singleElementInASortedArray/index.ts)                |        [:green_book:](src/singleElementInASortedArray/README.md)         |   Medium   | [LeetCode](https://leetcode.com/problems/single-element-in-a-sorted-array)                  | Array       |
 | 156 |                              [SingleNumber3](src/singleNumber3/index.ts)                              |               [:green_book:](src/singleNumber3/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/single-number-iii)                                 | Array       |
 | 157 |                           [ArithmeticSlices](src/arithmeticSlices/index.ts)                           |              [:green_book:](src/arithmeticSlices/README.md)              |   Medium   | [LeetCode](https://leetcode.com/problems/arithmetic-slices)                                 | Math,DP     |
+| 158 |                      [PalindromicSubstrings](src/palindromicSubstrings/index.ts)                      |           [:green_book:](src/palindromicSubstrings/README.md)            |   Medium   | [LeetCode](https://leetcode.com/problems/palindromic-substrings)                            | String,DP   |
 
 ## Collaborators
 
