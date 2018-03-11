@@ -185,6 +185,7 @@ npm run test // also you can run `npm run watch`
 | 156 |                              [SingleNumber3](src/singleNumber3/index.ts)                              |               [:green_book:](src/singleNumber3/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/single-number-iii)                                 | Array       |
 | 157 |                           [ArithmeticSlices](src/arithmeticSlices/index.ts)                           |              [:green_book:](src/arithmeticSlices/README.md)              |   Medium   | [LeetCode](https://leetcode.com/problems/arithmetic-slices)                                 | Math,DP     |
 | 158 |                      [PalindromicSubstrings](src/palindromicSubstrings/index.ts)                      |           [:green_book:](src/palindromicSubstrings/README.md)            |   Medium   | [LeetCode](https://leetcode.com/problems/palindromic-substrings)                            | String,DP   |
+| 159 |            [MaximumXOROfTwoNumbersInAnArray](src/maximumXOROfTwoNumbersInAnArray/index.ts)            |      [:green_book:](src/maximumXOROfTwoNumbersInAnArray/README.md)       |   Medium   | [LeetCode](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)            | Bit         |
 
 ## Collaborators
 
