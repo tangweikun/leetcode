@@ -34,3 +34,6 @@
 * [ ] publish tree-node to npm
 * [x] 绘制项目 Icon
 * [ ] 添加测试截图和运行速度截图
+* [ ] javascript-state-machine
+* [ ] 设计原则
+* [ ] Make a reading list
