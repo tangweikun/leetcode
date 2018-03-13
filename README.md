@@ -189,6 +189,7 @@ npm run test // also you can run `npm run watch`
 | 160 |                  [SortCharactersByFrequency](src/sortCharactersByFrequency/index.ts)                  |         [:green_book:](src/sortCharactersByFrequency/README.md)          |   Medium   | [LeetCode](https://leetcode.com/problems/sort-characters-by-frequency)                      | HashTable   |
 | 161 |                               [RotateString](src/rotateString/index.ts)                               |                [:green_book:](src/rotateString/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/rotate-string)                                     | String      |
 | 162 |                   [ProductOfArrayExceptSelf](src/productOfArrayExceptSelf/index.ts)                   |          [:green_book:](src/productOfArrayExceptSelf/README.md)          |   Medium   | [LeetCode](https://leetcode.com/problems/product-of-array-except-self)                      | Array       |
+| 163 |                             [TeemoAttacking](src/teemoAttacking/index.ts)                             |               [:green_book:](src/teemoAttacking/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/teemo-attacking)                                   | Array       |
 
 ## Collaborators
 
