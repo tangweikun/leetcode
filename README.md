@@ -188,6 +188,7 @@ npm run test // also you can run `npm run watch`
 | 159 |            [MaximumXOROfTwoNumbersInAnArray](src/maximumXOROfTwoNumbersInAnArray/index.ts)            |      [:green_book:](src/maximumXOROfTwoNumbersInAnArray/README.md)       |   Medium   | [LeetCode](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)            | Bit         |
 | 160 |                  [SortCharactersByFrequency](src/sortCharactersByFrequency/index.ts)                  |         [:green_book:](src/sortCharactersByFrequency/README.md)          |   Medium   | [LeetCode](https://leetcode.com/problems/sort-characters-by-frequency)                      | HashTable   |
 | 161 |                               [RotateString](src/rotateString/index.ts)                               |                [:green_book:](src/rotateString/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/rotate-string)                                     | String      |
+| 162 |                   [ProductOfArrayExceptSelf](src/productOfArrayExceptSelf/index.ts)                   |          [:green_book:](src/productOfArrayExceptSelf/README.md)          |   Medium   | [LeetCode](https://leetcode.com/problems/product-of-array-except-self)                      | Array       |
 
 ## Collaborators
 
