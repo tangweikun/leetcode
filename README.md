@@ -194,6 +194,7 @@ npm run test // also you can run `npm run watch`
 | 165 |                                      [4Sum2](src/4Sum2/index.ts)                                      |                   [:green_book:](src/4Sum2/README.md)                    |   Medium   | [LeetCode](https://leetcode.com/problems/4sum-ii)                                           | HashTable   |
 | 166 |                                   [01Matrix](src/01Matrix/index.ts)                                   |                  [:green_book:](src/01Matrix/README.md)                  |   Medium   | [LeetCode](https://leetcode.com/problems/01-matrix)                                         | HashTable   |
 | 167 |                                       [3sum](src/3sum/index.ts)                                       |                    [:green_book:](src/3sum/README.md)                    |   Medium   | [LeetCode](https://leetcode.com/problems/3sum)                                              | TwoPointers |
+| 168 |                                [3SumClosest](src/3SumClosest/index.ts)                                |                [:green_book:](src/3SumClosest/README.md)                 |   Medium   | [LeetCode](https://leetcode.com/problems/3sum-closest)                                      | TwoPointers |
 
 ## Collaborators
 
