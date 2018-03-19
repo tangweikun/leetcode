@@ -2,10 +2,10 @@
 * [ ] Use Async/await with Jest
 * [x] Add Contents for old method
 * [x] Update old method's README
-* [ ] Remove lodash package
+* [x] Remove lodash package
 * [x] Separate multiple function into independent file
 * [x] Add README for MinQueue
-* [ ] Add Time Complexity for each method
+* [x] Add Time Complexity for each method
 * [x] Use TypeScript
 * [ ] Dynamic Programming
 * [ ] Checkout TypeScript grammar
@@ -17,7 +17,7 @@
 * [ ] Linked List
 * [ ] Binary Search
 * [ ] CSS Animation
-* [ ] Awesome leetcode
+* [x] Awesome leetcode
 * [ ] 静态链表
 * [ ] Fetch Question and something awesome
 * [ ] KMP 模式匹配算法
@@ -27,8 +27,8 @@
 * [ ] 红黑树
 * [ ] Move \_dataStructure to another project
 * [ ] Javascript 设计模式
-* [ ] 阿里云续费
-* [ ] 重写 lodash
+* [x] 阿里云续费
+* [x] 重写 lodash
 * [ ] Add a logo to the top of your README
 * [ ] https://shields.io/
 * [ ] publish tree-node to npm
@@ -37,3 +37,4 @@
 * [ ] javascript-state-machine
 * [ ] 设计原则
 * [ ] Make a reading list
+* [ ] 用 javascript 写脚本获取已经解决的题目数

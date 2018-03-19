@@ -42,9 +42,7 @@
     "ts-jest": "^22.0.0",
     "typescript": "^2.6.2"
   },
-  "dependencies": {
-    "lodash": "^4.17.4"
-  },
+  "dependencies": {},
   "CC_TEST_REPORTER_ID": "d6e0a0a758ed9682cdf8dd44833994a02a8c8e220119eeade45cdccb8d9e20ec",
   "jest": {
     "transform": {
