@@ -1,9 +1,5 @@
 // HELP:
-
-function ListNode(val: number) {
-  this.val = val
-  this.next = null
-}
+import { ListNode } from '../_utils'
 
 export const addTwoNumbers = (l1: any, l2: any) => {
   let dummyHead = new ListNode(0)
