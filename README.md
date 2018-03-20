@@ -199,7 +199,8 @@ npm run test // also you can run `npm run watch`
 | 170 |                              [AddTwoNumbers](src/addTwoNumbers/index.ts)                              |               [:green_book:](src/addTwoNumbers/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/add-two-numbers)                                   | LinkedList  |
 | 171 |                             [AddTwoNumbers2](src/addTwoNumbers2/index.ts)                             |               [:green_book:](src/addTwoNumbers2/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/add-two-numbers-ii)                                | LinkedList  |
 | 172 |        [AddAndSearchWordDataStructureDesign](src/addAndSearchWordDataStructureDesign/index.ts)        |    [:green_book:](src/addAndSearchWordDataStructureDesign/README.md)     |   Medium   | [LeetCode](https://leetcode.com/problems/add-and-search-word-data-structure-design)         | LinkedList  |
-| 173 |                             [AdditiveNumber](src/additiveNumber/index.ts)                             |               [:green_book:](src/additiveNumber/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/additive-number)                                   | LinkedList  |
+| 173 |                             [AdditiveNumber](src/additiveNumber/index.ts)                             |               [:green_book:](src/additiveNumber/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/additive-number)                                   | String      |
+| 174 |                              [AssignCookies](src/assignCookies/index.ts)                              |               [:green_book:](src/assignCookies/README.md)                |    Easy    | [LeetCode](https://leetcode.com/problems/assign-cookies)                                    | Greedy      |
 
 ## Collaborators
 
