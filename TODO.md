@@ -38,3 +38,5 @@
 * [ ] 设计原则
 * [ ] Make a reading list
 * [ ] 用 javascript 写脚本获取已经解决的题目数
+* [ ] 重要事件记录
+* [ ] Reading List

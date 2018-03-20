@@ -1,4 +1,4 @@
-MinStackPro = function() {
+const MinStackPro = function() {
   this.stack = []
   this.assistStack = []
 
