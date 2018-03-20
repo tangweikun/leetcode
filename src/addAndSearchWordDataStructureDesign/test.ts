@@ -9,5 +9,4 @@ test('WordDictionary', () => {
   expect(w.search('bad')).toBe(true)
   expect(w.search('.ad')).toBe(true)
   expect(w.search('b..')).toBe(true)
-  console.log(w.root.children)
 })
