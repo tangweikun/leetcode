@@ -204,7 +204,8 @@ npm run test // also you can run `npm run watch`
 | 175 |                            [BasicCalculator](src/basicCalculator/index.ts)                            |              [:green_book:](src/basicCalculator/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/basic-calculator)                                  | Stack       |
 | 176 |                           [BasicCalculator2](src/basicCalculator2/index.ts)                           |              [:green_book:](src/basicCalculator2/README.md)              |   Medium   | [LeetCode](https://leetcode.com/problems/basic-calculator-ii)                               | Stack       |
 | 177 |                                  [TargetSum](src/targetSum/index.ts)                                  |                 [:green_book:](src/targetSum/README.md)                  |   Medium   | [LeetCode](https://leetcode.com/problems/target-sum)                                        | DP          |
-| 178 |                  [ImplementQueueUsingStacks](src/implementQueueUsingStacks/index.ts)                  |         [:green_book:](src/implementQueueUsingStacks/README.md)          |   Medium   | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks)                      | Stack       |
+| 178 |                  [ImplementQueueUsingStacks](src/implementQueueUsingStacks/index.ts)                  |         [:green_book:](src/implementQueueUsingStacks/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks)                      | Stack       |
+| 179 |                  [ImplementStackUsingQueues](src/implementStackUsingQueues/index.ts)                  |         [:green_book:](src/implementStackUsingQueues/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/implement-stack-using-queues)                      | Stack       |
 
 ## Collaborators
 
