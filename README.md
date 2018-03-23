@@ -203,6 +203,7 @@ npm run test // also you can run `npm run watch`
 | 174 |                              [AssignCookies](src/assignCookies/index.ts)                              |               [:green_book:](src/assignCookies/README.md)                |    Easy    | [LeetCode](https://leetcode.com/problems/assign-cookies)                                    | Greedy      |
 | 175 |                            [BasicCalculator](src/basicCalculator/index.ts)                            |              [:green_book:](src/basicCalculator/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/basic-calculator)                                  | Stack       |
 | 176 |                           [BasicCalculator2](src/basicCalculator2/index.ts)                           |              [:green_book:](src/basicCalculator2/README.md)              |   Medium   | [LeetCode](https://leetcode.com/problems/basic-calculator-ii)                               | Stack       |
+| 177 |                                  [TargetSum](src/targetSum/index.ts)                                  |                 [:green_book:](src/targetSum/README.md)                  |   Medium   | [LeetCode](https://leetcode.com/problems/target-sum)                                        | DP          |
 
 ## Collaborators
 
