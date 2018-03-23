@@ -15,3 +15,11 @@ test('MinWindow-3', () => {
 test('MinWindow-4', () => {
   expect(minWindow('', '')).toBe('')
 })
+
+test('MinWindow-5', () => {
+  expect(minWindow('a', 'aa')).toBe('')
+})
+
+test('MinWindow-6', () => {
+  expect(minWindow('cabwefgewcwaefgcf', 'cae')).toBe('cwae')
+})
