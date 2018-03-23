@@ -1,25 +1,25 @@
 import { minWindow } from '.'
 
-test('MinWindow-1', () => {
+test('MinWindowSubstring-1', () => {
   expect(minWindow('ADOBECODEBANC', 'ABC')).toBe('BANC')
 })
 
-test('MinWindow-2', () => {
+test('MinWindowSubstring-2', () => {
   expect(minWindow('ABC', 'ABC')).toBe('ABC')
 })
 
-test('MinWindow-3', () => {
+test('MinWindowSubstring-3', () => {
   expect(minWindow('ABDCBA', 'ABC')).toBe('CBA')
 })
 
-test('MinWindow-4', () => {
+test('MinWindowSubstring-4', () => {
   expect(minWindow('', '')).toBe('')
 })
 
-test('MinWindow-5', () => {
+test('MinWindowSubstring-5', () => {
   expect(minWindow('a', 'aa')).toBe('')
 })
 
-test('MinWindow-6', () => {
+test('MinWindowSubstring-6', () => {
   expect(minWindow('cabwefgewcwaefgcf', 'cae')).toBe('cwae')
 })

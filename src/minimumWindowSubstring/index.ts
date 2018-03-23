@@ -1,18 +1,16 @@
 // HELP:
 
-export function minWindow(s: string, t: string) {
-  let HASH = Array(128).fill(0)
-  let left = 0
-  let right = 0
-  let head = 0
+export function minWindow(S: string, T: string) {
+  const HASH = Array(128).fill(0)
+  let [left, right, head] = [0, 0, 0]
   let minLength = Infinity
-  let counter = t.length
+  let counter = T.length
 
-  for (let c of t) HASH[c.charCodeAt(0)]++
+  for (let c of T) HASH[c.charCodeAt(0)]++
 
-  while (right < s.length) {
-    if (HASH[s.charCodeAt(right)] > 0) counter--
-    HASH[s.charCodeAt(right)]--
+  while (right < S.length) {
+    if (HASH[S.charCodeAt(right)] > 0) counter--
+    HASH[S.charCodeAt(right)]--
     right++
 
     while (counter === 0) {
@@ -20,11 +18,11 @@ export function minWindow(s: string, t: string) {
         head = left
         minLength = right - left
       }
-      if (HASH[s.charCodeAt(left)] === 0) counter++
-      HASH[s.charCodeAt(left)]++
+      if (HASH[S.charCodeAt(left)] === 0) counter++
+      HASH[S.charCodeAt(left)]++
       left++
     }
   }
 
-  return minLength === Infinity ? '' : s.slice(head, head + minLength)
+  return minLength === Infinity ? '' : S.slice(head, head + minLength)
 }
