@@ -1,17 +1,12 @@
 export const nextGreaterElement2 = (nums: number[]) => {
-  const max = Math.max(...nums)
   const res = []
 
   for (let i = 0; i < nums.length; i++) {
-    if (nums[i] >= max) {
-      res[i] = -1
-    } else {
-      let j = i + 1
-
-      while (res[i] === undefined) {
-        if (j > nums.length - 1) j = j - nums.length
-        if (nums[j] > nums[i]) res[i] = nums[j]
-        j++
+    res[i] = -1
+    for (let j = 1; j < nums.length; j++) {
+      if (nums[(i + j) % nums.length] > nums[i]) {
+        res[i] = nums[(i + j) % nums.length]
+        break
       }
     }
   }
