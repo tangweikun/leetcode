@@ -43,3 +43,4 @@
 * [ ] Depth-First-Search
 * [ ] 栈
 * [ ] 队列
+* [ ] Binary Search Tree
