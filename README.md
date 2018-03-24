@@ -207,7 +207,8 @@ npm run test // also you can run `npm run watch`
 | 178 |                  [ImplementQueueUsingStacks](src/implementQueueUsingStacks/index.ts)                  |         [:green_book:](src/implementQueueUsingStacks/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks)                      | Stack       |
 | 179 |                  [ImplementStackUsingQueues](src/implementStackUsingQueues/index.ts)                  |         [:green_book:](src/implementStackUsingQueues/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/implement-stack-using-queues)                      | Stack       |
 | 180 |                        [NextGreaterElement2](src/nextGreaterElement2/index.ts)                        |            [:green_book:](src/nextGreaterElement2/README.md)             |   Medium   | [LeetCode](https://leetcode.com/problems/next-greater-element-ii)                           | Stack       |
-| 181 |                             [BinaryTreeTilt](src/binaryTreeTilt/index.ts)                             |               [:green_book:](src/binaryTreeTilt/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/binary-tree-tilt)                                  | Tree        |
+| 181 |                             [BinaryTreeTilt](src/binaryTreeTilt/index.ts)                             |               [:green_book:](src/binaryTreeTilt/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/binary-tree-tilt)                                  | Tree        |
+| 182 |                       [DiameterOfBinaryTree](src/diameterOfBinaryTree/index.ts)                       |            [:green_book:](src/diameterOfBinaryTree/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/diameter-of-binary-tree)                           | Tree        |
 
 ## Collaborators
 
