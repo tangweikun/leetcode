@@ -215,7 +215,7 @@ npm run test // also you can run `npm run watch`
 | 186 |                         [BinaryTreePaths](src/trees/binaryTreePaths/index.ts)                         |           [:green_book:](src/trees/binaryTreePaths/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/binary-tree-paths)                                 | DFS         |
 | 187 |                                    [PathSum](src/pathSum/index.ts)                                    |                  [:green_book:](src/pathSum/README.md)                   |    Easy    | [LeetCode](https://leetcode.com/problems/path-sum)                                          | DFS         |
 | 188 |                   [MinimumDepthOfBinaryTree](src/minimumDepthOfBinaryTree/index.ts)                   |          [:green_book:](src/minimumDepthOfBinaryTree/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree)                      | DFS         |
-| 189 |                    [FindBottomLeftTreeValue](src/findBottomLeftTreeValue/index.ts)                    |          [:green_book:](src/findBottomLeftTreeValue/README.md)           |   Medium   | [LeetCode](https://leetcode.com/problems/find-bottom-left-tree-value)                       | DFS         |
+| 189 |                 [FindBottomLeftTreeValue](src/trees/findBottomLeftTreeValue/index.ts)                 |       [:green_book:](src/trees/findBottomLeftTreeValue/README.md)        |   Medium   | [LeetCode](https://leetcode.com/problems/find-bottom-left-tree-value)                       | DFS         |
 
 ## Collaborators
 
