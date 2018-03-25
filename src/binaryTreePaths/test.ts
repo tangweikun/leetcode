@@ -1,10 +1,6 @@
 import { binaryTreePaths } from '.'
+import { TREE_1 } from '../_tree'
 
 test('binaryTreePaths', () => {
-  const tree = {
-    val: 1,
-    left: { val: 2, left: null, right: { val: 5, left: null, right: null } },
-    right: { val: 3, left: null, right: null },
-  }
-  expect(binaryTreePaths(tree)).toEqual(['1->2->5', '1->3'])
+  expect(binaryTreePaths(TREE_1)).toEqual(['1->2->5', '1->3'])
 })
