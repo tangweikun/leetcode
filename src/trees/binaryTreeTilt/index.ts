@@ -1,4 +1,4 @@
-import { I_TreeNode } from './../_interface'
+import { I_TreeNode } from './../../_interface'
 
 // 后序遍历【Post order Traversal】
 // HELP:

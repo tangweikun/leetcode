@@ -1,4 +1,4 @@
-import { TREE_2, TREE_3 } from './../_tree/index'
+import { TREE_2, TREE_3 } from '../_testData'
 import { findTilt } from '.'
 
 test('Binary Tree Tilt', () => {

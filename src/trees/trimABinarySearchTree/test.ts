@@ -1,4 +1,4 @@
-import { TREE_1, TREE_3, TREE_4, TREE_5, TREE_7 } from './../../_tree/index'
+import { TREE_1, TREE_3, TREE_4, TREE_5, TREE_7 } from '../_testData'
 import { trimBST } from '.'
 
 test('trimABinarySearchTree-1', () => {
