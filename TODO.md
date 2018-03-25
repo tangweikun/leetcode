@@ -16,7 +16,7 @@
 * [ ] Add category tag for each problem
 * [ ] Linked List
 * [ ] Binary Search
-* [ ] CSS Animation
+* [x] CSS Animation
 * [x] Awesome leetcode
 * [ ] 静态链表
 * [ ] Fetch Question and something awesome
@@ -41,6 +41,8 @@
 * [ ] 重要事件记录
 * [ ] Reading List
 * [ ] Depth-First-Search
+* [ ] 广度优先搜索
 * [ ] 栈
 * [ ] 队列
 * [ ] Binary Search Tree
+* [ ] 赫夫曼树
