@@ -1,4 +1,4 @@
-import { I_TreeNode } from '../_interface'
+import { I_TreeNode } from '../../_interface'
 // Depth-First-Search
 // HELP:
 
