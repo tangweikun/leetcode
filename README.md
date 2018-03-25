@@ -213,6 +213,7 @@ npm run test // also you can run `npm run watch`
 | 184 |             [SecondMinimumNodeInABinaryTree](src/secondMinimumNodeInABinaryTree/index.ts)             |       [:green_book:](src/secondMinimumNodeInABinaryTree/README.md)       |    Easy    | [LeetCode](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree)              | Tree        |
 | 185 |                       [SubTreeOfAnotherTree](src/subTreeOfAnotherTree/index.ts)                       |            [:green_book:](src/subTreeOfAnotherTree/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/subtree-of-another-tree)                           | Tree        |
 | 186 |                            [BinaryTreePaths](src/binaryTreePaths/index.ts)                            |              [:green_book:](src/binaryTreePaths/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/binary-tree-paths)                                 | DFS         |
+| 187 |                                    [PathSum](src/pathSum/index.ts)                                    |                  [:green_book:](src/pathSum/README.md)                   |    Easy    | [LeetCode](https://leetcode.com/problems/path-sum)                                          | DFS         |
 
 ## Collaborators
 
