@@ -2,18 +2,19 @@ import { I_TreeNode } from '../_interface'
 // Depth-First-Search
 // HELP:
 
-export const binaryTreePaths = function(root: I_TreeNode) {
-  if (!root) return []
-  const result: string[] = []
-  _depth(root, '', result)
-  return result
-}
+export const binaryTreePaths = function(node: I_TreeNode) {
+  const stack: number[] = []
+  const res: string[] = []
+  helper(node)
+  return res
 
-const _depth = function(root: I_TreeNode, str: string, result: string[]) {
-  if (root) {
-    str += root.val
-    if (root.left) _depth(root.left, str + '->', result)
-    if (root.right) _depth(root.right, str + '->', result)
-    if (root.left === null && root.right === null) result.push(str)
+  function helper(root: I_TreeNode) {
+    if (root) {
+      stack.push(root.val)
+      helper(root.left)
+      helper(root.right)
+      if (!root.left && !root.right) res.push(stack.join('->'))
+      stack.pop()
+    }
   }
 }
