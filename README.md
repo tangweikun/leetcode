@@ -214,6 +214,7 @@ npm run test // also you can run `npm run watch`
 | 185 |                       [SubTreeOfAnotherTree](src/subTreeOfAnotherTree/index.ts)                       |            [:green_book:](src/subTreeOfAnotherTree/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/subtree-of-another-tree)                           | Tree        |
 | 186 |                            [BinaryTreePaths](src/binaryTreePaths/index.ts)                            |              [:green_book:](src/binaryTreePaths/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/binary-tree-paths)                                 | DFS         |
 | 187 |                                    [PathSum](src/pathSum/index.ts)                                    |                  [:green_book:](src/pathSum/README.md)                   |    Easy    | [LeetCode](https://leetcode.com/problems/path-sum)                                          | DFS         |
+| 188 |                   [MinimumDepthOfBinaryTree](src/minimumDepthOfBinaryTree/index.ts)                   |          [:green_book:](src/minimumDepthOfBinaryTree/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree)                      | DFS         |
 
 ## Collaborators
 

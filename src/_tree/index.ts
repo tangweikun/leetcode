@@ -79,3 +79,9 @@ export const TREE_7 = {
     right: { val: 6, left: null, right: null },
   },
 }
+
+export const TREE_8 = {
+  val: 1,
+  left: null,
+  right: null,
+}
