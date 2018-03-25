@@ -1,4 +1,4 @@
-import { TREE_4, TREE_5 } from './../_tree/index'
+import { TREE_4, TREE_5 } from '../_testData'
 import { findDuplicateSubtrees } from '.'
 
 test('FindDuplicateSubtrees-1', () => {
