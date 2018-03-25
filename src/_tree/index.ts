@@ -85,3 +85,31 @@ export const TREE_8 = {
   left: null,
   right: null,
 }
+
+export const TREE_9 = {
+  val: 2,
+  left: { val: 2, left: null, right: null },
+  right: { val: 2, left: null, right: null },
+}
+
+export const TREE_10 = {
+  val: 3,
+  left: {
+    val: 4,
+    left: { val: 1, left: null, right: null },
+    right: { val: 2, left: { val: 0, left: null, right: null }, right: null },
+  },
+  right: { val: 5, left: null, right: null },
+}
+
+export const TREE_11 = {
+  val: 4,
+  left: { val: 1, left: null, right: null },
+  right: { val: 2, left: null, right: null },
+}
+
+export const TREE_12 = {
+  val: 11,
+  left: null,
+  right: null,
+}

@@ -1,133 +1,83 @@
+import {
+  TREE_8,
+  TREE_1,
+  TREE_2,
+  TREE_3,
+  TREE_4,
+  TREE_5,
+  TREE_6,
+  TREE_7,
+} from './../_tree/index'
 import { mergeTrees } from '.'
 
 test('MergeTwoBinaryTrees-1', () => {
-  const t1 = null
-
-  const t2 = {
-    data: 1,
-    left: null,
-    right: null,
-  }
-
-  expect(mergeTrees(t1, t2)).toEqual({
-    data: 1,
+  expect(mergeTrees(null, TREE_8)).toEqual({
+    val: 1,
     left: null,
     right: null,
   })
 })
 
 test('MergeTwoBinaryTrees-2', () => {
-  const t3 = {
-    data: 1,
-    left: { data: 2, left: null, right: null },
-    right: null,
-  }
-
-  const t4 = {
-    data: 1,
-    left: { data: 2, left: null, right: null },
-    right: { data: 2, left: null, right: null },
-  }
-
-  expect(mergeTrees(t3, t4)).toEqual({
-    data: 2,
-    left: { data: 4, left: null, right: null },
-    right: { data: 2, left: null, right: null },
+  expect(mergeTrees(TREE_1, TREE_2)).toEqual({
+    left: { left: null, right: { left: null, right: null, val: 5 }, val: 4 },
+    right: { left: null, right: null, val: 6 },
+    val: 2,
   })
 })
 
 test('MergeTwoBinaryTrees-3', () => {
-  const t5 = {
-    data: 1,
+  expect(mergeTrees(TREE_3, TREE_4)).toEqual({
     left: {
-      data: 2,
-      left: { data: 15, left: null, right: null },
-      right: { data: 15, left: null, right: null },
-    },
-    right: { data: 2, left: null, right: null },
-  }
-
-  const t6 = {
-    data: 3,
-    left: { data: 9, left: null, right: null },
-    right: {
-      data: 20,
-      left: { data: 15, left: null, right: null },
-      right: { data: 15, left: null, right: null },
-    },
-  }
-
-  expect(mergeTrees(t5, t6)).toEqual({
-    data: 4,
-    left: {
-      data: 11,
-      left: { data: 15, left: null, right: null },
-      right: { data: 15, left: null, right: null },
+      left: { left: null, right: null, val: 7 },
+      right: { left: null, right: null, val: 1 },
+      val: 4,
     },
     right: {
-      data: 22,
-      left: { data: 15, left: null, right: null },
-      right: { data: 15, left: null, right: null },
+      left: { left: { left: null, right: null, val: 4 }, right: null, val: 8 },
+      right: { left: null, right: null, val: 9 },
+      val: 7,
     },
+    val: 9,
   })
 })
 
 test('MergeTwoBinaryTrees-4', () => {
-  const t1 = {
-    data: 1,
-    left: { data: 3, left: { data: 5, left: null, right: null }, right: null },
-    right: { data: 2, left: null, right: null },
-  }
-
-  const t2 = {
-    data: 2,
-    left: { data: 1, left: null, right: { data: 4, left: null, right: null } },
-    right: { data: 3, left: null, right: { data: 7, left: null, right: null } },
-  }
-
-  expect(mergeTrees(t1, t2)).toEqual({
-    data: 3,
+  expect(mergeTrees(TREE_5, TREE_6)).toEqual({
     left: {
-      data: 4,
-      left: { data: 5, left: null, right: null },
-      right: { data: 4, left: null, right: null },
+      left: { left: null, right: null, val: 1 },
+      right: { left: null, right: null, val: 3 },
+      val: 2,
     },
-    right: { data: 5, left: null, right: { data: 7, left: null, right: null } },
+    right: {
+      left: { left: null, right: null, val: 6 },
+      right: {
+        left: null,
+        right: {
+          left: null,
+          right: { left: null, right: null, val: 0 },
+          val: 0,
+        },
+        val: 9,
+      },
+      val: 7,
+    },
+    val: 4,
   })
 })
 
 test('MergeTwoBinaryTrees-5', () => {
-  const t1 = {
-    data: 1,
+  expect(mergeTrees(TREE_6, TREE_7)).toEqual({
     left: {
-      data: 2,
-      left: { data: 4, left: null, right: null },
-      right: { data: 5, left: null, right: null },
-    },
-    right: { data: 3, left: null, right: null },
-  }
-
-  const t2 = {
-    data: 5,
-    left: { data: 3, left: { data: 2, left: null, right: null }, right: null },
-    right: {
-      data: 6,
-      left: { data: 1, left: null, right: null },
-      right: { data: 4, left: null, right: null },
-    },
-  }
-
-  expect(mergeTrees(t1, t2)).toEqual({
-    data: 6,
-    left: {
-      data: 5,
-      left: { data: 6, left: null, right: null },
-      right: { data: 5, left: null, right: null },
+      left: { left: null, right: null, val: 5 },
+      right: { left: null, right: null, val: 3 },
+      val: 4,
     },
     right: {
-      data: 9,
-      left: { data: 1, left: null, right: null },
-      right: { data: 4, left: null, right: null },
+      left: { left: null, right: { left: null, right: null, val: 7 }, val: 11 },
+      right: { left: null, right: null, val: 15 },
+      val: 10,
     },
+    val: 5,
   })
 })

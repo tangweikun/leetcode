@@ -1,30 +1,18 @@
+import { TREE_1, TREE_3, TREE_4, TREE_5 } from './../_tree/index'
 import { isSameTree } from '.'
 
 test('isSameTree-1', () => {
-  const t1 = null
-  const t2 = null
-
-  expect(isSameTree(t1, t2)).toBe(true)
+  expect(isSameTree(null, null)).toBe(true)
 })
 
 test('isSameTree-2', () => {
-  const t1 = {
-    val: 1,
-    left: { val: 2, left: null, right: null },
-    right: { val: 3, left: null, right: null },
-  }
-  const t2 = {
-    val: 1,
-    left: { val: 2, left: null, right: null },
-    right: { val: 3, left: null, right: null },
-  }
-
-  expect(isSameTree(t1, t2)).toBe(true)
+  expect(isSameTree(TREE_1, TREE_1)).toBe(true)
 })
 
 test('isSameTree-3', () => {
-  const t1 = { val: 1, left: { val: 2, left: null, right: null }, right: null }
-  const t2 = { val: 1, left: null, right: { val: 2, left: null, right: null } }
+  expect(isSameTree(TREE_3, TREE_4)).toBe(false)
+})
 
-  expect(isSameTree(t1, t2)).toBe(false)
+test('isSameTree-3', () => {
+  expect(isSameTree(TREE_5, TREE_5)).toBe(true)
 })

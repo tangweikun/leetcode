@@ -1,23 +1,14 @@
+import { TREE_1, TREE_8, TREE_9 } from './../_tree/index'
 import { findSecondMinimumValue } from '.'
 
 test('findSecondMinimumValue', () => {
-  const tree = {
-    val: 2,
-    left: { val: 2, left: null, right: null },
-    right: {
-      val: 5,
-      left: { val: 5, left: null, right: null },
-      right: { val: 7, left: null, right: null },
-    },
-  }
-  expect(findSecondMinimumValue(tree)).toBe(5)
+  expect(findSecondMinimumValue(TREE_1)).toBe(2)
 })
 
 test('findSecondMinimumValue', () => {
-  const tree = {
-    val: 2,
-    left: { val: 2, left: null, right: null },
-    right: { val: 2, left: null, right: null },
-  }
-  expect(findSecondMinimumValue(tree)).toBe(-1)
+  expect(findSecondMinimumValue(TREE_8)).toBe(-1)
+})
+
+test('findSecondMinimumValue', () => {
+  expect(findSecondMinimumValue(TREE_9)).toBe(-1)
 })

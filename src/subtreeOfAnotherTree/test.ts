@@ -1,65 +1,21 @@
+import {
+  TREE_2,
+  TREE_1,
+  TREE_10,
+  TREE_11,
+  TREE_8,
+  TREE_12,
+} from './../_tree/index'
 import { isSubtree } from '.'
 
 test('isSubtree', () => {
-  const s = {
-    val: 3,
-    left: {
-      val: 4,
-      left: { val: 1, left: null, right: null },
-      right: { val: 2, left: { val: 0, left: null, right: null }, right: null },
-    },
-    right: { val: 5, left: null, right: null },
-  }
-  const t = {
-    val: 4,
-    left: { val: 1, left: null, right: null },
-    right: { val: 2, left: null, right: null },
-  }
-  expect(isSubtree(s, t)).toBe(false)
+  expect(isSubtree(TREE_10, TREE_11)).toBe(false)
 })
 
 test('isSubtree', () => {
-  const s = {
-    val: 3,
-    left: {
-      val: 4,
-      left: { val: 1, left: null, right: null },
-      right: { val: 2, left: null, right: null },
-    },
-    right: { val: 5, left: null, right: null },
-  }
-  const t = {
-    val: 4,
-    left: { val: 1, left: null, right: null },
-    right: { val: 2, left: null, right: null },
-  }
-  expect(isSubtree(s, t)).toBe(true)
+  expect(isSubtree(TREE_1, TREE_2)).toBe(false)
 })
 
 test('isSubtree', () => {
-  const s = {
-    val: 12,
-    left: null,
-    right: null,
-  }
-  const t = {
-    val: 2,
-    left: null,
-    right: null,
-  }
-  expect(isSubtree(s, t)).toBe(false)
-})
-
-test('isSubtree', () => {
-  const s = {
-    val: 1,
-    left: { val: 2, left: null, right: null },
-    right: { val: 3, left: null, right: null },
-  }
-  const t = {
-    val: 1,
-    left: { val: 2, left: null, right: null },
-    right: null,
-  }
-  expect(isSubtree(s, t)).toBe(false)
+  expect(isSubtree(TREE_12, TREE_8)).toBe(false)
 })
