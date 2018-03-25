@@ -1,4 +1,4 @@
-import { TREE_3, TREE_7 } from './../_tree/index'
+import { TREE_3, TREE_7 } from '../_testData'
 import { invertTree } from '.'
 
 test('InvertBinaryTree-1', () => {

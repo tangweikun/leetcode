@@ -1,4 +1,4 @@
-import { I_TreeNode } from './../_interface/index'
+import { I_TreeNode } from './../../_interface/index'
 // HELP:
 // Time Complexity: O(n)
 // Space Complexity: O(n)
