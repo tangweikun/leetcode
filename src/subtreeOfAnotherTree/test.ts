@@ -4,7 +4,7 @@ import {
   TREE_10,
   TREE_11,
   TREE_8,
-  TREE_12,
+  TREE_6,
 } from './../_tree/index'
 import { isSubtree } from '.'
 
@@ -17,5 +17,5 @@ test('isSubtree', () => {
 })
 
 test('isSubtree', () => {
-  expect(isSubtree(TREE_12, TREE_8)).toBe(false)
+  expect(isSubtree(TREE_6, TREE_8)).toBe(false)
 })

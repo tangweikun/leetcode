@@ -1,22 +1,22 @@
-import { TREE_6, TREE_7 } from './../_tree/index'
+import { TREE_3, TREE_7 } from './../_tree/index'
 import { invertTree } from '.'
 
 test('InvertBinaryTree-1', () => {
   const expectTree = {
-    val: 4,
     left: {
-      val: 7,
-      left: { val: 9, left: null, right: null },
-      right: { val: 6, left: null, right: null },
+      left: { left: null, right: null, val: 5 },
+      right: { left: null, right: null, val: 6 },
+      val: 4,
     },
     right: {
+      left: { left: null, right: null, val: 1 },
+      right: { left: null, right: null, val: 3 },
       val: 2,
-      left: { val: 3, left: null, right: null },
-      right: { val: 1, left: null, right: null },
     },
+    val: 8,
   }
 
-  expect(invertTree(TREE_6)).toEqual(expectTree)
+  expect(invertTree(TREE_3)).toEqual(expectTree)
 })
 
 test('InvertBinaryTree-2', () => {
