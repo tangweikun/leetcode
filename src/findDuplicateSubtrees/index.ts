@@ -1,13 +1,14 @@
+import { I_TreeNode } from './../_interface/index'
 // HELP:
 // Depth-First Search
 
-export function findDuplicateSubtrees(root: any) {
+export function findDuplicateSubtrees(root: I_TreeNode) {
   const count = new Map()
   const ans: any = []
   lookup(root)
   return ans
 
-  function lookup(node: any) {
+  function lookup(node: I_TreeNode) {
     if (node === null) return '#'
 
     const serial: string = lookup(node.left) + lookup(node.right) + node.val

@@ -1,6 +1,7 @@
+import { I_TreeNode } from './../_interface/index'
 // HELP:
 
-export function averageOfLevels(root: any) {
+export function averageOfLevels(root: I_TreeNode) {
   if (!root) return []
   const result = []
   let nodes = [root]

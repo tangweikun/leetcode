@@ -1,4 +1,7 @@
-export function findTarget(root: any, k: number) {
+import { I_TreeNode } from './../_interface/index'
+
+// HELP:
+export function findTarget(root: I_TreeNode, k: number) {
   const HASH = new Set()
 
   function recurse(currentNode: any): any {

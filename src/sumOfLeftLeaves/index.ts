@@ -1,4 +1,7 @@
-export function sumOfLeftLeaves(root: any): any {
+import { I_TreeNode } from './../_interface/index'
+
+// HELP:
+export function sumOfLeftLeaves(root: I_TreeNode): any {
   let res = 0
 
   if (root) {

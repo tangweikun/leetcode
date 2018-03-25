@@ -1,7 +1,8 @@
+import { I_TreeNode } from './../_interface/index'
 // Depth-First-Search
 // HELP:
 
-export const findSecondMinimumValue = (root: any) => {
+export const findSecondMinimumValue = (root: I_TreeNode) => {
   const uniques = new Set()
   dfs(root, uniques)
   let min = root.val
@@ -12,7 +13,7 @@ export const findSecondMinimumValue = (root: any) => {
   })
   return ans < Infinity ? ans : -1
 
-  function dfs(t: any, uniques: any) {
+  function dfs(t: I_TreeNode, uniques: any) {
     if (t) {
       uniques.add(t.val)
       dfs(t.left, uniques)

@@ -1,11 +1,12 @@
+import { I_TreeNode } from './../_interface/index'
 // Recursive
 // HELP:
 
-export const isSymmetric = (root: any) => {
+export const isSymmetric = (root: I_TreeNode) => {
   return isMirror(root, root)
 }
 
-function isMirror(t1: any, t2: any): boolean {
+function isMirror(t1: I_TreeNode, t2: I_TreeNode): boolean {
   if (t1 && t2) {
     return (
       t1.val === t2.val &&
