@@ -1,11 +1,4 @@
-import {
-  TREE_2,
-  TREE_1,
-  TREE_10,
-  TREE_11,
-  TREE_8,
-  TREE_6,
-} from './../_tree/index'
+import { TREE_2, TREE_1, TREE_10, TREE_11, TREE_8, TREE_6 } from '../_testData'
 import { isSubtree } from '.'
 
 test('isSubtree', () => {

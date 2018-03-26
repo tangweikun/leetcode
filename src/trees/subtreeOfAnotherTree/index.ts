@@ -1,4 +1,4 @@
-import { I_TreeNode } from './../_interface/index'
+import { I_TreeNode } from './../../_interface/index'
 // PreOrder-Search
 // Time complexity: O(m^2+n^2+m*n)
 // Space complexity: O(max(m,n))
