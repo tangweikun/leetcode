@@ -1,4 +1,4 @@
-import { I_TreeNode } from './../_interface/index'
+import { I_TreeNode } from './../../_interface/index'
 
 // HELP:
 export function findTarget(root: I_TreeNode, k: number) {
