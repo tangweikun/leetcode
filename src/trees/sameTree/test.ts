@@ -1,4 +1,4 @@
-import { TREE_1, TREE_3, TREE_4, TREE_5 } from './../_tree/index'
+import { TREE_1, TREE_3, TREE_4, TREE_5 } from '../_testData'
 import { isSameTree } from '.'
 
 test('isSameTree-1', () => {
