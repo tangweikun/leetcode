@@ -216,7 +216,8 @@ npm run test // also you can run `npm run watch`
 | 187 |                                 [PathSum](src/trees/pathSum/index.ts)                                 |               [:green_book:](src/trees/pathSum/README.md)                |    Easy    | [LeetCode](https://leetcode.com/problems/path-sum)                                          | DFS         |
 | 188 |                [MinimumDepthOfBinaryTree](src/trees/minimumDepthOfBinaryTree/index.ts)                |       [:green_book:](src/trees/minimumDepthOfBinaryTree/README.md)       |    Easy    | [LeetCode](https://leetcode.com/problems/minimum-depth-of-binary-tree)                      | DFS         |
 | 189 |                 [FindBottomLeftTreeValue](src/trees/findBottomLeftTreeValue/index.ts)                 |       [:green_book:](src/trees/findBottomLeftTreeValue/README.md)        |   Medium   | [LeetCode](https://leetcode.com/problems/find-bottom-left-tree-value)                       | DFS         |
-| 190 |                            [DecodeString](src/trees/decodeString/index.ts)                            |             [:green_book:](src/trees/decodeString/README.md)             |   Medium   | [LeetCode](https://leetcode.com/problems/decode-string)                                     | DFS,Stack   |
+| 190 |                               [DecodeString](src/decodeString/index.ts)                               |                [:green_book:](src/decodeString/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/decode-string)                                     | DFS,Stack   |
+| 191 |           [FindLargestvalueInEachTreeRow](src/trees/findLargestvalueInEachTreeRow/index.ts)           |    [:green_book:](src/trees/findLargestvalueInEachTreeRow/README.md)     |   Medium   | [LeetCode](https://leetcode.com/problems/find-largest-value-in-each-tree-row)               | DFS         |
 
 ## Collaborators
 
