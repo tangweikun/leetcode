@@ -1,4 +1,4 @@
-import { TREE_1, TREE_3, TREE_4, TREE_5, TREE_8 } from './../_tree/index'
+import { TREE_1, TREE_3, TREE_4, TREE_5, TREE_8 } from '../_testData'
 import { minDepth } from '.'
 
 test('minDepth-1', () => {

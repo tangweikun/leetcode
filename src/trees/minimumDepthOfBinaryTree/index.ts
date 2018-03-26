@@ -1,7 +1,7 @@
 // Depth-First-Search
 // HELP:
 
-import { I_TreeNode } from './../_interface/index'
+import { I_TreeNode } from './../../_interface/index'
 
 export const minDepth = function(root: I_TreeNode) {
   let min = Infinity
