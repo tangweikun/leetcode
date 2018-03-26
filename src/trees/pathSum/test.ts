@@ -1,4 +1,4 @@
-import { TREE_1, TREE_3, TREE_5 } from './../_tree/index'
+import { TREE_1, TREE_3, TREE_5 } from '../_testData'
 import { hasPathSum } from '.'
 
 test('hasPathSum', () => {
