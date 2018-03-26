@@ -1,4 +1,4 @@
-import { I_TreeNode } from './../_interface/index'
+import { I_TreeNode } from './../../_interface/index'
 // HELP:
 
 export function mergeTrees(t1: I_TreeNode, t2: I_TreeNode) {

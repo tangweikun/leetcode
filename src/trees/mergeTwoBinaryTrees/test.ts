@@ -6,7 +6,7 @@ import {
   TREE_4,
   TREE_5,
   TREE_7,
-} from './../_tree/index'
+} from '../_testData'
 import { mergeTrees } from '.'
 
 test('MergeTwoBinaryTrees-1', () => {
