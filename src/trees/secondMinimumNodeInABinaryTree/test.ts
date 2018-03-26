@@ -1,4 +1,4 @@
-import { TREE_1, TREE_8, TREE_9 } from './../_tree/index'
+import { TREE_1, TREE_8, TREE_9 } from '../_testData'
 import { findSecondMinimumValue } from '.'
 
 test('findSecondMinimumValue', () => {
