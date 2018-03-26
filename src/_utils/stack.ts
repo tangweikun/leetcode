@@ -1,3 +1,3 @@
-export const _peek = (stack: number[]) => stack[stack.length - 1]
+export const _peek = (stack: any[]) => stack[stack.length - 1]
 
-export const _bottom = (stack: number[]) => stack[0]
+export const _bottom = (stack: any[]) => stack[0]
