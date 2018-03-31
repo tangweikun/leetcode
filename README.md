@@ -221,6 +221,7 @@ npm run test // also you can run `npm run watch`
 | 192 |                            [MaxAreaOfIsLand](src/maxAreaOfIsLand/index.ts)                            |              [:green_book:](src/maxAreaOfIsLand/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/max-area-of-island)                                | DFS         |
 | 193 |                                  [FloodFill](src/floodFill/index.ts)                                  |                 [:green_book:](src/floodFill/README.md)                  |    Easy    | [LeetCode](https://leetcode.com/problems/flood-fill)                                        | DFS         |
 | 194 |                      [BalancedBinaryTree](src/trees/balancedBinaryTree/index.ts)                      |          [:green_book:](src/trees/balancedBinaryTree/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/balanced-binary-tree)                              | DFS         |
+| 195 |                              [FriendCircles](src/friendCircles/index.ts)                              |               [:green_book:](src/friendCircles/README.md)                |    Easy    | [LeetCode](https://leetcode.com/problems/friend-circles)                                    | DFS         |
 
 ## Collaborators
 
