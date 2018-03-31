@@ -2,7 +2,7 @@
 import { ListNode } from '../_utils'
 
 export const addTwoNumbers = (l1: any, l2: any) => {
-  let dummyHead = new ListNode(0)
+  const dummyHead = new ListNode(0)
   let curr = dummyHead
   let carry = 0
 

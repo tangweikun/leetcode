@@ -46,3 +46,5 @@
 * [ ] 队列
 * [ ] Binary Search Tree
 * [ ] 赫夫曼树
+* [ ] static
+* [ ] constructor
