@@ -222,7 +222,8 @@ npm run test // also you can run `npm run watch`
 | 193 |                                  [FloodFill](src/floodFill/index.ts)                                  |                 [:green_book:](src/floodFill/README.md)                  |    Easy    | [LeetCode](https://leetcode.com/problems/flood-fill)                                        | DFS         |
 | 194 |                      [BalancedBinaryTree](src/trees/balancedBinaryTree/index.ts)                      |          [:green_book:](src/trees/balancedBinaryTree/README.md)          |    Easy    | [LeetCode](https://leetcode.com/problems/balanced-binary-tree)                              | DFS         |
 | 195 |                              [FriendCircles](src/friendCircles/index.ts)                              |               [:green_book:](src/friendCircles/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/friend-circles)                                    | DFS         |
-| 196 |                               [HouseRobber3](src/houseRobber3/index.ts)                               |                [:green_book:](src/houseRobber3/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/house-robber-iii)                                  | DFS         |
+| 196 |                            [HouseRobber3](src/trees/houseRobber3/index.ts)                            |             [:green_book:](src/trees/houseRobber3/README.md)             |   Medium   | [LeetCode](https://leetcode.com/problems/house-robber-iii)                                  | DFS         |
+| 197 |                     [IncreasingSubsequences](src/increasingSubsequences/index.ts)                     |           [:green_book:](src/increasingSubsequences/README.md)           |   Medium   | [LeetCode](https://leetcode.com/problems/increasing-subsequences)                           | DFS         |
 
 ## Collaborators
 
