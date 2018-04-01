@@ -227,6 +227,7 @@ npm run test // also you can run `npm run watch`
 | 198 |                    [SumRootToLeafNumbers](src/trees/sumRootToLeafNumbers/index.ts)                    |         [:green_book:](src/trees/sumRootToLeafNumbers/README.md)         |   Medium   | [LeetCode](https://leetcode.com/problems/sum-root-to-leaf-numbers)                          | DFS         |
 | 199 |                            [NumberOfIsLands](src/numberOfIsLands/index.ts)                            |              [:green_book:](src/numberOfIsLands/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/number-of-islands)                                 | DFS         |
 | 200 |                                [PathSum2](src/trees/pathSum2/index.ts)                                |               [:green_book:](src/trees/pathSum2/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/path-sum-ii)                                       | DFS         |
+| 201 |                        [MatchsticksToSquare](src/matchsticksToSquare/index.ts)                        |            [:green_book:](src/matchsticksToSquare/README.md)             |   Medium   | [LeetCode](https://leetcode.com/problems/matchsticks-to-square)                             | DFS         |
 
 ## Collaborators
 
