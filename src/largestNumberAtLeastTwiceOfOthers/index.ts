@@ -1,6 +1,4 @@
-// TODO: Type check
-
-export function largestNumber(nums: number[]) {
+export function dominantIndex(nums: number[]) {
   let max = { pos: -1, value: -Infinity }
   let i = 0
 
@@ -13,7 +11,7 @@ export function largestNumber(nums: number[]) {
   return max.pos
 }
 
-const modifyMax = (max, currentValue: number, index: number) => {
+const modifyMax = (max: any, currentValue: number, index: number) => {
   const maxValue = max.value
   if (maxValue < currentValue) {
     max = {
