@@ -1,3 +1,5 @@
+// HELP:
+
 export const numIslands = (grid: string[][]) => {
   let res = 0
   for (let i = 0; i < grid.length; i++) {
