@@ -1,26 +1,15 @@
 export function dominantIndex(nums: number[]) {
-  let max = { pos: -1, value: -Infinity }
-  let i = 0
-
-  while (i < nums.length) {
-    const currentValue = nums[i]
-    max = modifyMax(max, currentValue, i)
-    i++
+  const maxIndex = getMaxIndex(nums)
+  for (let i = 0; i < nums.length; i++) {
+    if (maxIndex !== i && nums[maxIndex] < 2 * nums[i]) return -1
   }
-
-  return max.pos
+  return maxIndex
 }
 
-const modifyMax = (max: any, currentValue: number, index: number) => {
-  const maxValue = max.value
-  if (maxValue < currentValue) {
-    max = {
-      pos: maxValue * 2 <= currentValue ? index : -1,
-      value: currentValue,
-    }
-  } else if (maxValue < currentValue * 2) {
-    max.pos = -1
+function getMaxIndex(nums: number[]) {
+  let maxIndex = 0
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] > nums[maxIndex]) maxIndex = i
   }
-
-  return max
+  return maxIndex
 }
