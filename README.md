@@ -234,6 +234,7 @@ npm run test // also you can run `npm run watch`
 | 205 |                            [PascalsTriangle](src/pascalsTriangle/index.ts)                            |              [:green_book:](src/pascalsTriangle/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/pascals-triangle)                                  | Array        |
 | 206 |                           [PascalsTriangle2](src/pascalsTriangle2/index.ts)                           |              [:green_book:](src/pascalsTriangle2/README.md)              |    Easy    | [LeetCode](https://leetcode.com/problems/pascals-triangle-ii)                               | Array        |
 | 207 |         [ShortestUnsortedContinuousSubarray](src/shortestUnsortedContinuousSubarray/index.ts)         |     [:green_book:](src/shortestUnsortedContinuousSubarray/README.md)     |    Easy    | [LeetCode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)             | Array        |
+| 208 |                        [Non-decreasingArray](src/non-decreasingArray/index.ts)                        |            [:green_book:](src/non-decreasingArray/README.md)             |    Easy    | [LeetCode](https://leetcode.com/problems/non-decreasing-array)                              | Array        |
 
 ## Collaborators
 
