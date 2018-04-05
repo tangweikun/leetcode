@@ -236,6 +236,7 @@ npm run test // also you can run `npm run watch`
 | 207 |         [ShortestUnsortedContinuousSubarray](src/shortestUnsortedContinuousSubarray/index.ts)         |     [:green_book:](src/shortestUnsortedContinuousSubarray/README.md)     |    Easy    | [LeetCode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)             | Array        |
 | 208 |                        [Non-decreasingArray](src/non-decreasingArray/index.ts)                        |            [:green_book:](src/non-decreasingArray/README.md)             |    Easy    | [LeetCode](https://leetcode.com/problems/non-decreasing-array)                              | Array        |
 | 209 |                             [RangeAddition2](src/rangeAddition2/index.ts)                             |               [:green_book:](src/rangeAddition2/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/range-addition-ii)                                 | Math         |
+| 210 |                        [RepeatedStringMatch](src/repeatedStringMatch/index.ts)                        |            [:green_book:](src/repeatedStringMatch/README.md)             |    Easy    | [LeetCode](https://leetcode.com/problems/repeated-string-match)                             | Math         |
 
 ## Collaborators
 
