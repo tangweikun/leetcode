@@ -232,6 +232,7 @@ npm run test // also you can run `npm run watch`
 | 203 |                       [UniqueMorseCodeWords](src/uniqueMorseCodeWords/index.ts)                       |            [:green_book:](src/uniqueMorseCodeWords/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/unique-morse-code-words)                           | Hash         |
 | 204 |                              [ImageSmoother](src/imageSmoother/index.ts)                              |               [:green_book:](src/imageSmoother/README.md)                |    Easy    | [LeetCode](https://leetcode.com/problems/image-smoother)                                    | Array        |
 | 205 |                            [PascalsTriangle](src/pascalsTriangle/index.ts)                            |              [:green_book:](src/pascalsTriangle/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/pascals-triangle)                                  | Array        |
+| 206 |                           [PascalsTriangle2](src/pascalsTriangle2/index.ts)                           |              [:green_book:](src/pascalsTriangle2/README.md)              |    Easy    | [LeetCode](https://leetcode.com/problems/pascals-triangle-ii)                               | Array        |
 
 ## Collaborators
 
