@@ -231,6 +231,7 @@ npm run test // also you can run `npm run watch`
 | 202 |                                     [TwoSum](src/twoSum/index.ts)                                     |                   [:green_book:](src/twoSum/README.md)                   |    Easy    | [LeetCode](https://leetcode.com/problems/two-sum)                                           | Array        |
 | 203 |                       [UniqueMorseCodeWords](src/uniqueMorseCodeWords/index.ts)                       |            [:green_book:](src/uniqueMorseCodeWords/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/unique-morse-code-words)                           | Hash         |
 | 204 |                              [ImageSmoother](src/imageSmoother/index.ts)                              |               [:green_book:](src/imageSmoother/README.md)                |    Easy    | [LeetCode](https://leetcode.com/problems/image-smoother)                                    | Array        |
+| 205 |                            [PascalsTriangle](src/pascalsTriangle/index.ts)                            |              [:green_book:](src/pascalsTriangle/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/pascals-triangle)                                  | Array        |
 
 ## Collaborators
 
