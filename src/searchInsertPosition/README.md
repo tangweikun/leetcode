@@ -16,3 +16,7 @@ Here are few examples.
 Input: [1, 3, 5, 6], 5
 Output: 2
 ```
+
+## From
+
+[LeetCode](https://leetcode.com/problems/search-insert-position)
