@@ -24,6 +24,12 @@ npm install
 npm run test // also you can run `npm run watch`
 ```
 
+### Recommend
+
+* [🎉 CodeWars Solution](https://github.com/tangweikun/codewars)
+* [✨ Javascript Design Pattern](https://github.com/tangweikun/javascript-design-pattern)
+* [🎨 Lodash With ES6](https://github.com/tangweikun/lodash-es6)
+
 ### Contents
 
 |  #  |                                                 Title                                                 |                                  README                                  | Difficulty | LeetCode                                                                                    | TAGS         |
