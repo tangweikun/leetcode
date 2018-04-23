@@ -49,3 +49,5 @@
 * [ ] static
 * [ ] constructor
 * [ ] Add Discuss 31
+* [ ] 实现冒泡排序
+* [ ] 实现选择排序

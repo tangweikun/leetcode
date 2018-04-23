@@ -1,4 +1,6 @@
-# leetcode
+<h1 align="center">
+  🔥 Leetcode 🔥
+</h1>
 
 [![Travis Build](https://api.travis-ci.org/tangweikun/leetcode.svg?branch=master)](https://travis-ci.org/tangweikun/leetcode)
 [![Maintainability](https://api.codeclimate.com/v1/badges/94a223574a24b7225f16/maintainability)](https://codeclimate.com/github/tangweikun/leetcode)
