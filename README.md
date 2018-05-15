@@ -252,6 +252,7 @@ npm run test // also you can run `npm run watch`
 | 214 |                                [IntegerBreak](src/integerBreak/index.ts)                                |                [:green_book:](src/integerBreak/README.md)                 |   Medium   | [LeetCode](https://leetcode.com/problems/integer-break)                                        | DP           |
 | 215 |                [CountNumbersWithUniqueDigits](src/countNumbersWithUniqueDigits/index.ts)                |        [:green_book:](src/countNumbersWithUniqueDigits/README.md)         |   Medium   | [LeetCode](https://leetcode.com/problems/count-numbers-with-unique-digits)                     | DP           |
 | 216 | [BestTimetoBuyAndSellStockWithTransactionFee](src/bestTimetoBuyAndSellStockWithTransactionFee/index.ts) | [:green_book:](src/bestTimetoBuyAndSellStockWithTransactionFee/README.md) |   Medium   | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | DP,Greedy    |
+| 217 |                              [ShoppingOffers](src/shoppingOffers/index.ts)                              |               [:green_book:](src/shoppingOffers/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/shopping-offers)                                      | DP,DFS       |
 
 ## Collaborators
 
