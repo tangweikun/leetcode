@@ -249,6 +249,7 @@ npm run test // also you can run `npm run watch`
 | 211 |                                [HouseRobber](src/houseRobber/index.ts)                                |                [:green_book:](src/houseRobber/README.md)                 |    Easy    | [LeetCode](https://leetcode.com/problems/house-robber)                                      | DP           |
 | 212 |         [MinimumASCIIDeleteSumForTwoStrings](src/minimumASCIIDeleteSumForTwoStrings/index.ts)         |     [:green_book:](src/minimumASCIIDeleteSumForTwoStrings/README.md)     |   Medium   | [LeetCode](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings)          | DP           |
 | 213 |                 [Maximum Length of Pair Chain](src/maximumLengthOfPairChain/index.ts)                 |          [:green_book:](src/maximumLengthOfPairChain/README.md)          |   Medium   | [LeetCode](https://leetcode.com/problems/maximum-length-of-pair-chain)                      | DP,Greedy    |
+| 214 |                               [IntegerBreak](src/integerBreak/index.ts)                               |                [:green_book:](src/integerBreak/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/integer-break)                                     | DP           |
 
 ## Collaborators
 
