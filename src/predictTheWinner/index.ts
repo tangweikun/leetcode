@@ -1,5 +1,7 @@
 // HELP:
 // Using Recursion
+// Time complexity : O(2^n)
+// Space complexity : O(n)
 
 export const predictTheWinner = (nums: number[]): any => {
   return winner(nums, 0, nums.length - 1, 1) >= 0
