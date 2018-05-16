@@ -254,6 +254,7 @@ npm run test // also you can run `npm run watch`
 | 216 | [BestTimetoBuyAndSellStockWithTransactionFee](src/bestTimetoBuyAndSellStockWithTransactionFee/index.ts) | [:green_book:](src/bestTimetoBuyAndSellStockWithTransactionFee/README.md) |   Medium   | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | DP,Greedy    |
 | 217 |                              [ShoppingOffers](src/shoppingOffers/index.ts)                              |               [:green_book:](src/shoppingOffers/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/shopping-offers)                                      | DP,DFS       |
 | 218 |                            [PredictTheWinner](src/predictTheWinner/index.ts)                            |              [:green_book:](src/predictTheWinner/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/predict-the-winner)                                   | DP           |
+| 219 |                               [2KeysKeyboard](src/2KeysKeyboard/index.ts)                               |                [:green_book:](src/2KeysKeyboard/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/2-keys-keyboard)                                      | DP           |
 
 ## Collaborators
 
