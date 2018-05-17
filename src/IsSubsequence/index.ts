@@ -1,7 +1,9 @@
 export function isSubsequence(s: string, t: string) {
-  for (let char of t) {
-    if (s.slice(0, 1) === char) s = s.slice(1)
+  for (let char of s) {
+    const pos = t.indexOf(char)
+    if (pos === -1) return false
+    t = t.slice(pos + 1)
   }
 
-  return s === ''
+  return true
 }
