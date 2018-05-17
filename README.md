@@ -256,6 +256,7 @@ npm run test // also you can run `npm run watch`
 | 218 |                            [PredictTheWinner](src/predictTheWinner/index.ts)                            |              [:green_book:](src/predictTheWinner/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/predict-the-winner)                                   | DP           |
 | 219 |                               [2KeysKeyboard](src/2KeysKeyboard/index.ts)                               |                [:green_book:](src/2KeysKeyboard/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/2-keys-keyboard)                                      | DP           |
 | 220 |                               [IsSubsequence](src/isSubsequence/index.ts)                               |                [:green_book:](src/isSubsequence/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/is-subsequence)                                       | DP           |
+| 221 |                             [delete-and-earn](src/delete-and-earn/index.ts)                             |               [:green_book:](src/delete-and-earn/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/delete-and-earn)                                      | DP           |
 
 ## Collaborators
 
