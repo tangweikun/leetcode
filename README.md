@@ -257,6 +257,7 @@ npm run test // also you can run `npm run watch`
 | 219 |                               [2KeysKeyboard](src/2KeysKeyboard/index.ts)                               |                [:green_book:](src/2KeysKeyboard/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/2-keys-keyboard)                                      | DP           |
 | 220 |                               [IsSubsequence](src/isSubsequence/index.ts)                               |                [:green_book:](src/isSubsequence/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/is-subsequence)                                       | DP           |
 | 221 |                             [delete-and-earn](src/delete-and-earn/index.ts)                             |               [:green_book:](src/delete-and-earn/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/delete-and-earn)                                      | DP           |
+| 222 |                                [unique-paths](src/unique-paths/index.ts)                                |                [:green_book:](src/unique-paths/README.md)                 |   Medium   | [LeetCode](https://leetcode.com/problems/unique-paths)                                         | DP           |
 
 ## Collaborators
 
