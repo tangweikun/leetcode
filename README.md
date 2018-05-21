@@ -257,7 +257,7 @@ npm run test // also you can run `npm run watch`
 | 219 |                             [2-keys-keyboard](src/2-keys-keyboard/index.ts)                             |               [:green_book:](src/2-keys-keyboard/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/2-keys-keyboard)                                      | DP           |
 | 220 |                               [IsSubsequence](src/isSubsequence/index.ts)                               |                [:green_book:](src/isSubsequence/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/is-subsequence)                                       | DP           |
 | 221 |                             [delete-and-earn](src/delete-and-earn/index.ts)                             |               [:green_book:](src/delete-and-earn/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/delete-and-earn)                                      | DP           |
-| 222 |                                [unique-paths](src/unique-paths/index.ts)                                |                [:green_book:](src/unique-paths/README.md)                 |   Medium   | [LeetCode](https://leetcode.com/problems/unique-paths)                                         | DP           |
+| 222 |             [longest-palindromic-subsequence](src/longest-palindromic-subsequence/index.ts)             |       [:green_book:](src/longest-palindromic-subsequence/README.md)       |   Medium   | [LeetCode](https://leetcode.com/problems/longest-palindromic-subsequence)                      | DP           |
 
 ## Collaborators
 
