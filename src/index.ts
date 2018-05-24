@@ -1,5 +1,4 @@
 export * from './trees'
-export * from './convertFunctionNameToCamelCase'
 export * from './findUniqueElement'
 export * from './lengthOfLastWord'
 export * from './_dataStructure'
