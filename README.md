@@ -260,6 +260,7 @@ npm run test // also you can run `npm run watch`
 | 222 |             [longest-palindromic-subsequence](src/longest-palindromic-subsequence/index.ts)             |       [:green_book:](src/longest-palindromic-subsequence/README.md)       |   Medium   | [LeetCode](https://leetcode.com/problems/longest-palindromic-subsequence)                      | DP           |
 | 223 |                          [combination-sum-iv](src/combination-sum-iv/index.ts)                          |             [:green_book:](src/combination-sum-iv/README.md)              |   Medium   | [LeetCode](https://leetcode.com/problems/combination-sum-iv)                                   | DP           |
 | 224 |         [maximum-length-of-repeated-subarray](src/maximum-length-of-repeated-subarray/index.ts)         |     [:green_book:](src/maximum-length-of-repeated-subarray/README.md)     |   Medium   | [LeetCode](https://leetcode.com/problems/maximum-length-of-repeated-subarray)                  | DP           |
+| 225 |                            [minimum-path-sum](src/minimum-path-sum/index.ts)                            |              [:green_book:](src/minimum-path-sum/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/minimum-path-sum)                                     | DP           |
 
 ## Collaborators
 
