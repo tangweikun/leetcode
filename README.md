@@ -261,6 +261,7 @@ npm run test // also you can run `npm run watch`
 | 223 |                          [combination-sum-iv](src/combination-sum-iv/index.ts)                          |             [:green_book:](src/combination-sum-iv/README.md)              |   Medium   | [LeetCode](https://leetcode.com/problems/combination-sum-iv)                                   | DP           |
 | 224 |         [maximum-length-of-repeated-subarray](src/maximum-length-of-repeated-subarray/index.ts)         |     [:green_book:](src/maximum-length-of-repeated-subarray/README.md)     |   Medium   | [LeetCode](https://leetcode.com/problems/maximum-length-of-repeated-subarray)                  | DP           |
 | 225 |                            [minimum-path-sum](src/minimum-path-sum/index.ts)                            |              [:green_book:](src/minimum-path-sum/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/minimum-path-sum)                                     | DP           |
+| 226 |                     [largest-sum-of-averages](src/largest-sum-of-averages/index.ts)                     |           [:green_book:](src/largest-sum-of-averages/README.md)           |   Medium   | [LeetCode](https://leetcode.com/problems/largest-sum-of-averages)                              | DP           |
 
 ## Collaborators
 
