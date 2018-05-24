@@ -12,3 +12,7 @@ If the last word does not exist, return 0.
 Input: 'Hello World'
 Output: 5
 ```
+
+## From
+
+[LeetCode](https://leetcode.com/problems/length-of-last-word)
