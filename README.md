@@ -263,6 +263,7 @@ npm run test // also you can run `npm run watch`
 | 225 |                               [minimum-path-sum](src/minimum-path-sum/index.ts)                               |                [:green_book:](src/minimum-path-sum/README.md)                |   Medium   | [LeetCode](https://leetcode.com/problems/minimum-path-sum)                                     | DP           |
 | 226 |                        [largest-sum-of-averages](src/largest-sum-of-averages/index.ts)                        |            [:green_book:](src/largest-sum-of-averages/README.md)             |   Medium   | [LeetCode](https://leetcode.com/problems/largest-sum-of-averages)                              | DP           |
 | 227 |                 [longest-increasing-subsequence](src/longest-increasing-subsequence/index.ts)                 |         [:green_book:](src/longest-increasing-subsequence/README.md)         |   Medium   | [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence)                       | DP           |
+| 228 |                     [partition-equal-subset-sum](src/partition-equal-subset-sum/index.ts)                     |           [:green_book:](src/partition-equal-subset-sum/README.md)           |   Medium   | [LeetCode](https://leetcode.com/problems/partition-equal-subset-sum)                           | DP           |
 
 ## Collaborators
 
