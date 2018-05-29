@@ -16,7 +16,7 @@ const backtracking = function(
   start: number,
 ) {
   if (sum === n && temp.length === k) {
-    result.push(temp.slice())
+    result.push(temp)
   } else {
     for (let i = start; i < 10; i++) {
       if (temp.indexOf(i) === -1) {

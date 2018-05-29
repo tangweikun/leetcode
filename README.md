@@ -269,6 +269,7 @@ npm run test // also you can run `npm run watch`
 | 231 |                          [magic-squares-in-grid](src/magic-squares-in-grid/index.ts)                          |             [:green_book:](src/magic-squares-in-grid/README.md)              |    Easy    | [LeetCode](https://leetcode.com/problems/magic-squares-in-grid)                                | Array        |
 | 232 |                                  [array-nesting](src/array-nesting/index.ts)                                  |                 [:green_book:](src/array-nesting/README.md)                  |   Medium   | [LeetCode](https://leetcode.com/problems/array-nesting)                                        | Array        |
 | 233 |                            [combination-sum-iii](src/combination-sum-iii/index.ts)                            |              [:green_book:](src/combination-sum-iii/README.md)               |   Medium   | [LeetCode](https://leetcode.com/problems/combination-sum-iii)                                  | Backtracking |
+| 234 |                                        [subsets](src/subsets/index.ts)                                        |                    [:green_book:](src/subsets/README.md)                     |   Medium   | [LeetCode](https://leetcode.com/problems/subsets)                                              | Backtracking |
 
 ## Collaborators
 
