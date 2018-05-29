@@ -267,6 +267,7 @@ npm run test // also you can run `npm run watch`
 | 229 |                              [flipping-an-image](src/flipping-an-image/index.ts)                              |               [:green_book:](src/flipping-an-image/README.md)                |    Easy    | [LeetCode](https://leetcode.com/problems/flipping-an-image)                                    | Array        |
 | 230 |                      [positions-of-large-groups](src/positions-of-large-groups/index.ts)                      |           [:green_book:](src/positions-of-large-groups/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/positions-of-large-groups)                            | Array        |
 | 231 |                          [magic-squares-in-grid](src/magic-squares-in-grid/index.ts)                          |             [:green_book:](src/magic-squares-in-grid/README.md)              |    Easy    | [LeetCode](https://leetcode.com/problems/magic-squares-in-grid)                                | Array        |
+| 232 |                                  [array-nesting](src/array-nesting/index.ts)                                  |                 [:green_book:](src/array-nesting/README.md)                  |   Medium   | [LeetCode](https://leetcode.com/problems/array-nesting)                                        | Array        |
 
 ## Collaborators
 
