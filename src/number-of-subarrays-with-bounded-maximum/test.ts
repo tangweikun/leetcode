@@ -5,9 +5,5 @@ test('', () => {
 })
 
 test('', () => {
-  expect(numSubarrayBoundedMax([], 1, 1)).toBe([])
-})
-
-test('', () => {
-  expect(numSubarrayBoundedMax([], 1, 1)).toBe([])
+  expect(numSubarrayBoundedMax([2, 1, 4, 3, 1, 2, 3], 2, 3)).toBe(11)
 })
