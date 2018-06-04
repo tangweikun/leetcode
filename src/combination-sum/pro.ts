@@ -1,3 +1,6 @@
+// HELP:
+// Depth First Search
+
 export const combinationSum = (candidates: number[], target: number) => {
   let res: number[][] = []
   dfs(0, 0, [])
