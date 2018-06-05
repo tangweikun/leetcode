@@ -4,12 +4,10 @@ export const sortColors = (nums: number[]) => {
 
   while (left <= right) {
     if (nums[left] === 2) {
-      nums.splice(left, 1)
-      nums.push(2)
+      ;[nums[left], nums[right]] = [nums[right], nums[left]]
       right--
     } else if (nums[left] === 0) {
-      nums.splice(left, 1)
-      nums.unshift(0)
+      ;[nums[left], nums[0]] = [nums[0], nums[left]]
       left++
     } else {
       left++

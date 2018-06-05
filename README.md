@@ -276,6 +276,7 @@ npm run test // also you can run `npm run watch`
 | 238 |       [number-of-subarrays-with-bounded-maximum](src/number-of-subarrays-with-bounded-maximum/index.ts)       |    [:green_book:](src/number-of-subarrays-with-bounded-maximum/README.md)    |   Medium   | [LeetCode](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)             | Array        |
 | 239 |                          [subarray-sum-equals-k](src/subarray-sum-equals-k/index.ts)                          |             [:green_book:](src/subarray-sum-equals-k/README.md)              |   Medium   | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k)                                | HashTable    |
 | 240 |                                    [sort-colors](src/sort-colors/index.ts)                                    |                  [:green_book:](src/sort-colors/README.md)                   |   Medium   | [LeetCode](https://leetcode.com/problems/sort-colors)                                          | HashTable    |
+| 241 |                                     [subsets-ii](src/subsets-ii/index.ts)                                     |                   [:green_book:](src/subsets-ii/README.md)                   |   Medium   | [LeetCode](https://leetcode.com/problems/subsets-ii)                                           | Backtracking |
 
 ## Collaborators
 
