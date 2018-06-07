@@ -1,4 +1,4 @@
-# 19.Number of 1 The Binary
+# 19.Number of 1 Bits
 
 ## Description
 
