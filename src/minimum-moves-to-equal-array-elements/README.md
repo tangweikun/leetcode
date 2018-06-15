@@ -21,4 +21,4 @@ Only three moves are needed (remember each move increments two elements):
 
 ## From
 
-[LeetCode](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)
+[LeetCode](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)
