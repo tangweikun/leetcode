@@ -277,6 +277,7 @@ npm run test // also you can run `npm run watch`
 | 239 |                                [subarray-sum-equals-k](src/subarray-sum-equals-k/index.ts)                                |                [:green_book:](src/subarray-sum-equals-k/README.md)                 |   Medium   | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k)                                | HashTable    |
 | 240 |                                          [sort-colors](src/sort-colors/index.ts)                                          |                     [:green_book:](src/sort-colors/README.md)                      |   Medium   | [LeetCode](https://leetcode.com/problems/sort-colors)                                          | HashTable    |
 | 241 |                                           [subsets-ii](src/subsets-ii/index.ts)                                           |                      [:green_book:](src/subsets-ii/README.md)                      |   Medium   | [LeetCode](https://leetcode.com/problems/subsets-ii)                                           | Backtracking |
+| 242 |                                       [summary-ranges](src/summary-ranges/index.ts)                                       |                    [:green_book:](src/summary-ranges/README.md)                    |   Medium   | [LeetCode](https://leetcode.com/problems/summary-ranges)                                       | Array        |
 
 ## Collaborators
 

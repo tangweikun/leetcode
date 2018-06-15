@@ -9,5 +9,5 @@ test('', () => {
 })
 
 test('', () => {
-  expect(isIdealPermutation([1, 3, 2])).toBe(false)
+  expect(isIdealPermutation([1, 3, 2])).toBe(true)
 })
