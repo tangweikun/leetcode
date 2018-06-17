@@ -281,6 +281,7 @@ npm run test // also you can run `npm run watch`
 | 243 |                                      [merge-intervals](src/merge-intervals/index.ts)                                      |                   [:green_book:](src/merge-intervals/README.md)                    |   Medium   | [LeetCode](https://leetcode.com/problems/merge-intervals)                                      | Array        |
 | 244 |                [minimum-moves-to-equal-array-elements](src/minimum-moves-to-equal-array-elements/index.ts)                |        [:green_book:](src/minimum-moves-to-equal-array-elements/README.md)         |    Easy    | [LeetCode](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)                | Math         |
 | 245 |             [minimum-moves-to-equal-array-elements-ii](src/minimum-moves-to-equal-array-elements-ii/index.ts)             |       [:green_book:](src/minimum-moves-to-equal-array-elements-ii/README.md)       |    Easy    | [LeetCode](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)             | Math         |
+| 246 |                             [backspace-string-compare](src/backspace-string-compare/index.ts)                             |               [:green_book:](src/backspace-string-compare/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/backspace-string-compare)                             | Stack        |
 
 ## Collaborators
 
