@@ -1,4 +1,4 @@
-# 64.Complex Number Multiplication
+# 107.Complex Number Multiplication
 
 ## Description
 
@@ -24,8 +24,8 @@ Explanation: (1 - i) * (1 - i) = 1 + i2 - 2 * i = -2i, and you need convert it t
 
 ## Note
 
-* The input strings will not have extra blank.
-* The input strings will be given in the form of a+bi, where the integer a and b will both belong to the range of [-100, 100]. And the output should be also in this form.
+- The input strings will not have extra blank.
+- The input strings will be given in the form of a+bi, where the integer a and b will both belong to the range of [-100, 100]. And the output should be also in this form.
 
 ## From
 
