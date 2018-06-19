@@ -284,6 +284,7 @@ npm run test // also you can run `npm run watch`
 | 246 |                             [backspace-string-compare](src/backspace-string-compare/index.ts)                             |               [:green_book:](src/backspace-string-compare/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/backspace-string-compare)                             | Stack              |
 | 247 |                                     [partition-labels](src/partition-labels/index.ts)                                     |                   [:green_book:](src/partition-labels/README.md)                   |   Medium   | [LeetCode](https://leetcode.com/problems/partition-labels)                                     | TwoPointers,Greedy |
 | 248 |                       [peak-index-in-a-mountain-array](src/peak-index-in-a-mountain-array/index.ts)                       |            [:green_book:](src/peak-index-in-a-mountain-array/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array)                       | BinarySearch       |
+| 249 |                                           [goat-latin](src/goat-latin/index.ts)                                           |                      [:green_book:](src/goat-latin/README.md)                      |    Easy    | [LeetCode](https://leetcode.com/problems/goat-latin)                                           | String             |
 
 ## Collaborators
 
