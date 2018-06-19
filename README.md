@@ -283,6 +283,7 @@ npm run test // also you can run `npm run watch`
 | 245 |             [minimum-moves-to-equal-array-elements-ii](src/minimum-moves-to-equal-array-elements-ii/index.ts)             |       [:green_book:](src/minimum-moves-to-equal-array-elements-ii/README.md)       |    Easy    | [LeetCode](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)             | Math               |
 | 246 |                             [backspace-string-compare](src/backspace-string-compare/index.ts)                             |               [:green_book:](src/backspace-string-compare/README.md)               |    Easy    | [LeetCode](https://leetcode.com/problems/backspace-string-compare)                             | Stack              |
 | 247 |                                     [partition-labels](src/partition-labels/index.ts)                                     |                   [:green_book:](src/partition-labels/README.md)                   |   Medium   | [LeetCode](https://leetcode.com/problems/partition-labels)                                     | TwoPointers,Greedy |
+| 248 |                       [peak-index-in-a-mountain-array](src/peak-index-in-a-mountain-array/index.ts)                       |            [:green_book:](src/peak-index-in-a-mountain-array/README.md)            |    Easy    | [LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array)                       | BinarySearch       |
 
 ## Collaborators
 

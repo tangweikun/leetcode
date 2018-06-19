@@ -3,7 +3,7 @@ export const partitionLabels = (S: string) => {
   let preIndex = -1
   const res = []
 
-  for (let i = 0, len = S.length; i < len; i++) {
+  for (let i = 0; i < S.length; i++) {
     let index = S.lastIndexOf(S[i])
     lastIndex = Math.max(lastIndex, index)
     if (i === lastIndex) {
