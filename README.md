@@ -286,6 +286,7 @@ npm run test // also you can run `npm run watch`
 | 248 |                       [peak-index-in-a-mountain-array](src/peak-index-in-a-mountain-array/index.ts)                       |            [:green_book:](src/peak-index-in-a-mountain-array/README.md)            |    Easy    |            [LeetCode](https://leetcode.com/problems/peak-index-in-a-mountain-array)            |    BinarySearch    |
 | 249 |                                           [goat-latin](src/goat-latin/index.ts)                                           |                      [:green_book:](src/goat-latin/README.md)                      |    Easy    |                      [LeetCode](https://leetcode.com/problems/goat-latin)                      |       String       |
 | 250 |                                   [custom-sort-string](src/custom-sort-string/index.ts)                                   |                  [:green_book:](src/custom-sort-string/README.md)                  |   Medium   |                  [LeetCode](https://leetcode.com/problems/custom-sort-string)                  |       String       |
+| 251 |                                            [nth-digit](src/nth-digit/index.ts)                                            |                      [:green_book:](src/nth-digit/README.md)                       |    Easy    |                      [LeetCode](https://leetcode.com/problems/nth-digit)                       |        Math        |
 
 ## Collaborators
 
