@@ -287,6 +287,7 @@ npm run test // also you can run `npm run watch`
 | 249 |                                           [goat-latin](src/goat-latin/index.ts)                                           |                      [:green_book:](src/goat-latin/README.md)                      |    Easy    |                      [LeetCode](https://leetcode.com/problems/goat-latin)                      |       String       |
 | 250 |                                   [custom-sort-string](src/custom-sort-string/index.ts)                                   |                  [:green_book:](src/custom-sort-string/README.md)                  |   Medium   |                  [LeetCode](https://leetcode.com/problems/custom-sort-string)                  |       String       |
 | 251 |                                            [nth-digit](src/nth-digit/index.ts)                                            |                      [:green_book:](src/nth-digit/README.md)                       |    Easy    |                      [LeetCode](https://leetcode.com/problems/nth-digit)                       |        Math        |
+| 252 |                                     [transpose-matrix](src/transpose-matrix/index.ts)                                     |                   [:green_book:](src/transpose-matrix/README.md)                   |    Easy    |                   [LeetCode](https://leetcode.com/problems/transpose-matrix)                   |       Array        |
 
 ## Collaborators
 
