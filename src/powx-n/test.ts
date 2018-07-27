@@ -1,4 +1,4 @@
-import { pow } from '.'
+import { pow } from './pro'
 
 test('pow-1', () => {
   expect(pow(2, 3)).toBe(8)
@@ -17,7 +17,7 @@ test('pow-4', () => {
 })
 
 test('pow-5', () => {
-  expect(pow(-3, -2)).toBe(1/9)
+  expect(pow(-3, -2)).toBe(1 / 9)
 })
 
 test('pow-6', () => {

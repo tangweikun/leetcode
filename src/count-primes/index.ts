@@ -1,4 +1,4 @@
-import { isPrime } from '../primeNumber'
+import { isPrime } from '../_utils'
 
 export function countPrimes(n: number) {
   let ans = 0

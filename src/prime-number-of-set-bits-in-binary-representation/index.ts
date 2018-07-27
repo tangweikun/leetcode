@@ -1,4 +1,4 @@
-import { isPrime } from '../primeNumber'
+import { isPrime } from '../_utils'
 
 export function countPrimeSetBits(min: number, max: number) {
   let res = 0
