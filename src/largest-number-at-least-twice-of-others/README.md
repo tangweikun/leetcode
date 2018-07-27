@@ -28,3 +28,7 @@ Explanation: 4 isn't at least as big as twice the value of 3, so we return -1.
 > `nums` will have a length in the range `[1, 50]`.
 
 > Every `nums[i]` will be an integer in the range `[0, 99]`.
+
+## From
+
+[LeetCode](https://leetcode.com/problems/largest-number-at-least-twice-of-others)
