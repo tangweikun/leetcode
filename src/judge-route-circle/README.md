@@ -22,4 +22,4 @@ Output: false
 
 ## From
 
-[LeetCode](https://leetcode.com/problems/judge-route-circle/)
+[LeetCode](https://leetcode.com/problems/judge-route-circle)
