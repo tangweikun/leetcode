@@ -1,4 +1,4 @@
-# 41.Sum of Square Numbers
+# 101.Sum of Square Numbers
 
 ## Description
 
