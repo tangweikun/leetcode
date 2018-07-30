@@ -1,9 +1,8 @@
 export const leastInterval = (tasks: string[], n: number) => {
-  let taskList = Array(26).fill(0)
+  const taskList = Array(26).fill(0)
   let res = 0
-  for (let task of tasks) {
-    taskList[task.charCodeAt(0) - 'A'.charCodeAt(0)]++
-  }
+
+  tasks.forEach(task => taskList[task.charCodeAt(0) - 'A'.charCodeAt(0)]++)
 
   while (true) {
     taskList.sort((x, y) => y - x)
