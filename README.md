@@ -290,6 +290,7 @@ npm run test // also you can run `npm run watch`
 | 252 |                                     [transpose-matrix](src/transpose-matrix/index.ts)                                     |                   [:green_book:](src/transpose-matrix/README.md)                   |    Easy    |                   [LeetCode](https://leetcode.com/problems/transpose-matrix)                   |       Array        |
 | 253 |                  [maximize-distance-to-closest-person](src/maximize-distance-to-closest-person/index.ts)                  |         [:green_book:](src/maximize-distance-to-closest-person/README.md)          |    Easy    |         [LeetCode](https://leetcode.com/problems/maximize-distance-to-closest-person)          |       Array        |
 | 254 |                                       [bulls-and-cows](src/bulls-and-cows/index.ts)                                       |                    [:green_book:](src/bulls-and-cows/README.md)                    |   Medium   |                    [LeetCode](https://leetcode.com/problems/bulls-and-cows)                    |     HashTable      |
+| 255 |                              [construct-the-rectangle](src/construct-the-rectangle/index.ts)                              |               [:green_book:](src/construct-the-rectangle/README.md)                |    Easy    |               [LeetCode](https://leetcode.com/problems/construct-the-rectangle)                |        Math        |
 
 ## Collaborators
 
