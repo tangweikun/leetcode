@@ -3,11 +3,11 @@ export const mostCommonWord = (paragraph: string, banned: string[]) => {
   const lowerCaseBanned = banned.map(x => x.toLowerCase())
   paragraph
     .toLowerCase()
+    .replace(/[^a-z ]/g, '')
     .split(' ')
     .forEach(str => {
-      const strWithoutPunctuation = str.replace(/[!\?\',;\.]/, '')
-      if (!lowerCaseBanned.includes(strWithoutPunctuation)) {
-        hash[strWithoutPunctuation] = ~~hash[strWithoutPunctuation] + 1
+      if (!lowerCaseBanned.includes(str)) {
+        hash[str] = ~~hash[str] + 1
       }
     })
 

@@ -292,6 +292,7 @@ npm run test // also you can run `npm run watch`
 | 254 |                                       [bulls-and-cows](src/bulls-and-cows/index.ts)                                       |                    [:green_book:](src/bulls-and-cows/README.md)                    |   Medium   |                    [LeetCode](https://leetcode.com/problems/bulls-and-cows)                    |     HashTable      |
 | 255 |                              [construct-the-rectangle](src/construct-the-rectangle/index.ts)                              |               [:green_book:](src/construct-the-rectangle/README.md)                |    Easy    |               [LeetCode](https://leetcode.com/problems/construct-the-rectangle)                |        Math        |
 | 256 |                                     [most-common-word](src/most-common-word/index.ts)                                     |                   [:green_book:](src/most-common-word/README.md)                   |    Easy    |                   [LeetCode](https://leetcode.com/problems/most-common-word)                   |       String       |
+| 257 |                     [shortest-distance-to-a-character](src/shortest-distance-to-a-character/index.ts)                     |           [:green_book:](src/shortest-distance-to-a-character/README.md)           |    Easy    |           [LeetCode](https://leetcode.com/problems/shortest-distance-to-a-character)           |       String       |
 
 ## Collaborators
 
