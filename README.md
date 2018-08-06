@@ -294,6 +294,7 @@ npm run test // also you can run `npm run watch`
 | 256 |                                     [most-common-word](src/most-common-word/index.ts)                                     |                   [:green_book:](src/most-common-word/README.md)                   |    Easy    |                   [LeetCode](https://leetcode.com/problems/most-common-word)                   |       String       |
 | 257 |                     [shortest-distance-to-a-character](src/shortest-distance-to-a-character/index.ts)                     |           [:green_book:](src/shortest-distance-to-a-character/README.md)           |    Easy    |           [LeetCode](https://leetcode.com/problems/shortest-distance-to-a-character)           |       String       |
 | 258 |                                           [binary-gap](src/binary-gap/index.ts)                                           |                      [:green_book:](src/binary-gap/README.md)                      |    Easy    |                      [LeetCode](https://leetcode.com/problems/binary-gap)                      |       String       |
+| 259 |                                      [lemonade-change](src/lemonade-change/index.ts)                                      |                   [:green_book:](src/lemonade-change/README.md)                    |    Easy    |                   [LeetCode](https://leetcode.com/problems/lemonade-change)                    |       Greedy       |
 
 ## Collaborators
 
