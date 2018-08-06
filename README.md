@@ -295,6 +295,7 @@ npm run test // also you can run `npm run watch`
 | 257 |                     [shortest-distance-to-a-character](src/shortest-distance-to-a-character/index.ts)                     |           [:green_book:](src/shortest-distance-to-a-character/README.md)           |    Easy    |           [LeetCode](https://leetcode.com/problems/shortest-distance-to-a-character)           |       String       |
 | 258 |                                           [binary-gap](src/binary-gap/index.ts)                                           |                      [:green_book:](src/binary-gap/README.md)                      |    Easy    |                      [LeetCode](https://leetcode.com/problems/binary-gap)                      |       String       |
 | 259 |                                      [lemonade-change](src/lemonade-change/index.ts)                                      |                   [:green_book:](src/lemonade-change/README.md)                    |    Easy    |                   [LeetCode](https://leetcode.com/problems/lemonade-change)                    |       Greedy       |
+| 260 |                             [excel-sheet-column-title](src/excel-sheet-column-title/index.ts)                             |               [:green_book:](src/excel-sheet-column-title/README.md)               |    Easy    |               [LeetCode](https://leetcode.com/problems/excel-sheet-column-title)               |        Math        |
 
 ## Collaborators
 
