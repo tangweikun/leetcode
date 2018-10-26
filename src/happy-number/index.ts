@@ -1,7 +1,7 @@
 export function isHappyNumber(num: number) {
   const hash: boolean[] = []
   while (true) {
-    if (num === 1) return true
+    if (num < 10) return num === 1 || num === 7
     if (hash[num]) return false
     hash[num] = true
     num = digitSquareSum(num)
