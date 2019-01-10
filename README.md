@@ -300,6 +300,7 @@ npm run test // also you can run `npm run watch`
 | 262 |                                 [reordered-power-of-2](src/reordered-power-of-2/index.ts)                                 |                 [:green_book:](src/reordered-power-of-2/README.md)                 |   Medium   |                 [LeetCode](https://leetcode.com/problems/reordered-power-of-2)                 |        Math        |
 | 263 |                                        [spiral-matrix](src/spiral-matrix/index.ts)                                        |                                                                                    |   Medium   |                    [LeetCode](https://leetcode.com/problems/spiral-matrix)                     |        Math        |
 | 264 |                                    [long-pressed-name](src/long-pressed-name/index.ts)                                    |                                                                                    |    Easy    |                  [LeetCode](https://leetcode.com/problems/long-pressed-name)                   |       String       |
+| 265 |                    [uncommon-words-from-two-sentences](src/uncommon-words-from-two-sentences/index.js)                    |                                                                                    |    Easy    |          [LeetCode](https://leetcode.com/problems/uncommon-words-from-two-sentences)           |       String       |
 
 ## Collaborators
 
