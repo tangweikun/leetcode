@@ -302,6 +302,7 @@ npm run test // also you can run `npm run watch`
 | 264 |                                    [long-pressed-name](src/long-pressed-name/index.ts)                                    |                                                                                    |    Easy    |                  [LeetCode](https://leetcode.com/problems/long-pressed-name)                   |       String       |
 | 265 |                    [uncommon-words-from-two-sentences](src/uncommon-words-from-two-sentences/index.js)                    |                                                                                    |    Easy    |          [LeetCode](https://leetcode.com/problems/uncommon-words-from-two-sentences)           |       String       |
 | 266 |                                 [reverse-only-letters](src/reverse-only-letters/index.js)                                 |                                                                                    |    Easy    |                 [LeetCode](https://leetcode.com/problems/reverse-only-letters)                 |       String       |
+| 267 |                                    [powerful-integers](src/powerful-integers/index.js)                                    |                                                                                    |    Easy    |                  [LeetCode](https://leetcode.com/problems/powerful-integers)                   |        Math        |
 
 ## Collaborators
 
