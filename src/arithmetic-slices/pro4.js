@@ -2,18 +2,18 @@
 // Space complexity : O(1)
 // Formula
 
-export const numberOfArithmeticSlices = (nums: number[]) => {
-  let count = 0
-  let sum = 0
+export const numberOfArithmeticSlices = nums => {
+  let count = 0;
+  let sum = 0;
 
   for (let i = 2; i < nums.length; i++) {
     if (nums[i] + nums[i - 2] === 2 * nums[i - 1]) {
-      count++
+      count++;
     } else {
-      sum += (count + 1) * count / 2
-      count = 0
+      sum += ((count + 1) * count) / 2;
+      count = 0;
     }
   }
 
-  return sum + (count + 1) * count / 2
-}
+  return sum + ((count + 1) * count) / 2;
+};
