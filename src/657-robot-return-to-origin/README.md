@@ -9,17 +9,17 @@ The move sequence is represented by a string. And each move is represent by a ch
 ## Example1
 
 ```javascript
-Input: 'UD'
-Output: true
+Input: 'UD';
+Output: true;
 ```
 
 ## Example2
 
 ```javascript
-Input: 'LL'
-Output: false
+Input: 'LL';
+Output: false;
 ```
 
 ## From
 
-[LeetCode](https://leetcode.com/problems/judge-route-circle)
+[LeetCode](https://leetcode.com/problems/robot-return-to-origin)
