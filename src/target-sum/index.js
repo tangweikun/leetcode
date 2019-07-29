@@ -19,26 +19,26 @@
 
 // HELP:
 
-export const findTargetSumWays = (nums: number[], S: number): any => {
-  let sum = 0
+export const findTargetSumWays = (nums, S) => {
+  let sum = 0;
   for (let i = 0; i < nums.length; i++) {
-    sum += nums[i]
+    sum += nums[i];
   }
 
   if (sum < S || (sum + S) % 2 !== 0) {
-    return 0
+    return 0;
   }
 
-  const target = (S + sum) / 2
-  const dp = []
+  const target = (S + sum) / 2;
+  const dp = [];
   for (let i = 0; i <= target; i++) {
-    dp[i] = 0
+    dp[i] = 0;
   }
-  dp[0] = 1
+  dp[0] = 1;
   for (let i = 0; i < nums.length; i++) {
     for (let j = target; j >= nums[i]; j--) {
-      dp[j] += dp[j - nums[i]]
+      dp[j] += dp[j - nums[i]];
     }
   }
-  return dp[target]
-}
+  return dp[target];
+};
