@@ -1,4 +1,4 @@
-export function isAnagram(s: string, t: string) {
+export function isAnagram(s, t) {
   return (
     s
       .split('')
@@ -8,5 +8,5 @@ export function isAnagram(s: string, t: string) {
       .split('')
       .sort()
       .join('')
-  )
+  );
 }

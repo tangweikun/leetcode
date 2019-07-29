@@ -5,14 +5,14 @@
 // }
 
 // HELP:
-export function uniquePaths(m: number, n: number): any {
-  let currentRow = Array(n).fill(1)
+export function uniquePaths(m, n) {
+  let currentRow = Array(n).fill(1);
 
   for (let row = 1; row < m; row++) {
     for (let column = 1; column < n; column++) {
-      currentRow[column] += currentRow[column - 1]
+      currentRow[column] += currentRow[column - 1];
     }
   }
 
-  return currentRow[n - 1]
+  return currentRow[n - 1];
 }

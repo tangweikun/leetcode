@@ -1,4 +1,4 @@
-export const uniqueMorseRepresentations = (words: string[]) => {
+export const uniqueMorseRepresentations = words => {
   const code = [
     '.-',
     '-...',
@@ -26,12 +26,12 @@ export const uniqueMorseRepresentations = (words: string[]) => {
     '-..-',
     '-.--',
     '--..',
-  ]
-  const foo = new Set()
+  ];
+  const foo = new Set();
   for (let x of words) {
-    let bar = ''
-    for (let c of x) bar += code[c.charCodeAt(0) - 97]
-    foo.add(bar)
+    let bar = '';
+    for (let c of x) bar += code[c.charCodeAt(0) - 97];
+    foo.add(bar);
   }
-  return foo.size
-}
+  return foo.size;
+};
