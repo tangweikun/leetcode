@@ -7,13 +7,16 @@
  */
 
 var allCellsDistOrder = function(R, C, r0, c0) {
-  let res = [];
+  const distances = [];
+
   for (let i = 0; i < R; i++) {
     for (let j = 0; j < C; j++) {
-      let distance = Math.abs(i - r0) + Math.abs(j - c0);
-      res[distance] = res[distance] || [];
-      res[distance].push([i, j]);
+      const d = Math.abs(r0 - i) + Math.abs(c0 - j);
+
+      if (distances[d]) distances[d].push([i, j]);
+      else distances[d] = [[i, j]];
     }
   }
-  return res.reduce((it, arr) => it.concat(arr), []);
+
+  return [].concat(...distances);
 };
