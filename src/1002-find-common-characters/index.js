@@ -2,25 +2,14 @@
  * @param {string[]} A
  * @return {string[]}
  */
-
-// HELP:
-
 var commonChars = function(A) {
-  let ans = A[0].split('');
-  for (let i = 1; i < A.length; i++) {
-    ans = findCommon(ans, A[i].split(''));
-  }
-
-  return ans;
-};
-
-var findCommon = function(a, b) {
-  return a.filter(v => {
-    const i = b.indexOf(v);
-    if (i !== -1) {
-      b.splice(i, 1);
-      return true;
+    let res = A[0].split('');
+    for (let i = 1; i < A.length; i++) {
+        let tmp = A[i].split('');
+        res = res.filter(e => {
+            let index = tmp.indexOf(e);
+            return index !== -1 ? (tmp[index] = 1) : false;
+        });
     }
-    return false;
-  });
+    return res;
 };
