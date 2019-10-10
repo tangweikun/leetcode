@@ -5,7 +5,10 @@ function minAddToMakeValid(S) {
   for (let char of S) {
     if (char === '(') {
       left++;
-    } else if (left > 0) {
+      continue;
+    }
+
+    if (left > 0) {
       left--;
     } else {
       res++;
