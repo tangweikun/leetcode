@@ -13,7 +13,7 @@
   94(中序遍历) 144(前序遍历)
 
 - 6.动态规划
-  983 1262 322 1423
+  983 1262 322 1423 152
 
 - 7.双指针
   881
@@ -42,3 +42,5 @@
 - 二维前缀和
 
 https://ojeveryday.com/
+
+https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/gitbook
