@@ -1,4 +1,5 @@
 // HELP: 哈希表
+// 有bug
 
 /**
  * @param {number[]} nums
@@ -27,3 +28,5 @@ var checkSubarraySum = function (nums, k) {
 
   return false;
 };
+
+console.log(checkSubarraySum([26, 6, 6, 0, 0, 9], 17));

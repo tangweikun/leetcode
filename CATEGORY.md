@@ -43,6 +43,8 @@
 
 - 二维前缀和
 
+- 背包问题
+
 https://ojeveryday.com/
 
 https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/gitbook
