@@ -50,3 +50,7 @@
 https://ojeveryday.com/
 
 https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/gitbook
+
+https://github.com/garciparedes
+
+https://garciparedes.me/#headers
