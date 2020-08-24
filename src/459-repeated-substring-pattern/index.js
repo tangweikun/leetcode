@@ -1,21 +1,13 @@
-export function repeatedSubstringPattern(s) {
-  let subString = '';
-  let i = 0;
-
-  while (i < s.length) {
-    const len = subString.length;
-    if (
-      subString[0] === s[i] &&
-      !(s.length % len) &&
-      subString === s.slice(i, i + len)
-    ) {
-      i += len;
-      if (i === s.length) return true;
-    } else {
-      subString = s.slice(0, i + 1);
-      i++;
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+var repeatedSubstringPattern = function (s) {
+  for (let i = 1; i <= s.length / 2; i++) {
+    if (s.slice(0, i).repeat(s.length / i) === s) {
+      return true;
     }
   }
 
   return false;
-}
+};
