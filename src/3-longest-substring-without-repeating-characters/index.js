@@ -1,16 +1,20 @@
-// TODO:
-export function lengthOfLongestSubstring(str) {
-  const strLength = str.length;
-  let maxLength = 0;
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function (s) {
+  const len = s.length;
   const map = new Map();
-  let i = 0;
-  for (let j = 0; j < strLength; j++) {
-    if (map.has(str.charAt(j))) {
-      i = Math.max(map.get(str.charAt(j)), i);
+  let start = 0;
+  let res = 0;
+
+  for (let end = 0; end < len; end++) {
+    if (map.has(s[end])) {
+      start = Math.max(map.get(s[end]), start);
     }
-    maxLength = Math.max(maxLength, j - i + 1);
-    map.set(str.charAt(j), j + 1);
+    res = Math.max(res, end - start + 1);
+    map.set(s[end], end + 1);
   }
 
-  return maxLength;
-}
+  return res;
+};
