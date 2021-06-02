@@ -60,3 +60,15 @@ https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/gitbook
 https://github.com/garciparedes
 
 https://garciparedes.me/#headers
+
+- 动态规划
+
+  - [ ] 5
+  - [x] 53
+  - [x] 62
+  - [x] 64
+  - [x] 70
+  - [ ] 91
+  - [x] 120
+  - [ ] 121
+  - [ ] 152
