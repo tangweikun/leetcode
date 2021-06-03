@@ -1,23 +1,24 @@
-// HELP:
-// backtracking
-
-export const combinationSum = (candidates, target) => {
-  let res = [];
-  backtracking(res, [], candidates, target, 0);
+/**
+ * @param {number[]} candidates
+ * @param {number} target
+ * @return {number[][]}
+ */
+var combinationSum = function (candidates, target) {
+  const res = [];
+  dfs(target, [], 0);
   return res;
-};
 
-function backtracking(res, temp, candidates, target, start) {
-  if (target === 0) res.push(temp.slice());
-  if (target > 0) {
-    for (let i = start; i < candidates.length; i++) {
-      backtracking(
-        res,
-        [...temp, candidates[i]],
-        candidates,
-        target - candidates[i],
-        i,
-      );
+  function dfs(target, combine, index) {
+    if (index === candidates.length) {
+      return;
+    }
+    if (target === 0) {
+      res.push(combine);
+      return;
+    }
+    dfs(target, combine, index + 1);
+    if (target - candidates[index] >= 0) {
+      dfs(target - candidates[index], [...combine, candidates[index]], index);
     }
   }
-}
+};
