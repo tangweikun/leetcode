@@ -1,22 +1,25 @@
-export const setZeroes = matrix => {
-  const helper = Array.from({ length: matrix.length }, _ =>
-    Array(matrix[0].length).fill(1),
-  );
+const setZeroes = (matrix) => {
+  const zeroesI = [];
+  const zeroesJ = [];
 
   for (let i = 0; i < matrix.length; i++) {
     for (let j = 0; j < matrix[0].length; j++) {
-      if (matrix[i][j] === 0) helper[i][j] = 0;
+      if (matrix[i][j] === 0) {
+        zeroesI.push(i);
+        zeroesJ.push(j);
+      }
     }
   }
 
-  for (let i = 0; i < matrix.length; i++) {
+  for (let n of zeroesI) {
     for (let j = 0; j < matrix[0].length; j++) {
-      if (helper[i][j] === 0) {
-        matrix[i].fill(0);
-        for (let n = 0; n < matrix.length; n++) {
-          matrix[n][j] = 0;
-        }
-      }
+      matrix[n][j] = 0;
+    }
+  }
+
+  for (let n of zeroesJ) {
+    for (let j = 0; j < matrix.length; j++) {
+      matrix[j][n] = 0;
     }
   }
 

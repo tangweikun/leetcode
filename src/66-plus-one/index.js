@@ -1,20 +1,14 @@
 export function plusOne(digits) {
-  const lastIndex = digits.length - 1;
-  let i = lastIndex;
-
-  while (i >= 0) {
-    if (digits[i] !== 9) {
-      digits[i] += 1;
-      return digits;
-    }
-
-    digits[i] = 0;
-    if (i === 0) {
-      digits.unshift(1);
-      return digits;
-    }
-    i--;
+  let carry = 1;
+  const res = [];
+  for (let i = digits.length - 1; i >= 0; i--) {
+    res.unshift((digits[i] + carry) % 10);
+    carry = digits[i] + carry === 10 ? 1 : 0;
   }
 
-  return digits;
+  if (carry > 0) {
+    return [1, ...res];
+  }
+
+  return res;
 }

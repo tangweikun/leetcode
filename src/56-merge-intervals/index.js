@@ -1,23 +1,20 @@
-export const merge = intervals => {
-  let res = [];
-  intervals.sort((x, y) => x.start - y.start);
-  let current = intervals.slice(0, 1)[0];
+const merge = (intervals) => {
+  intervals.sort((x, y) => x[0] - y[0]);
+  const res = [];
+  let temp = intervals[0];
 
-  for (let { start, end } of intervals.slice(1)) {
-    if (current.end < start) {
-      res.push([current.start, current.end]);
-      current = { start, end };
+  for (let i = 1; i < intervals.length; i++) {
+    const cur = intervals[i];
+
+    if (cur[0] > temp[1]) {
+      res.push(temp);
+      temp = cur;
     } else {
-      current = {
-        start: Math.min(current.start, start),
-        end: Math.max(current.end, end),
-      };
+      temp[1] = Math.max(cur[1], temp[1]);
     }
   }
 
-  if (current.start !== undefined) {
-    res.push([current.start, current.end]);
-  }
+  res.push(temp);
 
   return res;
 };
