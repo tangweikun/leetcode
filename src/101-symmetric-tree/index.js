@@ -1,18 +1,21 @@
 // Recursive
-// HELP:
 
-export const isSymmetric = root => {
-  return isMirror(root, root);
-};
+export const isSymmetric = (root) => {
+  return dfs(root, root);
 
-function isMirror(t1, t2) {
-  if (t1 && t2) {
-    return (
-      t1.val === t2.val &&
-      isMirror(t1.right, t2.left) &&
-      isMirror(t1.left, t2.right)
-    );
+  function dfs(left, right) {
+    if (!left && !right) {
+      return true;
+    }
+
+    if (!left || !right) {
+      return false;
+    }
+
+    if (left.val !== right.val) {
+      return false;
+    }
+
+    return dfs(left.left, right.right) && dfs(left.right, right.left);
   }
-
-  return t1 === t2;
-}
+};

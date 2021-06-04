@@ -1,19 +1,25 @@
-// Depth-First-Search
-// HELP:
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+var minDepth = function (root) {
+  let res = Infinity;
+  dfs(root, 0);
+  return res === Infinity ? 0 : res;
 
-export const minDepth = function(root) {
-  let min = Infinity;
-  dfs(root, 1);
-  return min === Infinity ? 0 : min;
-
-  function dfs(node, depth) {
-    if (!node || depth >= min) return;
+  function dfs(node, count) {
+    if (!node) return;
     if (!node.left && !node.right) {
-      min = depth;
-      return;
+      res = Math.min(res, count + 1);
     }
-
-    if (node.left) dfs(node.left, depth + 1);
-    if (node.right) dfs(node.right, depth + 1);
+    dfs(node.left, count + 1);
+    dfs(node.right, count + 1);
   }
 };
