@@ -1,6 +1,4 @@
-// HELP:
-
-export const threeSum = nums => {
+export const threeSum = (nums) => {
   nums.sort((a, b) => a - b);
   let res = [];
 

@@ -1,7 +1,6 @@
 // Depth-First-Search
-// HELP:
 
-export const findBottomLeftValue = root => {
+export const findBottomLeftValue = (root) => {
   const res = [];
   dfs(root, 0);
   return res[res.length - 1];

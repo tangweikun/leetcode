@@ -1,15 +1,15 @@
 // HELP:
 
-var maxProfit = function(prices) {
-  let dp_0 = 0;
-  let dp_1 = -prices[0];
-  let dp_0_prev = 0;
+var maxProfit = function (prices) {
+  let dp_sell = 0; // 卖出
+  let dp_buy = -prices[0]; // 买入
+  let dp_seal = 0; // 冷冻期
   for (let i = 0; i < prices.length; i++) {
-    let temp = dp_0;
-    dp_0 = Math.max(dp_0, dp_1 + prices[i]);
-    dp_1 = Math.max(dp_1, dp_0_prev - prices[i]);
-    dp_0_prev = temp;
+    let temp = dp_sell;
+    dp_sell = Math.max(dp_sell, dp_buy + prices[i]);
+    dp_buy = Math.max(dp_buy, dp_seal - prices[i]);
+    dp_seal = temp;
   }
 
-  return dp_0;
+  return dp_sell;
 };

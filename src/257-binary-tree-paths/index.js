@@ -1,19 +1,18 @@
 // Depth-First-Search
-// HELP:
 
-export const binaryTreePaths = function(node) {
-  const stack = [];
+export const binaryTreePaths = function (root) {
   const res = [];
-  helper(node);
+  dfs(root, []);
   return res;
 
-  function helper(root) {
-    if (root) {
-      stack.push(root.val);
-      helper(root.left);
-      helper(root.right);
-      if (!root.left && !root.right) res.push(stack.join('->'));
-      stack.pop();
+  function dfs(node, prePath) {
+    if (!node) return;
+
+    if (!node.left && !node.right) {
+      res.push([...prePath, node.val].join('->'));
     }
+
+    dfs(node.left, [...prePath, node.val]);
+    dfs(node.right, [...prePath, node.val]);
   }
 };
