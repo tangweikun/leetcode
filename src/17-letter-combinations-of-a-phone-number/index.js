@@ -2,37 +2,22 @@
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function(digits) {
-  const hash = [
-    '',
-    '',
-    'abc',
-    'def',
-    'ghi',
-    'jkl',
-    'mno',
-    'pqrs',
-    'tuv',
-    'wxyz',
-  ];
-
-  const arr = digits.split('').map(n => hash[n]);
-  let res = [];
-  arr.length > 0 && backtrack(arr, []);
-
+var letterCombinations = function (digits) {
+  if (digits === "") return [];
+  const hash = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"].map((x) => x.split(""));
+  const res = [];
+  dfs("", 0);
   return res;
 
-  function backtrack(rest, temp) {
-    if (rest.length === 0) {
-      res.push(temp);
-      return;
+  function dfs(temp, index) {
+    if (index === digits.length) {
+      return res.push(temp);
     }
 
-    const current = rest[0];
-    for (let char of current) {
-      backtrack(rest.slice(1), temp + char);
+    for (let char of hash[digits[index]]) {
+      dfs(temp + char, index + 1);
     }
   }
 };
 
-console.log(letterCombinations(''));
+console.log(letterCombinations(""));

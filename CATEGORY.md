@@ -6,21 +6,8 @@ https://github.com/garciparedes
 
 https://garciparedes.me/#headers
 
-- Array +12
-
-  - [ ] 15
-  - [ ] 18
-  - [ ] 39
-  - [ ] 40
-  - [ ] 45
-  - [ ] 55
-  - [ ] 78
-  - [ ] 88
-  - [ ] 90
-
 - Backtracking
 
-  - [ ] 17
   - [ ] 22
   - [ ] 39
   - [ ] 40
@@ -36,6 +23,7 @@ https://garciparedes.me/#headers
   - [ ] 306
   - [ ] 357
   - [ ] 872
+    - [ ] 17
 
 - Breadth First Search +5
 
@@ -57,7 +45,6 @@ https://garciparedes.me/#headers
 
 - Dynamic Programming +7
 
-  - [ ] 376
   - [ ] 1143
   - [ ] 5
   - [ ] 91
@@ -69,6 +56,7 @@ https://garciparedes.me/#headers
       - [ ] 322
         - [ ] 343
         - [ ] 357
+        - [ ] 376
 
 - Greedy
 
@@ -129,3 +117,13 @@ https://garciparedes.me/#headers
 
   - [ ] 3
   - [ ] 16
+
+- Array +12
+
+  - [ ] 18
+    - [ ] 39
+      - [ ] 40
+      - [ ] 45
+        - [ ] 55
+          - [ ] 78
+            - [ ] 90
