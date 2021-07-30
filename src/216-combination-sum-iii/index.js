@@ -1,4 +1,3 @@
-// HELP:
 // backtracking
 
 export const combinationSum3 = (k, n) => {
@@ -7,7 +6,7 @@ export const combinationSum3 = (k, n) => {
   return result;
 };
 
-const backtracking = function(result, k, n, temp, sum, start) {
+const backtracking = function (result, k, n, temp, sum, start) {
   if (sum === n && temp.length === k) {
     result.push(temp);
   } else {

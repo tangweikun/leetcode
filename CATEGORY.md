@@ -6,25 +6,6 @@ https://github.com/garciparedes
 
 https://garciparedes.me/#headers
 
-- Backtracking
-
-  - [ ] 22
-  - [ ] 39
-  - [ ] 40
-  - [ ] 46
-  - [ ] 47
-  - [ ] 60
-  - [ ] 77
-  - [ ] 78
-  - [ ] 90
-  - [ ] 131
-  - [ ] 211
-  - [ ] 216
-  - [ ] 306
-  - [ ] 357
-  - [ ] 872
-    - [ ] 17
-
 - Breadth First Search +5
 
   - [ ] 107
@@ -127,3 +108,11 @@ https://garciparedes.me/#headers
         - [ ] 55
           - [ ] 78
             - [ ] 90
+
+- Backtracking
+
+  - [ ] 17
+    - [ ] 22
+      - [ ] 78
+        - [ ] 306
+          - [ ] 872
