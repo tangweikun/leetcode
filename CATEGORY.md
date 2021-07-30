@@ -6,44 +6,8 @@ https://github.com/garciparedes
 
 https://garciparedes.me/#headers
 
-- Breadth First Search +5
-
-  - [ ] 107
-  - [ ] 542
-  - [ ] 801
-  - [ ] 877
-
-- Depth First Search +8
-
-  - [ ] 111
-  - [ ] 199
-  - [ ] 337
-  - [ ] 491
-  - [ ] 494
-  - [ ] 513
-  - [ ] 515
-  - [ ] 542
-
-- Dynamic Programming +7
-
-  - [ ] 1143
-  - [ ] 5
-  - [ ] 91
-  - [ ] 152
-    - [ ] 264
-    - [ ] 279
-    - [ ] 300
-    - [ ] 309
-      - [ ] 322
-        - [ ] 343
-        - [ ] 357
-        - [ ] 376
-
 - Greedy
 
-  - [ ] 134
-  - [ ] 376
-  - [ ] 392
   - [ ] 402
   - [ ] 406
   - [ ] 435
@@ -116,3 +80,27 @@ https://garciparedes.me/#headers
       - [ ] 78
         - [ ] 306
           - [ ] 872
+
+- Breadth First Search +5
+
+  - [ ] 107
+    - [ ] 877
+
+- Depth First Search +8
+
+  - [ ] 337
+
+- Dynamic Programming +7
+
+  - [ ] 5
+  - [ ] 91
+  - [ ] 152
+    - [ ] 264
+    - [ ] 279
+    - [ ] 300
+    - [ ] 309
+      - [ ] 322
+        - [ ] 343
+        - [ ] 357
+        - [ ] 376
+          - [ ] 1143

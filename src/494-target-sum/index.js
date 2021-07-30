@@ -1,44 +1,22 @@
-// export const findTargetSumWays = (nums: number[], target: number): any => {
-//   if (nums.length === 1) {
-//     if (nums[0] === 0 && target === 0) return 2
-//     if (nums[0] === Math.abs(target)) return 1
-//     return 0
-//   }
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+var findTargetSumWays = function (nums, target) {
+  let res = 0;
+  dfs(0, 0);
+  return res;
 
-//   return (
-//     findTargetSumWays(
-//       nums.slice(0, nums.length - 1),
-//       target + nums[nums.length - 1],
-//     ) +
-//     findTargetSumWays(
-//       nums.slice(0, nums.length - 1),
-//       target - nums[nums.length - 1],
-//     )
-//   )
-// }
-
-// HELP:
-
-export const findTargetSumWays = (nums, S) => {
-  let sum = 0;
-  for (let i = 0; i < nums.length; i++) {
-    sum += nums[i];
-  }
-
-  if (sum < S || (sum + S) % 2 !== 0) {
-    return 0;
-  }
-
-  const target = (S + sum) / 2;
-  const dp = [];
-  for (let i = 0; i <= target; i++) {
-    dp[i] = 0;
-  }
-  dp[0] = 1;
-  for (let i = 0; i < nums.length; i++) {
-    for (let j = target; j >= nums[i]; j--) {
-      dp[j] += dp[j - nums[i]];
+  function dfs(preSum, index) {
+    if (index === nums.length) {
+      if (preSum === target) {
+        res++;
+      }
+      return;
     }
+
+    dfs(preSum - nums[index], index + 1);
+    dfs(preSum + nums[index], index + 1);
   }
-  return dp[target];
 };
